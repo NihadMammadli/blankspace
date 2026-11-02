@@ -1,0 +1,79 @@
+# Builds the static export and publishes it to GitHub Pages.
+#
+# Pages serves a project repo from https://<user>.github.io/<repo>/, so every
+# absolute URL needs that prefix: configure-pages works it out and the build
+# reads it through NEXT_PUBLIC_BASE_PATH (see lib/paths.ts).
+#
+# This is a preview of a site whose real home is www.blankspace.brussels, so it
+# is built with NEXT_PUBLIC_NOINDEX=true: every page carries
+# <meta name="robots" content="noindex"> and cannot compete with the live
+# domain in search. A production build simply leaves that variable out.
+
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# never let two deploys race; a newer push waits for the current one
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Resolve the Pages URL and base path
+        id: pages
+        uses: actions/configure-pages@v5
+
+      - name: Install
+        run: npm ci
+
+      - name: Typecheck
+        run: npm run typecheck
+
+      - name: Build (content check → static export → SEO audit)
+        run: npm run build
+        env:
+          NEXT_PUBLIC_BASE_PATH: ${{ steps.pages.outputs.base_path }}
+          NEXT_PUBLIC_SITE_URL: ${{ steps.pages.outputs.origin }}
+          NEXT_PUBLIC_NOINDEX: 'true'
+
+      - name: Fail if the base path did not reach the markup
+        run: |
+          base='${{ steps.pages.outputs.base_path }}'
+          base="${base%/}"
+          if ! grep -q "src=\"${base}/img/" out/en/index.html; then
+            echo "::error::Pictures are not prefixed with '${base}'. They would 404 on Pages."
+            exit 1
+          fi
+          echo "Assets correctly prefixed with '${base:-<root>}'."
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: out
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}en/
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
