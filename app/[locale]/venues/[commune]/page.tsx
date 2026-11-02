@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { getLocales, getSite } from '@/content';
 import { Hero } from '@/components/Hero';
-import { Breadcrumbs } from '@/components/Breadcrumbs';
+import { BreadcrumbLd } from '@/components/BreadcrumbLd';
 import { ImageText } from '@/components/ImageText';
 import { Section } from '@/components/Section';
 import { FeatureList } from '@/components/Cards';
@@ -64,7 +64,7 @@ export default async function CommunePage({ params }: Props) {
           </>
         }
       />
-      <Breadcrumbs
+      <BreadcrumbLd
         site={site}
         trail={[...(parent ? [{ label: parent.title, path: routes.page(parent.slug) }] : []), { label: c.name, path: routes.commune(c.slug) }]}
       />

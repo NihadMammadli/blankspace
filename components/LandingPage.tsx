@@ -2,7 +2,7 @@ import type { Landing, Site } from '@/content/types';
 import { picture } from '@/lib/media';
 import { routes } from '@/lib/routes';
 import { Hero } from './Hero';
-import { Breadcrumbs } from './Breadcrumbs';
+import { BreadcrumbLd } from './BreadcrumbLd';
 import { Icon } from './Icon';
 import { Location } from './Location';
 import { Section } from './Section';
@@ -31,7 +31,7 @@ export function LandingPage({ site, page }: { site: Site; page: Landing }) {
           </>
         }
       />
-      <Breadcrumbs site={site} trail={[{ label: page.title, path: routes.page(page.slug) }]} />
+      <BreadcrumbLd site={site} trail={[{ label: page.title, path: routes.page(page.slug) }]} />
 
       <Section id="about" background="beige" narrow>
         <div className="center" data-reveal="stagger" style={{ display: 'grid', gap: 'var(--space-md)', justifyItems: 'center' }}>

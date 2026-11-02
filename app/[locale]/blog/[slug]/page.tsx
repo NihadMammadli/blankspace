@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { getLocales, getSite } from '@/content';
 import { Hero } from '@/components/Hero';
-import { Breadcrumbs } from '@/components/Breadcrumbs';
+import { BreadcrumbLd } from '@/components/BreadcrumbLd';
 import { Section } from '@/components/Section';
 import { Blocks } from '@/components/Rich';
 import { Icon } from '@/components/Icon';
@@ -50,7 +50,7 @@ export default async function PostPage({ params }: Props) {
           <time dateTime={post.date}>{longDate(site.locale, post.date)}</time>
         </p>
       </Hero>
-      <Breadcrumbs site={site} trail={[{ label: site.blog.title, path: routes.blog }, { label: post.title, path: routes.post(post.slug) }]} />
+      <BreadcrumbLd site={site} trail={[{ label: site.blog.title, path: routes.blog }, { label: post.title, path: routes.post(post.slug) }]} />
       <Section narrow>
         {foreign && <p className="notice">{site.ui.englishOnly}</p>}
         <article lang={foreign ? post.lang : undefined}>

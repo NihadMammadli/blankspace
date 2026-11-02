@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import { getSite, localeParams } from '@/content';
 import { Hero } from '@/components/Hero';
-import { Breadcrumbs } from '@/components/Breadcrumbs';
+import { BreadcrumbLd } from '@/components/BreadcrumbLd';
 import { ImageText } from '@/components/ImageText';
 import { Section } from '@/components/Section';
 import { Carousel } from '@/components/Carousel';
@@ -31,7 +31,7 @@ export default async function WeddingsPage({ params }: Props) {
       <Hero title={w.hero.title} text={w.hero.text} picture={picture(w.hero.image)} scroll={{ label: site.ui.scrollDown, target: '#canvas' }}>
         <p style={{ marginTop: 18, fontSize: 15, color: 'var(--on-dark-muted)' }}>{addresses}</p>
       </Hero>
-      <Breadcrumbs site={site} trail={[{ label: w.hero.title, path: routes.weddings }]} />
+      <BreadcrumbLd site={site} trail={[{ label: w.hero.title, path: routes.weddings }]} />
 
       <Section id="canvas" title={w.canvas.title} background="beige" narrow>
         <div className="body center" data-reveal="stagger">

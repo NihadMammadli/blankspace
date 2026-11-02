@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import { getSite, localeParams } from '@/content';
 import { Hero } from '@/components/Hero';
-import { Breadcrumbs } from '@/components/Breadcrumbs';
+import { BreadcrumbLd } from '@/components/BreadcrumbLd';
 import { Location } from '@/components/Location';
 import { RequestSection } from '@/components/Sections';
 import { picture } from '@/lib/media';
@@ -38,7 +38,7 @@ export default async function ContactPage({ params }: Props) {
           </>
         }
       />
-      <Breadcrumbs site={site} trail={[{ label: c.title, path: routes.contact }]} />
+      <BreadcrumbLd site={site} trail={[{ label: c.title, path: routes.contact }]} />
       <RequestSection site={site} />
       <Location site={site} title={site.location.title} />
     </>

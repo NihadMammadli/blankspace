@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import { getSite, localeParams } from '@/content';
 import { Hero } from '@/components/Hero';
-import { Breadcrumbs } from '@/components/Breadcrumbs';
+import { BreadcrumbLd } from '@/components/BreadcrumbLd';
 import { ImageText } from '@/components/ImageText';
 import { Section } from '@/components/Section';
 import { CardGrid } from '@/components/Cards';
@@ -28,7 +28,7 @@ export default async function CateringPage({ params }: Props) {
   return (
     <>
       <Hero kicker={c.hero.kicker} title={c.hero.title} text={c.hero.text} picture={picture(c.hero.image)} scroll={{ label: site.ui.scrollDown, target: '#catering' }} />
-      <Breadcrumbs site={site} trail={[{ label: c.hero.title, path: routes.catering }]} />
+      <BreadcrumbLd site={site} trail={[{ label: c.hero.title, path: routes.catering }]} />
 
       <ImageText
         id="catering"

@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import { getSite, localeParams } from '@/content';
 import { Hero } from '@/components/Hero';
-import { Breadcrumbs } from '@/components/Breadcrumbs';
+import { BreadcrumbLd } from '@/components/BreadcrumbLd';
 import { ImageText } from '@/components/ImageText';
 import { Carousel } from '@/components/Carousel';
 import { Icon } from '@/components/Icon';
@@ -28,7 +28,7 @@ export default async function LocationsPage({ params }: Props) {
   return (
     <>
       <Hero title={L.title} text={L.text} picture={picture(L.hero.image)} scroll={{ label: site.ui.scrollDown, target: `#${venues[0]?.id}` }} />
-      <Breadcrumbs site={site} trail={[{ label: L.title, path: routes.locations }]} />
+      <BreadcrumbLd site={site} trail={[{ label: L.title, path: routes.locations }]} />
       {venues.map((v, i) => (
         <ImageText
           key={v.id}

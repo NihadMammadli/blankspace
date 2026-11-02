@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import { getSite, localeParams } from '@/content';
 import { Hero } from '@/components/Hero';
-import { Breadcrumbs } from '@/components/Breadcrumbs';
+import { BreadcrumbLd } from '@/components/BreadcrumbLd';
 import { ImageText } from '@/components/ImageText';
 import { Section } from '@/components/Section';
 import { Carousel } from '@/components/Carousel';
@@ -30,7 +30,7 @@ export default async function ServicesPage({ params }: Props) {
   return (
     <>
       <Hero title={s.hero.title} text={s.hero.text} picture={picture(s.hero.image)} scroll={{ label: site.ui.scrollDown, target: '#intro' }} />
-      <Breadcrumbs site={site} trail={[{ label, path: routes.services }]} />
+      <BreadcrumbLd site={site} trail={[{ label, path: routes.services }]} />
 
       <Section id="intro" background="beige" narrow>
         <div data-reveal="stagger" style={{ display: 'grid', gap: 'var(--space-lg)' }}>

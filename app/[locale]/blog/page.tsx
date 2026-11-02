@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import { getSite, localeParams } from '@/content';
 import { Hero } from '@/components/Hero';
-import { Breadcrumbs } from '@/components/Breadcrumbs';
+import { BreadcrumbLd } from '@/components/BreadcrumbLd';
 import { Section } from '@/components/Section';
 import { CardGrid } from '@/components/Cards';
 import { PostCard } from '@/components/PostCard';
@@ -24,7 +24,7 @@ export default async function BlogIndex({ params }: Props) {
   return (
     <>
       <Hero title={b.title} text={b.intro} picture={picture(b.posts[0]?.image)} scroll={{ label: site.ui.scrollDown, target: '#posts' }} />
-      <Breadcrumbs site={site} trail={[{ label: b.title, path: routes.blog }]} />
+      <BreadcrumbLd site={site} trail={[{ label: b.title, path: routes.blog }]} />
       <Section id="posts" background="light">
         <CardGrid columns={3}>
           {b.posts.map((p) => (

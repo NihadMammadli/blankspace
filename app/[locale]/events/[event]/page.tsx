@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { getLocales, getSite } from '@/content';
 import { Hero } from '@/components/Hero';
-import { Breadcrumbs } from '@/components/Breadcrumbs';
+import { BreadcrumbLd } from '@/components/BreadcrumbLd';
 import { ImageText } from '@/components/ImageText';
 import { Carousel } from '@/components/Carousel';
 import { Icon } from '@/components/Icon';
@@ -57,7 +57,7 @@ export default async function EventPage({ params }: Props) {
           </SmartLink>
         }
       />
-      <Breadcrumbs site={site} trail={[{ label: e.title, path: routes.event(e.slug) }]} />
+      <BreadcrumbLd site={site} trail={[{ label: e.title, path: routes.event(e.slug) }]} />
 
       <ImageText
         id="about"

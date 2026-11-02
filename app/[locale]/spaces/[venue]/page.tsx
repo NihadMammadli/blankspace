@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { getLocales, getSite } from '@/content';
 import { Hero } from '@/components/Hero';
-import { Breadcrumbs } from '@/components/Breadcrumbs';
+import { BreadcrumbLd } from '@/components/BreadcrumbLd';
 import { ImageText } from '@/components/ImageText';
 import { Section } from '@/components/Section';
 import { CardGrid, FeatureCard, FeatureList, IconCard } from '@/components/Cards';
@@ -69,7 +69,7 @@ export default async function VenuePage({ params }: Props) {
           </>
         }
       />
-      <Breadcrumbs site={site} trail={[{ label: locationsLabel, path: routes.locations }, { label: v.name, path: routes.venue(v.slug) }]} />
+      <BreadcrumbLd site={site} trail={[{ label: locationsLabel, path: routes.locations }, { label: v.name, path: routes.venue(v.slug) }]} />
 
       <ImageText
         id="about"

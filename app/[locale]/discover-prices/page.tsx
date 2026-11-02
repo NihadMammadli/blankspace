@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import { getSite, localeParams } from '@/content';
 import { Hero } from '@/components/Hero';
-import { Breadcrumbs } from '@/components/Breadcrumbs';
+import { BreadcrumbLd } from '@/components/BreadcrumbLd';
 import { Section } from '@/components/Section';
 import { Pricing } from '@/components/Pricing';
 import { Icon } from '@/components/Icon';
@@ -37,7 +37,7 @@ export default async function PricesPage({ params }: Props) {
           </a>
         }
       />
-      <Breadcrumbs site={site} trail={[{ label, path: routes.prices }]} />
+      <BreadcrumbLd site={site} trail={[{ label, path: routes.prices }]} />
       <Section id="pricing" title={p.title} subtitle={p.intro.join(' ')} background="light">
         <Pricing site={site} />
       </Section>
