@@ -49,10 +49,10 @@ export function VenuesSection({ site, title, startBackground = 'light' }: { site
   const other: Bg = startBackground === 'light' ? 'white' : 'light';
   return (
     <div id="venues">
-      {title && <Section title={title} background={startBackground} className="tight-bottom" />}
       {site.venues.map((v, i) => (
         <ImageText
           key={v.id}
+          heading={i === 0 ? title : undefined}
           side={i % 2 ? 'right' : 'left'}
           background={i % 2 ? other : startBackground}
           icon="Building2"

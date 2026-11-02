@@ -526,15 +526,6 @@ main {
   }
 }
 
-/* a title band that leads straight into the rows below it */
-.tight-bottom {
-  padding-bottom: 0 !important;
-}
-
-.tight-bottom + section {
-  padding-top: 0;
-}
-
 /* long-form reading: legal pages and blog posts */
 .prose {
   font-size: 17px;

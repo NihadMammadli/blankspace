@@ -106,11 +106,11 @@ export default async function VenuePage({ params }: Props) {
 
       {v.rooms && (
         <>
-          {v.roomsTitle && <Section title={v.roomsTitle} background="light" className="tight-bottom" />}
           {v.rooms.map((r, i) => (
             <ImageText
               key={r.id}
               id={r.id}
+              heading={i === 0 ? v.roomsTitle : undefined}
               side={i % 2 ? 'right' : 'left'}
               background={i % 2 ? 'white' : 'light'}
               wide
