@@ -135,13 +135,15 @@ are frames cut from them.
   canonical; the sitemap lists only the originals.
 - Structured data: Organization on every page; EventVenue + LocalBusiness on the
   venue pages; OfferCatalog with the published prices; FAQPage; Service for each
-  kind of event; BlogPosting; BreadcrumbList.
+  kind of event; BlogPosting; BreadcrumbList (data only — no breadcrumb bar is
+  drawn on the page).
 - `sitemap.xml` with language alternates and image entries, built from the
   content, so a new event or post is listed without anyone remembering to.
 - After every build `scripts/postbuild.mjs` audits all pages and fails the build
   if one lost its title, description, canonical, share card or single `<h1>`.
-- Responsive images with width and height, lazy below the fold; the hero film,
-  map and YouTube tour load nothing from a third party until asked.
+- Responsive images with width and height, lazy below the fold; the map loads
+  as it scrolls into view, and the YouTube tour contacts YouTube only when
+  played.
 
 The Pages preview is built with `NEXT_PUBLIC_NOINDEX=true` (every page says
 `noindex`) so it never competes with the live domain.

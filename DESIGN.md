@@ -43,14 +43,19 @@ Sections alternate white, beige and light grey down the page; the footer is ink.
 
 - **Header** — fixed, 80px (64px on phones), navy. Links at 80% white; the hover
   lifts 2px and a bronze underline grows from the centre. Events and Spaces open
-  white dropdown panels with a bronze top edge. Languages EN/FR/NL keep the
-  current page. The bronze *Contact Us* button closes the row. Under 1080px: a
-  drawer from the right — navy head, beige body, bronze left border on the
-  current link, contact button and tagline at the foot.
+  white dropdown panels with a bronze top edge. A globe button (pill outline,
+  gold on hover) opens the language list — names in their own language, a check
+  on the current one — and switches to the same page. The bronze *Contact Us*
+  button closes the row. Under 1080px: a drawer from the right — navy head,
+  beige body, bronze left border on the current link, the globe and languages,
+  contact button and tagline at the foot.
 - **Hero** — full first screen on the home page, 68svh elsewhere. Photograph or
-  film under a navy veil (`rgba(15,23,41,.7) → .6`), centred white title; the
-  title, text and buttons rise in at 0.2s / 0.4s / 0.6s; a bouncing mouse icon
-  leads down. The picture's blurred 16px preview shows until it loads.
+  film under a navy veil (`rgba(15,23,41,.7) → .6`), centred white title. As on
+  damla-group the section fades in (1.2s), the picture sharpens over its blurred
+  16px preview (0.6s, once it has loaded), the title, text and buttons rise in at
+  0.2s / 0.4s / 0.6s, and a mouse icon bounces below. Its keyframes live in
+  `Hero.module.css` itself: a CSS module renames every animation it names, so a
+  keyframe from `globals.css` would never be found.
 - **ImageText** — Damla's picture-and-text band. The picture (488:542, radius 10,
   large shadow) sits in a gold frame offset 24px; it slides in from its side and
   the text from the other. Optional bronze icon tile before the title.
@@ -88,8 +93,13 @@ All are 8px radius, 16px / 600, `14px 28px`; an arrow nudges right on hover.
 The page is complete without JavaScript. An inline script in `<head>` adds
 `motion` to `<html>` only when the visitor has not asked for reduced motion —
 that class is the only thing that hides anything, and it removes itself after
-three seconds if the bundle never arrives. `components/Motion.tsx` then adds
-`is-in` to each `[data-reveal]` element as it enters the viewport:
+three seconds if the bundle never arrives.
+
+`components/Motion.tsx` also owns scrolling: every new page opens at its top
+instantly, and only links to an anchor on the same page glide (smooth scrolling
+is deliberately not set on `<html>` — it made each navigation open the new page
+part-way down and glide up). It adds `is-in` to each `[data-reveal]` element as
+it enters the viewport:
 
 | `data-reveal` | Entrance |
 |---|---|
