@@ -1,0 +1,606 @@
+/* =========================================================================
+   blankspace — the Damla Group design language
+   Urbanist; navy and ink for structure, bronze for action, gold for frames
+   and rules; white, beige and light-grey grounds that alternate down the page.
+   ========================================================================= */
+
+:root {
+  /* colour --------------------------------------------------------------- */
+  --navy: #343d52;          /* the header and drawer */
+  --ink: #0f1729;           /* headings, the footer, overlays */
+  --bronze: #9c6d36;        /* every action */
+  --bronze-hover: #b87d3f;
+  --bronze-light: #bd8543;
+  --gold: #d4af37;          /* frames, rules, focus — never a fill */
+  --white: #ffffff;
+  --beige: #e8e0d5;
+  --light: #f5f3f0;
+  --sand: #ece0cf;          /* secondary-button hover */
+  --text: #4a5565;
+  --muted: #6b7280;
+  --line: #e5e7eb;
+  --border: rgba(15, 23, 41, 0.24);
+  --on-dark: rgba(255, 255, 255, 0.9);
+  --on-dark-muted: rgba(255, 255, 255, 0.7);
+
+  /* type ----------------------------------------------------------------- */
+  --font: var(--font-urbanist), 'Urbanist', ui-sans-serif, system-ui, sans-serif;
+  --fs-hero: clamp(36px, 7vw, 72px);
+  --fs-title: clamp(32px, 5vw, 51px);
+  --fs-h3: clamp(26px, 3vw, 36px);
+  --fs-lead: clamp(18px, 2.2vw, 25px);
+  --fs-sub: clamp(16px, 2vw, 19px);
+  --fs-body: clamp(15px, 1.5vw, 17px);
+  --fs-small: 15px;
+
+  /* space ---------------------------------------------------------------- */
+  --space-xs: 8px;
+  --space-sm: 16px;
+  --space-md: 24px;
+  --space-lg: 32px;
+  --space-xl: 40px;
+  --space-2xl: 64px;
+  --space-3xl: 96px;
+  --section-y: clamp(56px, 9vw, 96px);
+  --gutter: clamp(20px, 5vw, 64px);
+  --container: 1240px;
+  --header-h: 80px;
+
+  /* shape ---------------------------------------------------------------- */
+  --radius-sm: 8px;
+  --radius-md: 10px;
+  --radius-lg: 14px;
+  --radius-xl: 16px;
+  --shadow-sm: 0 4px 6px -4px rgba(0, 0, 0, 0.1);
+  --shadow-md: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -4px rgba(0, 0, 0, 0.1);
+  --shadow-lg: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+  --ease: cubic-bezier(0.22, 1, 0.36, 1);
+  --transition: all 0.3s ease;
+}
+
+@media (max-width: 768px) {
+  :root {
+    --header-h: 64px;
+  }
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+  scroll-padding-top: calc(var(--header-h) + 16px);
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+body {
+  margin: 0;
+  font-family: var(--font);
+  font-size: var(--fs-body);
+  line-height: 1.6;
+  color: var(--ink);
+  background: var(--white);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+p,
+ul,
+ol,
+figure,
+blockquote {
+  margin: 0;
+}
+
+img,
+video,
+iframe {
+  display: block;
+  max-width: 100%;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+  color: inherit;
+}
+
+::selection {
+  background: var(--bronze);
+  color: var(--white);
+}
+
+:focus-visible {
+  outline: 2px solid var(--gold);
+  outline-offset: 3px;
+}
+
+/* the skip link, first thing a keyboard reaches */
+.skip {
+  position: absolute;
+  left: -9999px;
+  top: 10px;
+  z-index: 2000;
+  padding: 10px 20px;
+  background: var(--bronze);
+  color: var(--white);
+  font-weight: 600;
+  border-radius: var(--radius-sm);
+}
+
+.skip:focus {
+  left: 10px;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+main {
+  padding-top: var(--header-h);
+}
+
+/* ------------------------------------------------------------- layout */
+
+.container {
+  width: 100%;
+  max-width: calc(var(--container) + 2 * var(--gutter));
+  margin: 0 auto;
+  padding: 0 var(--gutter);
+}
+
+.narrow {
+  max-width: calc(820px + 2 * var(--gutter));
+}
+
+.bg-white {
+  background: var(--white);
+}
+
+.bg-beige {
+  background: var(--beige);
+}
+
+.bg-light {
+  background: var(--light);
+}
+
+.bg-ink {
+  background: var(--ink);
+  color: var(--white);
+}
+
+/* ---------------------------------------------------------- typography */
+
+.title {
+  font-size: var(--fs-title);
+  font-weight: 400;
+  line-height: 1.25;
+  color: var(--ink);
+  letter-spacing: -0.005em;
+  text-wrap: balance;
+}
+
+.title em,
+.accent {
+  font-style: normal;
+  color: var(--bronze);
+}
+
+.bg-ink .title,
+.on-dark .title {
+  color: var(--white);
+}
+
+.h3 {
+  font-size: var(--fs-h3);
+  font-weight: 400;
+  line-height: 1.25;
+  color: var(--ink);
+}
+
+.lead {
+  font-size: var(--fs-sub);
+  font-weight: 500;
+  line-height: 1.35;
+  color: var(--ink);
+}
+
+.body {
+  font-size: var(--fs-body);
+  line-height: 1.6;
+  color: var(--text);
+  letter-spacing: 0.0015em;
+}
+
+.body p + p {
+  margin-top: 1em;
+}
+
+.kicker {
+  display: inline-block;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--bronze);
+}
+
+.subtext {
+  font-size: clamp(14px, 1.3vw, 15px);
+  line-height: 1.4;
+  letter-spacing: 0.02em;
+  color: var(--text);
+}
+
+.center {
+  text-align: center;
+}
+
+/* ------------------------------------------------------------- buttons */
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 14px 28px;
+  border: 1px solid transparent;
+  border-radius: var(--radius-sm);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.2;
+  letter-spacing: 0.01em;
+  cursor: pointer;
+  transition: var(--transition);
+  white-space: nowrap;
+}
+
+.btn svg {
+  flex-shrink: 0;
+  transition: transform 0.3s ease;
+}
+
+.btn:hover svg {
+  transform: translateX(3px);
+}
+
+.btn-primary {
+  background: var(--bronze);
+  color: var(--white);
+}
+
+.btn-primary:hover {
+  background: var(--bronze-hover);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(156, 109, 54, 0.3);
+}
+
+.btn-light {
+  background: transparent;
+  color: var(--white);
+  border: 2px solid var(--white);
+}
+
+.btn-light:hover {
+  background: rgba(255, 255, 255, 0.1);
+  transform: translateY(-2px);
+}
+
+.btn-outline {
+  background: var(--white);
+  color: var(--ink);
+  border-color: var(--ink);
+}
+
+.btn-outline:hover {
+  background: var(--sand);
+}
+
+.btn-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-md);
+  align-items: center;
+}
+
+.text-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 600;
+  color: var(--bronze);
+  transition: var(--transition);
+}
+
+.text-link:hover {
+  color: var(--bronze-hover);
+  gap: 12px;
+}
+
+/* -------------------------------------------------------- ornaments */
+
+/* the gold frame offset behind a picture */
+.frame {
+  position: relative;
+}
+
+.frame::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  transform: translate(-24px, -24px);
+  border: 2px solid var(--gold);
+  border-radius: var(--radius-md);
+  pointer-events: none;
+}
+
+.frame.frame-right::before {
+  transform: translate(24px, -24px);
+}
+
+.frame > * {
+  position: relative;
+  z-index: 1;
+}
+
+@media (max-width: 768px) {
+  .frame::before,
+  .frame.frame-right::before {
+    transform: translate(-12px, -12px);
+  }
+}
+
+.rule {
+  height: 2px;
+  width: 100%;
+  border: 0;
+  margin: 0;
+  background: linear-gradient(90deg, rgba(212, 175, 55, 0.2) 0%, var(--gold) 48.56%, rgba(212, 175, 55, 0.2) 100%);
+}
+
+.icon-box {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  padding: 16px;
+  border-radius: var(--radius-md);
+  background: var(--bronze);
+  color: var(--white);
+}
+
+.icon-ring {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 72px;
+  height: 72px;
+  border-radius: 100%;
+  border: 2px solid var(--gold);
+  color: var(--bronze);
+}
+
+.photo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* ============================================================== motion
+   The page is complete without JavaScript. An inline script in <head> adds
+   `motion` to <html> only when the visitor has not asked for reduced motion,
+   and that class is the only thing that hides anything; it removes itself
+   after three seconds if the scripts never arrive. Motion.tsx then adds
+   `is-in` to each [data-reveal] element as it scrolls into view.          */
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes slideInRight {
+  from {
+    opacity: 0;
+    transform: translateX(100px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes bounce {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-18px);
+  }
+}
+
+.motion [data-reveal] {
+  opacity: 0;
+}
+
+.motion [data-reveal].is-in {
+  animation: fadeInUp 0.8s ease-out forwards;
+}
+
+.motion [data-reveal='left'].is-in {
+  animation-name: slideInLeft;
+}
+
+.motion [data-reveal='right'].is-in {
+  animation-name: slideInRight;
+}
+
+.motion [data-reveal='fade'].is-in {
+  animation-name: fadeIn;
+}
+
+/* children rise one after another */
+.motion [data-reveal='stagger'] {
+  opacity: 1;
+}
+
+.motion [data-reveal='stagger'] > * {
+  opacity: 0;
+}
+
+.motion [data-reveal='stagger'].is-in {
+  animation: none;
+}
+
+.motion [data-reveal='stagger'].is-in > * {
+  animation: fadeInUp 0.8s ease-out forwards;
+}
+
+.motion [data-reveal='stagger'].is-in > :nth-child(2) { animation-delay: 0.1s; }
+.motion [data-reveal='stagger'].is-in > :nth-child(3) { animation-delay: 0.2s; }
+.motion [data-reveal='stagger'].is-in > :nth-child(4) { animation-delay: 0.3s; }
+.motion [data-reveal='stagger'].is-in > :nth-child(5) { animation-delay: 0.4s; }
+.motion [data-reveal='stagger'].is-in > :nth-child(6) { animation-delay: 0.5s; }
+.motion [data-reveal='stagger'].is-in > :nth-child(7) { animation-delay: 0.6s; }
+.motion [data-reveal='stagger'].is-in > :nth-child(n + 8) { animation-delay: 0.7s; }
+
+@media (max-width: 768px) {
+  .motion [data-reveal='left'].is-in,
+  .motion [data-reveal='right'].is-in {
+    animation-name: fadeInUp;
+  }
+
+  .motion [data-reveal].is-in,
+  .motion [data-reveal='stagger'].is-in > * {
+    animation-duration: 0.6s;
+  }
+}
+
+/* a title band that leads straight into the rows below it */
+.tight-bottom {
+  padding-bottom: 0 !important;
+}
+
+.tight-bottom + section {
+  padding-top: 0;
+}
+
+/* long-form reading: legal pages and blog posts */
+.prose {
+  font-size: 17px;
+  line-height: 1.75;
+  color: var(--text);
+}
+
+.prose h2 {
+  margin: 2em 0 0.6em;
+  font-size: clamp(24px, 2.6vw, 30px);
+  font-weight: 500;
+  line-height: 1.3;
+  color: var(--ink);
+}
+
+.prose h3 {
+  margin: 1.6em 0 0.5em;
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--ink);
+}
+
+.prose > :first-child {
+  margin-top: 0;
+}
+
+.prose p + p {
+  margin-top: 1em;
+}
+
+.prose ul {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8em;
+  margin: 1em 0;
+  padding-left: 1.2em;
+}
+
+.prose li::marker {
+  color: var(--bronze);
+}
+
+.prose strong {
+  color: var(--ink);
+  font-weight: 600;
+}
+
+.notice {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-bottom: var(--space-lg);
+  padding: 12px 16px;
+  border-left: 3px solid var(--gold);
+  border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+  background: var(--light);
+  font-size: 15px;
+  color: var(--text);
+}
+
+.flip {
+  transform: scaleX(-1);
+}
