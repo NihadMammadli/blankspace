@@ -1,0 +1,1497 @@
+{
+  "schema": 1,
+  "locale": "fr",
+  "meta": {
+    "siteName": "blankspace",
+    "titleTemplate": "%s | blankspace",
+    "description": "Deux lieux événementiels privatisés dans le quartier européen de Bruxelles, à deux pas de la Commission et du Parlement européens. Réunions, conférences, réceptions et fêtes de 10 à 150 invités."
+  },
+  "ui": {
+    "skip": "Aller au contenu",
+    "menuOpen": "Ouvrir le menu",
+    "menuClose": "Fermer le menu",
+    "mainNav": "Navigation principale",
+    "language": "Langue",
+    "breadcrumb": "Fil d’Ariane",
+    "home": "Accueil",
+    "quote": "Je souhaite un devis",
+    "contactUs": "Contactez-nous",
+    "readMore": "Lire la suite",
+    "more": "Meer",
+    "less": "Minder",
+    "showMore": "Voir plus",
+    "showLess": "Voir moins",
+    "prev": "Précédent",
+    "next": "Suivant",
+    "close": "Fermer",
+    "scrollDown": "Faites défiler vers le bas",
+    "callUs": "Appelez-nous",
+    "emailUs": "Envoyez-nous un e-mail",
+    "discoverTour": "Découvrir via la visite vidéo",
+    "viewVenue": "Découvrir le lieu",
+    "discover": "Découvrir",
+    "playVideo": "Lancer la visite vidéo",
+    "videoNote": "La vidéo est lue depuis YouTube lorsque vous appuyez sur lecture.",
+    "showMap": "Afficher la carte",
+    "mapNote": "La carte provient de Google Maps et ne se charge qu’à votre demande.",
+    "mapTitle": "Carte de {name}",
+    "directions": "Itinéraire",
+    "phone": "Téléphone",
+    "email": "E-mail",
+    "address": "Adresse",
+    "parking": "Parking",
+    "transport": "Transports en commun",
+    "capacity": "Capacité",
+    "guests": "{n} invités",
+    "upTo": "Jusqu’à {n} invités",
+    "perPerson": "par personne",
+    "halfDay": "Demi-journée",
+    "fullDay": "Journée complète",
+    "galleryLabel": "Galerie de photos",
+    "slideLabel": "Photo {n} sur {total}",
+    "clientLogoAlt": "Logo {name}",
+    "published": "Publié le",
+    "englishOnly": "Cette page est disponible en anglais.",
+    "related": "Plus d’articles",
+    "backToBlog": "Retour au blog",
+    "followUs": "Suivez-nous",
+    "tagline": "Créer des moments inoubliables",
+    "rights": "© {year} {name}. Tous droits réservés.",
+    "equipmentTitle": "Équipement",
+    "faqTitle": "Questions Fréquemment Posées",
+    "form": {
+      "title": "Envoyez-nous votre demande",
+      "intro": "Parlez-nous de votre événement — la date, le nombre d’invités et le type d’événement — et notre équipe reviendra vers vous avec une proposition.",
+      "firstName": "Prénom",
+      "lastName": "Nom",
+      "country": "Pays",
+      "countryPlaceholder": "Sélectionner",
+      "phone": "Téléphone",
+      "phonePlaceholder": "+32",
+      "email": "E-mail",
+      "emailPlaceholder": "Entrez votre e-mail",
+      "message": "Votre message",
+      "messagePlaceholder": "Tapez votre message ici...",
+      "required": {
+        "firstName": "Le prénom est requis",
+        "lastName": "Le nom de famille est requis",
+        "email": "L'e-mail est requis",
+        "message": "Le message est requis"
+      },
+      "invalidEmail": "Veuillez saisir une adresse e-mail valide",
+      "requiredNote": "Les champs marqués d’un * sont obligatoires.",
+      "submit": "Envoyer ma demande",
+      "sending": "Envoi en cours…",
+      "success": "Merci — votre demande a bien été envoyée. Notre équipe vous répondra rapidement.",
+      "error": "Votre demande n’a pas pu être envoyée. Veuillez réessayer ou nous écrire à {email}.",
+      "mailtoNote": "L’envoi ouvre votre application e-mail avec votre demande préremplie, adressée à {email}.",
+      "mailSubject": "Demande d’événement — {name}"
+    }
+  },
+  "menus": {
+    "main": {
+      "events": {
+        "label": "Événements",
+        "caption": "Explorer nos événements"
+      },
+      "spaces": {
+        "label": "Espaces",
+        "caption": "Parcourir nos lieux",
+        "extra": {
+          "locations": {
+            "label": "Nos lieux"
+          }
+        }
+      },
+      "catering": {
+        "label": "Restauration & Ateliers",
+        "caption": "Expériences culinaires"
+      },
+      "prices": {
+        "label": "Découvrez nos prix",
+        "caption": "Forfaits sur mesure"
+      },
+      "blog": {
+        "label": "Blog",
+        "caption": "Histoires & actualités"
+      }
+    },
+    "footer": {
+      "events": {
+        "title": "Événements"
+      },
+      "spaces": {
+        "title": "Nos lieux"
+      },
+      "venues": {
+        "title": "Près de chez vous"
+      },
+      "explore": {
+        "title": "Explorer",
+        "links": {
+          "catering": {
+            "label": "Restauration & Ateliers"
+          },
+          "prices": {
+            "label": "Découvrez nos prix"
+          },
+          "locations": {
+            "label": "Nos lieux"
+          },
+          "weddings": {
+            "label": "Mariages & fêtes"
+          },
+          "services": {
+            "label": "Nos services"
+          },
+          "blog": {
+            "label": "Blog"
+          }
+        }
+      }
+    },
+    "cta": {
+      "title": "Prêt à planifier votre événement ?",
+      "text": "Notre équipe d'experts est là pour vous aider avec le support audiovisuel, la restauration et la planification.",
+      "label": "Contactez-nous"
+    }
+  },
+  "home": {
+    "seo": {
+      "title": "Lieux événementiels dans le quartier européen de Bruxelles — événements d’entreprise et privés",
+      "description": "Deux lieux événementiels privatisés dans le quartier européen de Bruxelles, à deux pas de la Commission et du Parlement européens. Réunions, conférences, réceptions et fêtes de 10 à 150 invités."
+    },
+    "hero": {
+      "title": "Événements d’entreprise et privés",
+      "text": "Deux lieux événementiels au cœur du quartier européen de Bruxelles",
+      "imageAlt": "Une conférence en cours chez blankspace, à Bruxelles",
+      "primary": {
+        "label": "Parcourir nos lieux"
+      },
+      "secondary": {
+        "label": "Je souhaite un devis"
+      }
+    },
+    "concept": {
+      "title": "Notre Concept",
+      "text": "Le nom dit tout : blankspace Comme une feuille de papier vierge, un espace neutre où vous pouvez déterminer la couleur et le style vous-même. À première vue, l'espace semble vide. Mis à part le comptoir du bar placé devant la fenêtre, qui sert également de comptoir d'accueil, et quelques cadres blancs sur les murs ainsi que la décoration originale des plantes au plafond. L'espace vide de blankspace est donc idéal pour déterminer comment vous allez utiliser l'espace, que ce soit pour une salle de réunion à Bruxelles, une salle de conférence ou tout autre événement dédié. Les murs blancs rendent l'espace multifonctionnel ; il peut être projeté, écrit numériquement ou collé, et un mur coulissant peut être utilisé pour diviser l'espace.",
+      "subtext": "Blankspace devient votre espace",
+      "imageAlt": "Le logotype blankspace",
+      "button": {
+        "label": "Découvrez notre lieu exceptionnel"
+      }
+    },
+    "hostAny": {
+      "title": "Organisez Tout Événement Que Vous Pouvez Imaginer",
+      "text": "Chez blankspace, nous accueillons tous types d'événements, des réunions d'affaires aux célébrations d'anniversaire, des ateliers aux réceptions de cocktails, des conférences aux mariages. Notre lieu polyvalent et adaptable se transforme pour s'adapter à chaque occasion, créant le décor parfait pour votre vision. Avec une équipe de professionnels dédiés prêts à vous aider, nous nous assurons que chaque détail est personnalisé pour rendre votre événement véritablement inoubliable.",
+      "imageAlt": "Des invités lors d’un événement chez blankspace"
+    },
+    "stats": {
+      "venues": {
+        "label": "Lieux dans le quartier européen"
+      },
+      "guests": {
+        "label": "Invités dans notre plus grand lieu"
+      },
+      "area": {
+        "label": "D’espace événementiel ouvert"
+      },
+      "clients": {
+        "label": "Organisations qui nous ont fait confiance"
+      }
+    },
+    "features": {
+      "title": "Pourquoi choisir Blankspace ?",
+      "subtitle": "Chez Blankspace, nous nous engageons à fournir un environnement haut de gamme et sans tracas qui valorise vos événements. Que vous planifiiez une session de formation, un lancement de produit ou une réunion exécutive, nous proposons des solutions sur mesure pour chaque besoin.",
+      "items": {
+        "exclusivity": {
+          "title": "Exclusivité pour une Expérience Personnalisée",
+          "text": "Pour garantir une expérience exclusive, nous organisons un seul événement à la fois. Peu importe la superficie que vous louez, l’ensemble du lieu sera entièrement privatisé pour votre usage. C’est au cœur de notre vision : Blankspace devient votre espace, offrant un cadre personnalisé et intime pour votre événement."
+        },
+        "support": {
+          "title": "Support Complet pour événements",
+          "text": "Chez Blankspace, nous vous accompagnons de l'idée initiale jusqu'au tout dernier moment, allant bien au-delà de l'offre habituelle. Nous vous aidons à planifier, coordonner et gérer chaque détail pour que votre événement se déroule sans accroc et sans stress. Besoin d'un photographe, d'un DJ ou d'un animateur à la dernière minute ? Notre équipe vous met en contact avec un réseau de professionnels de confiance."
+        }
+      }
+    },
+    "venues": {
+      "title": "Organisez n'importe quel événement, n'importe où"
+    },
+    "blog": {
+      "title": "Sur notre blog",
+      "subtitle": "Des histoires de nos espaces, de nos partenaires et de nos événements."
+    }
+  },
+  "equipment": {
+    "tv": {
+      "label": "Écran TV"
+    },
+    "speaker": {
+      "label": "Enceintes"
+    },
+    "microphone": {
+      "label": "Microphone"
+    },
+    "projector": {
+      "label": "Projecteur"
+    },
+    "table": {
+      "label": "Tables"
+    },
+    "chair": {
+      "label": "Chaises"
+    }
+  },
+  "venues": {
+    "schuman": {
+      "name": "Blankspace Schuman",
+      "nameLines": [
+        "Blankspace",
+        "Schuman"
+      ],
+      "shortName": "Schuman",
+      "address": {
+        "street": "Rue Saint-Quentin 29",
+        "city": "Bruxelles",
+        "country": "Belgique"
+      },
+      "capacity": {
+        "label": "5 – 50 invités"
+      },
+      "seo": {
+        "title": "Blankspace Schuman — lieu événementiel dans une maison de maître à Schuman",
+        "description": "Une maison de maître privatisée derrière le Berlaymont : barspace, gardenspace, tablespace et studiospace pour 5 à 50 invités. Un seul événement à la fois."
+      },
+      "hero": {
+        "alt": "Le couloir voûté de Blankspace Schuman"
+      },
+      "card": {
+        "text": "Blankspace Brussels est un lieu d'événement unique et personnalisable niché dans une charmante maison de ville dans le calme quartier de l'UE au centre de Bruxelles. Parfait pour des événements professionnels ou privés de taille moyenne, Blankspace offre une polyvalence, une flexibilité et une atmosphère accueillante inégalées.",
+        "imageAlt": "Une arche à l’intérieur de Blankspace Schuman"
+      },
+      "intro": {
+        "title": "Des Espaces Modulables pour Vos Besoins",
+        "text": "Notre espace se compose de plusieurs salles adjacentes, offrant une flexibilité pour accueillir des événements de toutes tailles. Que vous choisissiez de louer une seule salle ou l’ensemble du lieu, la location est adaptée au nombre d’invités et à vos besoins spécifiques."
+      },
+      "exclusivity": {
+        "title": "Exclusivité pour une Expérience Personnalisée",
+        "text": "Pour garantir une expérience exclusive, nous organisons un seul événement à la fois. Peu importe la superficie que vous louez, l’ensemble du lieu sera entièrement privatisé pour votre usage. C’est au cœur de notre vision : Blankspace devient votre espace, offrant un cadre personnalisé et intime pour votre événement."
+      },
+      "roomsTitle": "Quatre espaces, une maison de maître",
+      "rooms": {
+        "barspace": {
+          "name": "BarSpace",
+          "paragraphs": [
+            "En entrant dans Blankspace, vous serez accueilli par le BarSpace, un espace dynamique et polyvalent, parfait pour démarrer tout événement. Cet espace modulable est idéal pour un check-in fluide, une pause-café, un petit-déjeuner ou un déjeuner buffet. BarSpace peut accueillir confortablement jusqu’à 40 invités.",
+            "Équipé d’une technologie audiovisuelle de pointe, BarSpace peut accueillir des réunions de direction, des cocktails élégants, des déjeuners et dîners en format debout, des lancements de produits, et même des conférences en disposition théâtre. Grâce à sa flexibilité et son design moderne, il constitue l’espace idéal pour des événements professionnels et sociaux.",
+            "Laissez BarSpace donner le ton à votre événement mémorable !"
+          ],
+          "gallery": {
+            "alt": "BarSpace, Blankspace Schuman — photo {n} sur {total}"
+          }
+        },
+        "gardenspace": {
+          "name": "GardenSpace",
+          "paragraphs": [
+            "Niché derrière notre charmante maison de ville, le GardenSpace est un jardin urbain paisible qui offre une bouffée d’air frais en plein cœur de la ville. Entouré de verdure, il constitue le cadre extérieur idéal pour divers événements, alliant sérénité et fonctionnalité.",
+            "Que ce soit pour une session en plein air pendant une réunion, un bar ouvert ou un barbecue en été, ou encore un barbecue d’hiver chaleureux, GardenSpace peut accueillir confortablement jusqu’à 50 invités. Son ambiance conviviale en fait un lieu idéal pour savourer des boissons, partager un repas ou même organiser des réunions en extérieur dans un cadre inspirant.",
+            "Qu’il pleuve ou qu’il fasse beau, GardenSpace s’adapte aux conditions météorologiques belges, garantissant un événement fluide tout en permettant à vos invités de profiter du charme de l’extérieur. Célébrez, connectez-vous et collaborez dans un environnement rafraîchissant."
+          ],
+          "gallery": {
+            "alt": "GardenSpace, Blankspace Schuman — photo {n} sur {total}"
+          }
+        },
+        "tablespace": {
+          "name": "TableSpace",
+          "paragraphs": [
+            "Passez les charmantes portes coulissantes en bois et découvrez notre TableSpace lumineux et polyvalent – un cadre unique pour votre prochain événement. Doté de nos célèbres tables suspendues ajustables, cet espace allie style et fonctionnalité pour toutes les occasions.",
+            "Que vous organisiez une réunion productive, un atelier interactif ou un déjeuner ou dîner assis pour jusqu’à 30 invités, TableSpace est conçu pour impressionner. Équipé de Samsung Frame TV et d’un système audio Sonos de haute qualité, votre événement bénéficiera des meilleures technologies et d’une atmosphère accueillante.",
+            "Faites de votre prochain événement un moment aussi mémorable que l’espace lui-même !"
+          ],
+          "gallery": {
+            "alt": "TableSpace, Blankspace Schuman — photo {n} sur {total}"
+          }
+        },
+        "studiospace": {
+          "name": "StudioSpace",
+          "paragraphs": [
+            "Dissimulé juste derrière le GardenSpace, derrière de grandes portes vitrées coulissantes, se trouve notre StudioSpace créatif – un espace moderne et inspirant pour des événements qui nécessitent une touche spéciale. Ce lieu intime et modulable est conçu pour stimuler la créativité, idéal pour des brainstormings, des dîners en plein air et bien plus encore.",
+            "Équipé d’un Samsung Frame TV et d’un système audio Sonos immersif, StudioSpace est parfait pour les interviews, les enregistrements de podcasts, ou encore les petits ateliers en groupe. Pouvant accueillir jusqu’à 20 invités, c’est l’endroit idéal pour concrétiser des idées audacieuses ou partager des histoires avec élégance.",
+            "Que vous prépariez votre prochain grand pitch, organisiez un dîner intime ou enregistriez un épisode de podcast marquant, StudioSpace apportera une touche de créativité et de sophistication à votre événement. Rendons-le inoubliable !"
+          ],
+          "gallery": {
+            "alt": "StudioSpace, Blankspace Schuman — photo {n} sur {total}"
+          }
+        }
+      },
+      "tour": {
+        "title": "Faites une Visite Rapide de Blankspace Schuman",
+        "text": "Découvrez notre lieu d'événements moderne et voyez ce qui le rend parfait pour votre prochain rassemblement"
+      },
+      "locations": {
+        "text": "Notre domaine principal dans le quartier de Schuman est une charmante maison de ville conçue pour une variété d'expériences. Avec des salles modulables comme le barspace, l'espace table et le jardin, il offre un environnement neutre et lumineux adapté à votre vision créative.",
+        "alt": "Blankspace Schuman — photo {n} sur {total}"
+      }
+    },
+    "luxembourg": {
+      "name": "Blankspace Place du Luxembourg",
+      "nameLines": [
+        "Blankspace Place",
+        "du Luxembourg"
+      ],
+      "shortName": "Place du Luxembourg",
+      "address": {
+        "street": "Rue d’Arlon 80",
+        "city": "Bruxelles",
+        "country": "Belgique"
+      },
+      "capacity": {
+        "label": "50 – 150 invités"
+      },
+      "seo": {
+        "title": "Blankspace Place du Luxembourg — salle de 250 m² près du Parlement européen",
+        "description": "Une salle lumineuse de 250 m² à côté du Parlement européen pour 10 à 150 invités : scène, audiovisuel intégré, Wi-Fi fibre et coin F&B. Prête à l’emploi."
+      },
+      "hero": {
+        "alt": "Blankspace Place du Luxembourg — photo {n} sur {total}"
+      },
+      "card": {
+        "text": "Blankspace Place du Luxembourg est un lieu d'événement entièrement équipé, idéalement situé à côté du Parlement européen et de la vibrante Place du Luxembourg. Conçu pour accueillir des conférences, des séminaires et des réunions d'affaires, il offre un cadre polyvalent et professionnel pour des groupes de taille moyenne à grande. Avec son emplacement privilégié et ses équipements modernes, Blankspace Place du Luxembourg garantit une expérience événementielle fluide et mémorable.",
+        "imageAlt": "La salle de 250 m² de Blankspace Place du Luxembourg"
+      },
+      "intro": {
+        "title": "Un Espace Flexible pour Chaque Événement",
+        "text": "Notre espace est conçu pour accueillir jusqu'à 150 invités dans différentes configurations de sièges, notamment en théâtre, en tables rondes, en salle de classe et en configuration de conférence. Le lieu dispose d'une grande surface unique de 250 mètres carrés, offrant un vaste espace pour la créativité et la personnalisation afin de répondre aux besoins de votre événement."
+      },
+      "highlights": {
+        "area": {
+          "label": "250 m² d'espace événementiel polyvalent"
+        },
+        "guests": {
+          "label": "Capacité de 10-150 invités"
+        }
+      },
+      "equipped": {
+        "title": "Équipé pour une Expérience Sans Faille",
+        "text": "Notre tout nouveau lieu situé dans le quartier européen, juste à côté de la Place du Luxembourg, offre tout ce dont vous avez besoin pour des événements fluides et réussis. Avec des espaces lumineux, une connexion Wi-Fi fibre haut débit, un équipement audiovisuel professionnel, une scène et un coin restauration entièrement équipé, Blankspace est un lieu « plug-and-play » prêt à l'emploi — aucune installation nécessaire. Idéal pour les réunions d'entreprise, les conférences, les ateliers, les réceptions de réseautage et les événements privés, il est conçu pour rendre chaque événement simple et mémorable.",
+        "items": {
+          "eu": {
+            "label": "Quartier Européen de Bruxelles"
+          },
+          "bright": {
+            "label": "Lumineux et Spacieux"
+          },
+          "fb": {
+            "label": "Coin Restauration"
+          },
+          "wifi": {
+            "label": "Connexions Fibre Haut Débit"
+          },
+          "av": {
+            "label": "Équipement AV Intégré"
+          },
+          "stage": {
+            "label": "Scène pour Conférences"
+          }
+        }
+      },
+      "why": {
+        "title": "Pourquoi Nous Choisir ?",
+        "paragraphs": [
+          "Organiser un événement peut être un processus complexe et chronophage. De la sélection du lieu idéal à la coordination des plannings, en passant par la gestion de la technologie, du catering et de l’engagement des participants, de nombreux détails doivent être pris en compte.",
+          "Notre équipe de professionnels expérimentés apporte une expertise précieuse dans une grande variété d’événements, garantissant qu’aucun détail ne soit négligé."
+        ],
+        "expertiseTitle": "Notre Expertise Couvre",
+        "expertise": [
+          {
+            "label": "Réunions Générales",
+            "text": "Qu’il s’agisse d’une petite réunion d’équipe ou d’une grande assemblée d’entreprise, nous aidons à créer un environnement organisé et professionnel favorisant une communication efficace et une prise de décision optimale."
+          },
+          {
+            "label": "Ateliers",
+            "text": "Nous sommes spécialisés dans la conception d’ateliers interactifs et productifs qui encouragent la participation, le partage des connaissances et le développement des compétences, adaptés à vos objectifs d’apprentissage."
+          },
+          {
+            "label": "Conférences",
+            "text": "Des discours d’ouverture de leaders d’industrie aux séminaires multi-thématiques, nous prenons en charge tous les aspects de la planification des conférences, y compris la coordination des intervenants, l’élaboration des programmes et la gestion des participants."
+          },
+          {
+            "label": "Événements Sur-Mesure",
+            "text": "Lancement de produit, événement de networking, dîner de gala ou toute autre occasion spéciale ? Nous concevons des expériences uniques et mémorables alignées sur votre marque et vos objectifs."
+          }
+        ],
+        "gallery": {
+          "alts": [
+            "Configuration conférence à Blankspace Place du Luxembourg",
+            "Invités installés pour une conférence dans la salle de 250 m²",
+            "La scène pendant une conférence",
+            "La scène en détail",
+            "Disposition en théâtre",
+            "Le comptoir d’accueil",
+            "Support audiovisuel pendant un événement",
+            "Le coin F&B",
+            "Le coin F&B pendant une pause",
+            "L’espace détente"
+          ]
+        }
+      },
+      "services": {
+        "title": "Nos Services Complets Incluent",
+        "items": {
+          "s1": {
+            "label": "Planification & Stratégie Événementielle",
+            "text": "Collaboration étroite avec vous pour comprendre votre vision et vos objectifs."
+          },
+          "s2": {
+            "label": "Sélection & Gestion du Lieu",
+            "text": "Trouver l’emplacement idéal adapté à la taille, au style et au budget de votre événement."
+          },
+          "s3": {
+            "label": "Coordination Logistique",
+            "text": "Gérer de manière fluide les délais, les plannings et tous les éléments en mouvement."
+          },
+          "s4": {
+            "label": "Support Technologique",
+            "text": "Fourniture de solutions audiovisuelles de pointe, de plateformes d’événements virtuels et d’une assistance technique."
+          },
+          "s5": {
+            "label": "Gestion sur Site de l’Événement",
+            "text": "Assurer une exécution sans faille le jour de l’événement."
+          },
+          "s6": {
+            "label": "Évaluation Post-Événement",
+            "text": "Collecte des retours et fourniture d'informations pour une amélioration continue."
+          }
+        }
+      },
+      "gallery": {
+        "title": "Fabriqué à Blankspace",
+        "alt": "Blankspace Place du Luxembourg — photo {n} sur {total}"
+      },
+      "tour": {
+        "title": "Faites une Visite Rapide de Blankspace Place du Luxembourg",
+        "text": "Découvrez notre lieu d'événements moderne et voyez ce qui le rend parfait pour votre prochain rassemblement"
+      },
+      "locations": {
+        "text": "Situé juste à côté du Parlement européen, notre deuxième emplacement est conçu pour l'envergure et l'impact professionnel. Le corporatespace est le cadre idéal pour les réunions à grande échelle, les séminaires et les panels de discussion de haut niveau.",
+        "alt": "Blankspace Place du Luxembourg — photo {n} sur {total}"
+      }
+    }
+  },
+  "events": {
+    "corporate-meetings": {
+      "title": "Réunions d'entreprise",
+      "navLabel": "Réunions d'entreprise",
+      "intro": [
+        "Idéalement situé près de la Commission européenne et avec un deuxième espace à côté du Parlement européen, Blankspace est conçu pour des conférences et des réunions d'entreprise percutantes.",
+        "Entièrement équipé avec du matériel audiovisuel professionnel et une variété d’aménagements, nos espaces s’adaptent à vos besoins. Qu'il s'agisse d'un panel interactif ou d'une réunion stratégique, Blankspace favorise la concentration, la collaboration et la réussite.",
+        "Notre équipe veille à chaque détail afin que vous puissiez organiser votre événement en toute confiance."
+      ],
+      "card": {
+        "title": "Réunions d'Entreprise",
+        "text": "À quelques pas de la Commission et du Parlement européen, les deux lieux de Blankspace sont parfaits pour des réunions d'affaires professionnelles et de haut niveau à Bruxelles.",
+        "imageAlt": "Réunions d'entreprise"
+      },
+      "gallery": {
+        "alt": "Réunions d'entreprise — photo {n} sur {total}"
+      },
+      "seo": {
+        "title": "Salle de réunion d’entreprise dans le quartier européen de Bruxelles",
+        "description": "Idéalement situé près de la Commission européenne et avec un deuxième espace à côté du Parlement européen, Blankspace est conçu pour des conférences et des…"
+      }
+    },
+    "coctail-receptions": {
+      "title": "Réceptions cocktails",
+      "navLabel": "Réceptions cocktail",
+      "intro": [
+        "Blankspace est le choix idéal pour des réceptions cocktails, avec ses tables hautes, son bar élégant et son jardin paisible apprécié des invités.",
+        "Des institutions européennes aux professionnels du secteur, notre espace est reconnu pour offrir raffinement et confort lors de rassemblements dynamiques.",
+        "Que vous organisiez une rencontre après le travail ou un toast de célébration, Blankspace offre l’ambiance parfaite. Avec l’ameublement, le matériel audiovisuel et les services traiteur gérés par notre équipe, organiser un événement fluide n’a jamais été aussi simple."
+      ],
+      "card": {
+        "title": "Réceptions Cocktails",
+        "text": "Avec des espaces lumineux, une ambiance élégante et des configurations flexibles, Blankspace est idéal pour des réceptions cocktails propices à la connexion et à la conversation.",
+        "imageAlt": "Réceptions cocktails"
+      },
+      "gallery": {
+        "alt": "Réceptions cocktails — photo {n} sur {total}"
+      },
+      "seo": {
+        "title": "Lieu pour réceptions cocktail à Bruxelles",
+        "description": "Blankspace est le choix idéal pour des réceptions cocktails, avec ses tables hautes, son bar élégant et son jardin paisible apprécié des invités."
+      }
+    },
+    "teambuilding": {
+      "title": "Renforcement d'équipe",
+      "navLabel": "Teambuilding",
+      "intro": [
+        "Blankspace offre d'innombrables possibilités de team-building, des batailles culinaires engageantes comme la « Battle des chefs belges et américains » de l'ambassade des États-Unis aux activités créatives et collaboratives.",
+        "Laissez-nous créer une expérience unique pour votre équipe. Nos espaces lumineux et adaptables inspirent la connexion et la productivité, quel que soit le défi ou le thème.",
+        "Avec chaque détail pris en charge par notre équipe d’experts, vous pouvez vous concentrer sur le renforcement des liens et la création de souvenirs inoubliables."
+      ],
+      "card": {
+        "title": "Teambuildings",
+        "text": "En collaboration avec des experts de premier plan et offrant des activités sur place, Blankspace est parfait pour le teambuilding dans un cadre amusant et flexible.",
+        "imageAlt": "Renforcement d'équipe"
+      },
+      "gallery": {
+        "alt": "Renforcement d'équipe — photo {n} sur {total}"
+      },
+      "seo": {
+        "title": "Lieu de teambuilding à Bruxelles",
+        "description": "Blankspace offre d'innombrables possibilités de team-building, des batailles culinaires engageantes comme la « Battle des chefs belges et américains » de…"
+      }
+    },
+    "workshops": {
+      "title": "Ateliers",
+      "navLabel": "Ateliers",
+      "intro": [
+        "En partenariat avec des professionnels de renom listés sur notre site web, Blankspace offre un cadre polyvalent pour des ateliers.",
+        "Entièrement équipés et modulables, nos espaces stimulent la créativité et la concentration, favorisant l'apprentissage, l'innovation et l'artisanat.",
+        "Des sessions artistiques aux séminaires inspirants, Blankspace soutient chaque aspect de votre atelier.",
+        "Avec du matériel audiovisuel professionnel et tout le mobilier nécessaire sur place, votre événement sera fluide et captivant."
+      ],
+      "card": {
+        "title": "Ateliers",
+        "text": "Des sessions de sushi et de matcha aux ateliers de cocktails, Blankspace est un centre créatif pour des expériences uniques et pratiques.",
+        "imageAlt": "Ateliers"
+      },
+      "gallery": {
+        "alt": "Ateliers — photo {n} sur {total}"
+      },
+      "seo": {
+        "title": "Lieu pour ateliers à Bruxelles",
+        "description": "En partenariat avec des professionnels de renom listés sur notre site web, Blankspace offre un cadre polyvalent pour des ateliers."
+      }
+    },
+    "conference": {
+      "title": "Conférences",
+      "navLabel": "Conférence",
+      "intro": [
+        "Blankspace a accueilli avec succès de nombreuses conférences grâce à ses salles entièrement équipées avec écrans haute définition, moniteurs, projecteurs, enceintes, Wi-Fi fibre optique et microphones sans fil.",
+        "Blankspace Schuman et Blankspace Place du Luxembourg sont des lieux idéaux pour ces événements, avec des configurations flexibles, toute la technologie nécessaire et un aménagement professionnel garantissant une exécution parfaite.",
+        "Avec nos tarifs compétitifs et notre expérience dans l’organisation de séminaires et de discussions d’experts, nous sommes le choix idéal pour votre prochaine conférence."
+      ],
+      "card": {
+        "title": "Conférences",
+        "text": "Situés au cœur de Bruxelles, les deux lieux de Blankspace offrent l'espace parfait pour des conférences percutantes à proximité des institutions européennes.",
+        "imageAlt": "Conférences"
+      },
+      "gallery": {
+        "alt": "Conférences — photo {n} sur {total}"
+      },
+      "seo": {
+        "title": "Salle de conférence dans le quartier européen de Bruxelles",
+        "description": "Blankspace a accueilli avec succès de nombreuses conférences grâce à ses salles entièrement équipées avec écrans haute définition, moniteurs, projecteurs…"
+      }
+    },
+    "product-launches": {
+      "title": "Lancements de produits",
+      "navLabel": "Lancements de produits",
+      "intro": [
+        "De la collection printemps 2024 de Casa Belgium aux présentations des produits Kevin Murphy, Blankspace est devenu un lieu de référence pour les lancements de produits impactants.",
+        "Que vous dévoiliez des innovations ou célébriez des étapes importantes, nos espaces mettent en valeur l’histoire de votre marque.",
+        "Impressionnez votre audience avec le parfait équilibre entre un matériel audiovisuel de qualité, des configurations flexibles et une esthétique moderne.",
+        "Blankspace veille à ce que vos produits brillent sous les projecteurs qu’ils méritent."
+      ],
+      "card": {
+        "title": "Lancements de Produits",
+        "text": "Des lancements de produits aux défilés de mode, Blankspace est le lieu de confiance qui fait briller chaque événement et le rend inoubliable.",
+        "imageAlt": "Lancements de produits"
+      },
+      "gallery": {
+        "alt": "Lancements de produits — photo {n} sur {total}"
+      },
+      "seo": {
+        "title": "Lieu de lancement de produit à Bruxelles",
+        "description": "De la collection printemps 2024 de Casa Belgium aux présentations des produits Kevin Murphy, Blankspace est devenu un lieu de référence pour les lancements…"
+      }
+    },
+    "plenary-discussions": {
+      "title": "Discussions plénières",
+      "navLabel": "Discussions plénières",
+      "intro": [
+        "Que vous organisiez une conférence principale, une présentation à l’échelle de l’entreprise ou une discussion de haut niveau, Blankspace offre le cadre idéal pour des séances plénières percutantes. Nos deux lieux – Blankspace Schuman et Blankspace Place du Luxembourg – sont conçus pour garantir des événements professionnels et fluides du début à la fin.",
+        "Chaque espace est entièrement équipé d’écrans haut de gamme, de projecteurs, de haut-parleurs, de micros sans fil et du Wi-Fi fibre optique ultra-rapide. Les aménagements sont flexibles, que vous attendiez 20 ou 150 invités, nous ferons en sorte que tout soit parfait.",
+        "Besoin d’un service traiteur ? Nous proposons diverses options, allant de simples rafraîchissements à des repas complets – tout est facilement organisable selon votre emploi du temps et vos préférences. Curieux des tarifs ? Découvrez nos prix transparents directement sur le site et voyez pourquoi Blankspace est le choix incontournable pour les séances plénières, conférences et plus encore."
+      ],
+      "card": {
+        "title": "Discussions Plénières",
+        "text": "Les lieux adaptables de Blankspace sont idéaux pour des plénières, des panels et des forums - régulièrement choisis par les institutions européennes et les organisations mondiales.",
+        "imageAlt": "Discussions plénières"
+      },
+      "gallery": {
+        "alt": "Discussions plénières — photo {n} sur {total}"
+      },
+      "seo": {
+        "title": "Lieu pour séances plénières et panels à Bruxelles",
+        "description": "Que vous organisiez une conférence principale, une présentation à l’échelle de l’entreprise ou une discussion de haut niveau, Blankspace offre le cadre idéal…"
+      }
+    },
+    "birthday-and-weddings": {
+      "title": "Anniversaires et mariages",
+      "navLabel": "Anniversaires & Mariages",
+      "intro": [
+        "Chez Blankspace, nous avons eu l'honneur d'accueillir de nombreux anniversaires et mariages, devenant une référence pour ceux qui recherchent un cadre simple mais chaleureux, entièrement personnalisable.",
+        "Fidèle à notre philosophie « Blankspace devient votre espace », notre lieu se transforme en un cadre parfait pour célébrer vos moments marquants.",
+        "Avec tout le mobilier et le matériel audiovisuel professionnel fournis par notre équipe, l'organisation devient un jeu d'enfant, vous permettant de profiter pleinement de l’instant.",
+        "Laissez-nous créer un espace aussi unique et mémorable que votre grand jour."
+      ],
+      "card": {
+        "title": "Anniversaires & Mariages",
+        "text": "Des anniversaires aux fiançailles, le jardin luxuriant et la décoration élégante de Blankspace créent le cadre parfait pour des événements privés inoubliables.",
+        "imageAlt": "Anniversaires et mariages"
+      },
+      "gallery": {
+        "alt": "Anniversaires et mariages — photo {n} sur {total}"
+      },
+      "seo": {
+        "title": "Lieu pour anniversaires et mariages à Bruxelles",
+        "description": "Chez Blankspace, nous avons eu l'honneur d'accueillir de nombreux anniversaires et mariages, devenant une référence pour ceux qui recherchent un cadre simple…"
+      }
+    }
+  },
+  "communes": {
+    "brussels": {
+      "name": "Bruxelles",
+      "title": "Salle d’événements près de la Ville de Bruxelles",
+      "text": "Situé dans le Quartier européen de Bruxelles, blankspace est un lieu polyvalent pour événements, idéal pour diverses occasions. Juste derrière le bâtiment Berlaymont, siège de la Commission européenne, blankspace offre un cadre paisible en plein cœur de la ville.",
+      "access": {
+        "title": "Accessibilité depuis Bruxelles",
+        "items": [
+          {
+            "text": "Blankspace est facilement accessible depuis diverses parties de la Ville de Bruxelles, ce qui en fait un excellent choix pour les résidents et les entreprises de la région. Le lieu est bien desservi par les transports en commun :"
+          },
+          {
+            "label": "Métro",
+            "text": "La station Schuman se trouve à 2 minutes à pied, desservie par les lignes 1 et 5."
+          },
+          {
+            "label": "Bus",
+            "text": "Plusieurs lignes de bus, notamment les lignes 12, 36, 56, 60 et 79, s'arrêtent à Schuman, également à seulement 2 minutes à pied."
+          },
+          {
+            "label": "Tram",
+            "text": "L'arrêt de tram Schuman est également proche, offrant des options de transport supplémentaires."
+          },
+          {
+            "text": "Pour ceux qui conduisent, il y a de nombreuses options de stationnement dans la rue, et le parking Interparking Arts-Loi est accessible à pied."
+          }
+        ]
+      },
+      "imageAlt": "L’intérieur de blankspace — photo 1 sur 3",
+      "seo": {
+        "title": "Salle d’événements près de la Ville de Bruxelles",
+        "description": "Situé dans le Quartier européen de Bruxelles, blankspace est un lieu polyvalent pour événements, idéal pour diverses occasions. Juste derrière le bâtiment…"
+      }
+    },
+    "schaerbeek": {
+      "name": "Schaerbeek",
+      "title": "Salle d’événements près de Schaerbeek",
+      "text": "Situé dans le Quartier européen de Bruxelles, blankspace est un lieu polyvalent pour événements, juste derrière le bâtiment Berlaymont, siège de la Commission européenne. Sa proximité avec Schaerbeek en fait un choix pratique pour les résidents et les entreprises de la région.",
+      "access": {
+        "title": "Accessibilité depuis Schaerbeek",
+        "items": [
+          {
+            "label": "Transports en commun",
+            "text": "La station Schuman, desservie par les lignes de métro 1 et 5, se trouve à seulement 2 minutes à pied de Blankspace. De plus, plusieurs lignes de bus, notamment les lignes 12, 36, 56, 60 et 79, s'arrêtent à Schuman, offrant un accès facile depuis Schaerbeek."
+          },
+          {
+            "label": "En voiture",
+            "text": "Pour ceux qui voyagent en voiture, de nombreuses places de stationnement dans la rue sont disponibles à proximité, et le parking Interparking Arts-Loi est accessible à pied."
+          }
+        ]
+      },
+      "imageAlt": "L’intérieur de blankspace — photo 1 sur 3",
+      "seo": {
+        "title": "Salle d’événements près de Schaerbeek",
+        "description": "Situé dans le Quartier européen de Bruxelles, blankspace est un lieu polyvalent pour événements, juste derrière le bâtiment Berlaymont, siège de la…"
+      }
+    },
+    "ixelles": {
+      "name": "Ixelles",
+      "title": "Salle d’événements près d’Ixelles",
+      "text": "Situé dans le Quartier européen de Bruxelles, blankspace est un lieu polyvalent pour événements, idéal pour diverses occasions. Juste derrière le bâtiment Berlaymont, siège de la Commission européenne, blankspace offre un cadre paisible en plein cœur de la ville.",
+      "access": {
+        "title": "Accessibilité depuis Ixelles",
+        "items": [
+          {
+            "text": "Blankspace est facilement accessible depuis Ixelles, ce qui en fait un excellent choix pour les résidents et les entreprises de la région. Le lieu est bien desservi par les transports en commun :"
+          },
+          {
+            "label": "Train",
+            "text": "Les Chemins de fer belges (NMBS/SNCB) exploitent un train de Bruxelles-Luxembourg à Bruxelles-Schuman toutes les 10 minutes. Les billets coûtent entre 2 et 5 €, et le trajet dure environ 2 minutes."
+          },
+          {
+            "label": "Bus",
+            "text": "La ligne de bus 60 assure la liaison entre Ixelles et Schuman, offrant une option pratique pour les voyageurs."
+          },
+          {
+            "label": "Métro",
+            "text": "Les stations de métro à proximité, telles que Maelbeek, offrent des options de transport supplémentaires reliant diverses parties de la ville."
+          },
+          {
+            "text": "Pour ceux qui conduisent, il y a de nombreuses options de stationnement dans la rue, et le parking Interparking Arts-Loi est accessible à pied."
+          }
+        ]
+      },
+      "imageAlt": "L’intérieur de blankspace — photo 1 sur 3",
+      "seo": {
+        "title": "Salle d’événements près d’Ixelles",
+        "description": "Situé dans le Quartier européen de Bruxelles, blankspace est un lieu polyvalent pour événements, idéal pour diverses occasions. Juste derrière le bâtiment…"
+      }
+    },
+    "woluwe-saint-pierre": {
+      "name": "Woluwe-Saint-Pierre",
+      "title": "Salle d’événements près de Woluwe-Saint-Pierre",
+      "text": "Situé dans le Quartier européen de Bruxelles, blankspace est un lieu polyvalent pour événements, idéal pour diverses occasions. Juste derrière le bâtiment Berlaymont, siège de la Commission européenne, blankspace offre un cadre paisible en plein cœur de la ville.",
+      "access": {
+        "title": "Accessibilité depuis Woluwe-Saint-Pierre",
+        "items": [
+          {
+            "text": "Blankspace est facilement accessible depuis Woluwe-Saint-Pierre, ce qui en fait un excellent choix pour les résidents et les entreprises de la région. Le lieu est bien desservi par les transports en commun :"
+          },
+          {
+            "label": "Métro",
+            "text": "La STIB exploite un métro de Tomberg à Schuman toutes les 10 minutes. Les billets coûtent 3 €, et le trajet dure environ 7 minutes."
+          },
+          {
+            "label": "Bus",
+            "text": "La STIB exploite un bus de Chien Vert à Schuman, offrant des options de transport supplémentaires."
+          },
+          {
+            "text": "Pour ceux qui conduisent, il y a de nombreuses options de stationnement dans la rue, et le parking Interparking Arts-Loi est accessible à pied."
+          }
+        ]
+      },
+      "imageAlt": "L’intérieur de blankspace — photo 1 sur 3",
+      "seo": {
+        "title": "Salle d’événements près de Woluwe-Saint-Pierre",
+        "description": "Situé dans le Quartier européen de Bruxelles, blankspace est un lieu polyvalent pour événements, idéal pour diverses occasions. Juste derrière le bâtiment…"
+      }
+    },
+    "saint-josse-ten-noode": {
+      "name": "Saint-Josse-ten-Noode",
+      "title": "Salle d’événements près de Saint-Josse-ten-Noode",
+      "text": "Situé dans le Quartier européen de Bruxelles, blankspace est un lieu polyvalent pour événements, idéal pour diverses occasions. Juste derrière le bâtiment Berlaymont, siège de la Commission européenne, blankspace offre un cadre paisible en plein cœur de la ville.",
+      "access": {
+        "title": "Accessibilité depuis Saint-Josse-ten-Noode",
+        "items": [
+          {
+            "text": "Blankspace est facilement accessible depuis Saint-Josse-ten-Noode, ce qui en fait un excellent choix pour les résidents et les entreprises de la région. Le lieu est bien desservi par les transports en commun :"
+          },
+          {
+            "label": "Métro",
+            "text": "La station Botanique, desservie par les lignes 2 et 6, se trouve à environ 5 minutes à pied de Saint-Josse-ten-Noode. Depuis Botanique, vous pouvez transférer vers des lignes qui mènent directement à la station Schuman, qui se trouve à 2 minutes à pied de Blankspace."
+          },
+          {
+            "label": "Bus",
+            "text": "Plusieurs lignes de bus, notamment les lignes 29, 63, 65 et 66, desservent la zone de Saint-Josse-ten-Noode, avec des arrêts tels que Quetelet et Madou. Ces bus offrent des connexions au centre de Bruxelles, où vous pouvez transférer vers des services menant à Schuman."
+          },
+          {
+            "text": "Pour ceux qui conduisent, il y a de nombreuses options de stationnement dans la rue près de Blankspace, et le parking Interparking Arts-Loi est accessible à pied."
+          }
+        ]
+      },
+      "imageAlt": "L’intérieur de blankspace — photo 1 sur 3",
+      "seo": {
+        "title": "Salle d’événements près de Saint-Josse-ten-Noode",
+        "description": "Situé dans le Quartier européen de Bruxelles, blankspace est un lieu polyvalent pour événements, idéal pour diverses occasions. Juste derrière le bâtiment…"
+      }
+    },
+    "woluwe-saint-lambert": {
+      "name": "Woluwe-Saint-Lambert",
+      "title": "Salle d’événements près de Woluwe-Saint-Lambert",
+      "text": "Situé dans le Quartier européen de Bruxelles, blankspace est un lieu polyvalent pour événements, idéal pour diverses occasions. Juste derrière le bâtiment Berlaymont, siège de la Commission européenne, blankspace offre un cadre paisible en plein cœur de la ville.",
+      "access": {
+        "title": "Accessibilité depuis Woluwe-Saint-Lambert",
+        "items": [
+          {
+            "text": "Blankspace est facilement accessible depuis Woluwe-Saint-Lambert, ce qui en fait un excellent choix pour les résidents et les entreprises de la région. Le lieu est bien desservi par les transports en commun :"
+          },
+          {
+            "label": "Métro",
+            "text": "La STIB exploite un métro de Tomberg à Schuman toutes les 10 minutes. Les billets coûtent 3 €, et le trajet dure environ 7 minutes."
+          },
+          {
+            "label": "Bus",
+            "text": "La STIB exploite un bus de Chien Vert à Schuman, offrant des options de transport supplémentaires."
+          },
+          {
+            "text": "Pour ceux qui conduisent, il y a de nombreuses options de stationnement dans la rue, et le parking Interparking Arts-Loi est accessible à pied."
+          }
+        ]
+      },
+      "imageAlt": "L’intérieur de blankspace — photo 1 sur 3",
+      "seo": {
+        "title": "Salle d’événements près de Woluwe-Saint-Lambert",
+        "description": "Situé dans le Quartier européen de Bruxelles, blankspace est un lieu polyvalent pour événements, idéal pour diverses occasions. Juste derrière le bâtiment…"
+      }
+    }
+  },
+  "landings": {
+    "venues": {
+      "title": "Lieux d’événements à Bruxelles (Quartier Européen)",
+      "intro": "Blankspace met à disposition deux lieux centraux à Bruxelles, situés dans le Quartier Européen. Conçus pour des événements d’entreprise, des célébrations privées, des ateliers et des réceptions, ces espaces accueillent de 10 à 150 invités. Pour ceux qui recherchent des lieux d’événements à Bruxelles ou une location dans le quartier européen, nos espaces combinent accessibilité, design moderne et accompagnement professionnel.",
+      "seo": {
+        "title": "Lieux événementiels à Bruxelles, quartier européen | Salles pour événements d’entreprise",
+        "description": "Des lieux centraux dans le quartier européen de Bruxelles pour événements d’entreprise, fêtes privées et ateliers. De 10 à 150 invités, design moderne et accompagnement professionnel.",
+        "keywords": "lieux événementiels Bruxelles, salle quartier européen, location de salle Bruxelles, lieu événement entreprise, salle fête privée, salle atelier Bruxelles",
+        "brand": false
+      }
+    },
+    "event-space": {
+      "title": "Espace événementiel à Bruxelles (Quartier Européen)",
+      "intro": "Nos deux lieux sont parfaits pour ceux qui cherchent un espace événementiel à Bruxelles. Avec une capacité de 10 à 150 invités, ils conviennent aux événements de réseautage, réceptions, lancements de produits et présentations professionnelles. Les entreprises et agences à la recherche de lieux événementiels dans le Quartier Européen de Bruxelles trouveront nos salles flexibles et faciles à adapter. Nous collaborons également avec des partenaires traiteurs de confiance pour garantir que votre location d’espace événementiel à Bruxelles couvre chaque détail.",
+      "seo": {
+        "title": "Espace événementiel à Bruxelles, quartier européen | Lieux flexibles",
+        "description": "Espace événementiel dans le quartier européen de Bruxelles pour 10 à 150 invités : networking, réceptions, lancements de produit et présentations. Espaces flexibles et traiteurs partenaires.",
+        "keywords": "espace événementiel Bruxelles, lieu événementiel quartier européen, networking Bruxelles, salle de réception Bruxelles, lancement de produit, espace événement entreprise",
+        "brand": false
+      }
+    },
+    "meeting-room": {
+      "title": "Salle de réunion à Bruxelles (Quartier Européen)",
+      "intro": "Blankspace propose deux lieux aménageables en salle de réunion à Bruxelles, situés dans le Quartier Européen. Conçus pour des réunions de conseil, sessions plénières, discours, formations ou ateliers, ces espaces accueillent de 10 à 150 participants. Nos salles de réunion à Bruxelles sont équipées d’un support audiovisuel et d’un service de restauration sur demande. Les entreprises à la recherche d’un lieu professionnel pour leurs réunions à Bruxelles trouveront nos espaces pratiques, centraux et faciles à réserver.",
+      "seo": {
+        "title": "Salle de réunion à Bruxelles, quartier européen | Lieux professionnels",
+        "description": "Salle de réunion professionnelle dans le quartier européen de Bruxelles pour 10 à 150 participants : conseils d’administration, plénières, formations et ateliers. Audiovisuel et traiteur.",
+        "keywords": "salle de réunion Bruxelles, salle de réunion quartier européen, réunion d’affaires Bruxelles, espace de réunion professionnel, salle de conseil Bruxelles",
+        "brand": false
+      }
+    },
+    "conference-room": {
+      "title": "Salle de conférence à Bruxelles (Quartier Européen)",
+      "intro": "Si vous recherchez une salle de conférence à Bruxelles, nous proposons deux lieux dans le Quartier Européen pour 10 à 150 personnes. Nos espaces s’adaptent aux séminaires, conférences professionnelles, lancements de produits et présentations avec des configurations de sièges flexibles. Les organisateurs à la recherche de lieux de conférence à Bruxelles bénéficieront de notre emplacement central près des institutions européennes, de nos équipements audiovisuels fiables, d’un soutien lors de la phase de préparation de l’événement et d’une équipe professionnelle dédiée.",
+      "seo": {
+        "title": "Salle de conférence à Bruxelles, quartier européen | Lieux pour conférences",
+        "description": "Vous cherchez une salle de conférence à Bruxelles ? Nos lieux du quartier européen accueillent 10 à 150 personnes pour séminaires, conférences et présentations, près des institutions européennes.",
+        "keywords": "salle de conférence Bruxelles, conférence quartier européen, salle de séminaire Bruxelles, lieu de conférence Bruxelles, salle de présentation",
+        "brand": false
+      }
+    },
+    "conference-room-near-me": {
+      "title": "Salle de conférence près de chez moi (Bruxelles Quartier Européen)",
+      "intro": "Si vous cherchez une salle de conférence près de chez vous à Bruxelles, Blankspace propose deux lieux dans le Quartier Européen. Chacun peut accueillir de 10 à 150 participants dans des configurations théâtre, salle de classe ou cabaret. Nos lieux servent les entreprises à la recherche de salles de conférence près du centre-ville de Bruxelles et les professionnels ayant besoin d’un espace fiable proche du Quartier Européen.",
+      "seo": {
+        "title": "Salle de conférence près de chez vous à Bruxelles | Quartier européen",
+        "description": "Vous cherchez une salle de conférence près de chez vous à Bruxelles ? Nos lieux du quartier européen accueillent 10 à 150 participants en format théâtre, classe ou cabaret.",
+        "keywords": "salle de conférence près de chez moi Bruxelles, conférence quartier européen, salle de réunion centre de Bruxelles, lieu de conférence Bruxelles",
+        "brand": false
+      }
+    },
+    "wedding-venues": {
+      "title": "Lieux de mariage à Bruxelles (Quartier Européen)",
+      "intro": "Vous cherchez un endroit élégant et central pour votre célébration ? Nous gérons deux lieux uniques dans le Quartier Européen de Bruxelles, conçus pour des mariages intimes à moyenne taille, de 10 à 150 invités, avec diverses configurations (cérémonie, cocktail, banquet, piste de danse). Nos espaces modulables vous permettent de personnaliser votre journée selon votre style, qu’il soit minimaliste et chic ou richement décoré et romantique. Notre équipe vous accompagne pour coordonner le déroulement, la décoration et les fournisseurs afin que tout se passe sans accroc.",
+      "seo": {
+        "title": "Salles de mariage à Bruxelles, quartier européen",
+        "description": "Vous cherchez une salle de mariage élégante à Bruxelles ? Nos lieux boutique du quartier européen accueillent 10 à 150 invités pour la cérémonie, le cocktail, le dîner et la soirée dansante.",
+        "keywords": "salle de mariage Bruxelles, lieu de mariage quartier européen, salle de réception mariage, mariage intime Bruxelles, lieu boutique mariage",
+        "brand": false
+      }
+    },
+    "party-venues": {
+      "title": "Lieu de fête à Bruxelles (Quartier Européen)",
+      "intro": "Blankspace propose deux lieux de fête à Bruxelles, situés dans le Quartier Européen, avec une capacité de 10 à 150 invités. Adaptés aux anniversaires, jubilés et événements sociaux, ces espaces peuvent être configurés pour des soirées cocktail, des dîners assis ou des pistes de danse. Si vous cherchez une salle de fête à Bruxelles ou un lieu événementiel central pour vos soirées, nos espaces offrent une solution privée et facile d’accès.",
+      "seo": {
+        "title": "Salles de fête à Bruxelles, quartier européen | Anniversaires et célébrations",
+        "description": "Salles de fête dans le quartier européen de Bruxelles pour 10 à 150 invités : anniversaires, jubilés et soirées. Cocktail, dîner assis ou soirée dansante.",
+        "keywords": "salle de fête Bruxelles, salle anniversaire Bruxelles, lieu de célébration Bruxelles, salle de soirée quartier européen",
+        "brand": false
+      }
+    },
+    "private-party-venues": {
+      "title": "Lieux pour fêtes privées à Bruxelles (Quartier Européen)",
+      "intro": "Pour ceux qui recherchent des lieux pour fêtes privées à Bruxelles, Blankspace propose deux espaces dans le Quartier Européen. Conçus pour 10 à 150 invités, ils sont idéaux pour des anniversaires exclusifs, des fêtes de fiançailles ou des dîners privés. Louer l’un de nos lieux privés à Bruxelles garantit que votre événement reste confidentiel et adapté à votre planning.",
+      "seo": {
+        "title": "Salles pour fêtes privées à Bruxelles, quartier européen",
+        "description": "Salles pour fêtes privées dans le quartier européen de Bruxelles pour 10 à 150 invités : anniversaires, fiançailles et dîners privés. En toute confidentialité, selon votre agenda.",
+        "keywords": "fête privée Bruxelles, salle privée Bruxelles, fiançailles Bruxelles, dîner privé Bruxelles, lieu exclusif Bruxelles",
+        "brand": false
+      }
+    },
+    "teambuilding-location": {
+      "title": "Lieu de teambuilding à Bruxelles (Quartier Européen)",
+      "intro": "Les lieux de Blankspace à Bruxelles sont parfaitement adaptés pour des activités de teambuilding pour les entreprises. Nos espaces dans le Quartier Européen accueillent de 10 à 150 participants pour des ateliers, activités de groupe et formations professionnelles. Les entreprises à la recherche d’un lieu pour des événements d’équipe à Bruxelles bénéficieront de configurations de salles flexibles, d’options de sous-groupes et d’un accompagnement professionnel. Choisir un lieu de teambuilding central à Bruxelles facilite la participation de tous les collègues.",
+      "seo": {
+        "title": "Lieu de teambuilding à Bruxelles, quartier européen",
+        "description": "Lieu de teambuilding dans le quartier européen de Bruxelles pour 10 à 150 participants : ateliers, activités de groupe et formations. Espaces modulables et accompagnement professionnel.",
+        "keywords": "teambuilding Bruxelles, lieu de teambuilding, formation entreprise Bruxelles, atelier Bruxelles, activité de groupe Bruxelles",
+        "brand": false
+      }
+    },
+    "private-event-space": {
+      "title": "Espace pour événements privés à Bruxelles (Quartier Européen)",
+      "intro": "Si vous avez besoin d’un espace pour un événement privé à Bruxelles, Blankspace propose deux lieux dans le Quartier Européen. Avec une capacité de 10 à 150 invités, nos espaces sont utilisés pour des dîners d’entreprise, lancements de produits, soirées de réseautage et réceptions privées. Louer un lieu pour un événement privé à Bruxelles garantit une expérience exclusive, avec des installations professionnelles et un emplacement central.",
+      "seo": {
+        "title": "Espace pour événements privés à Bruxelles, quartier européen",
+        "description": "Espace pour événements privés dans le quartier européen de Bruxelles pour 10 à 150 invités : dîners d’entreprise, lancements de produit, soirées networking et réceptions privées.",
+        "keywords": "espace événement privé Bruxelles, lieu exclusif Bruxelles, dîner d’entreprise Bruxelles, réception privée Bruxelles, soirée networking",
+        "brand": false
+      }
+    }
+  },
+  "landing": {
+    "support": "Chez blankspace, nous offrons non seulement l'espace, mais aussi un accompagnement complet pour vos événements, avec un responsable audiovisuel dédié, une coordination interne et une assistance pour choisir les bons partenaires traiteurs.",
+    "more": "Découvrez nos lieux, nos tarifs et les services proposés par blankspace"
+  },
+  "legal": {
+    "terms-and-conditions": {
+      "label": "Conditions générales"
+    },
+    "gdpr-policy": {
+      "label": "Politique RGPD"
+    },
+    "csr-policy": {
+      "label": "Politique RSE"
+    }
+  },
+  "pricing": {
+    "title": "Choisissez votre forfait événementiel",
+    "intro": [
+      "Organiser votre événement n'a jamais été aussi simple ! Nos forfaits tout compris offrent tout ce dont vous avez besoin pour une expérience sans souci.",
+      "Besoin de quelque chose en plus ? Personnalisez votre forfait avec nos options supplémentaires ou contactez-nous pour une solution sur mesure !"
+    ],
+    "features": {
+      "coffee": {
+        "label": "Installations de thé et café (illimitées)"
+      },
+      "privatisation4h": {
+        "label": "Privatisation totale de Blankspace pendant 4 heures"
+      },
+      "privatisation8h": {
+        "label": "Privatisation totale de Blankspace pendant 8 heures"
+      },
+      "av": {
+        "label": "Support pour équipement audiovisuel"
+      },
+      "water": {
+        "label": "Eau plate et pétillante"
+      },
+      "meal": {
+        "label": "Petit-déjeuner continental ou pause sandwich"
+      },
+      "exclusive": {
+        "label": "Accès exclusif à tous les espaces et privatisation complète"
+      },
+      "furniture": {
+        "label": "Mobilier"
+      },
+      "frameTv": {
+        "label": "Téléviseurs Samsung The Frame"
+      },
+      "flipchart": {
+        "label": "Paperboard(s)"
+      },
+      "projector": {
+        "label": "Projecteur"
+      },
+      "sonos": {
+        "label": "Système sonore Sonos"
+      },
+      "microphones": {
+        "label": "Microphone(s)"
+      }
+    },
+    "packages": {
+      "silver-half": {
+        "name": "Argent – Forfait Réunion Demi-journée"
+      },
+      "premium-half": {
+        "name": "Premium – Forfait Réunion Demi-journée"
+      },
+      "silver-full": {
+        "name": "Argent – Forfait Réunion Journée Complète"
+      },
+      "premium-full": {
+        "name": "Premium – Forfait Réunion Journée Complète"
+      }
+    },
+    "flatRates": {
+      "title": "Nos Tarifs Plans",
+      "text": "Vous êtes intéressé par le loyer de blankspace sans services supplémentaires ? Découvrez nos tarifs plans pour le loyer du lieu.",
+      "items": {
+        "schuman": {
+          "title": "Blankspace Schuman"
+        },
+        "luxembourg": {
+          "title": "Place du Luxembourg"
+        }
+      }
+    },
+    "page": {
+      "kicker": "Forfaits Parfaits",
+      "title": "Forfaits Événementiels Sur Mesure pour Chaque Occasion",
+      "text": "Simplifiez l’organisation de votre événement grâce à nos forfaits personnalisables. Que ce soit pour une réunion d'une demi-journée ou une conférence d'une journée entière, nous fournissons tout ce dont vous avez besoin — rafraîchissements, équipements audiovisuels et assistance dédiée — avec un tarif par personne pour une expérience sans accroc.",
+      "button": "Voir les forfaits",
+      "imageAlt": "Disposition en théâtre à Blankspace Place du Luxembourg"
+    },
+    "seo": {
+      "title": "Tarifs — forfaits réunion et location de salle à Bruxelles",
+      "description": "Des prix transparents pour vos réunions et événements dans le quartier européen de Bruxelles : forfaits par personne à la demi-journée ou à la journée, ou forfait pour tout le lieu."
+    }
+  },
+  "why": {
+    "title": "Pourquoi choisir Blankspace ?",
+    "heading": "Organisez des événements, réunions, ateliers, anniversaires et mariages exceptionnels chez Blankspace",
+    "intro": "Grâce à son emplacement central et à d'excellentes liaisons de transport, Blankspace est un choix idéal pour accueillir des événements alliant commodité et atmosphère sophistiquée. Nous vous invitons à découvrir nos offres et à réserver votre prochain événement en visitant notre site web.",
+    "outro": "Chez Blankspace, nous nous engageons à fournir un environnement haut de gamme et sans tracas qui valorise vos événements. Que vous planifiiez une session de formation, un lancement de produit ou une réunion exécutive, nous proposons des solutions sur mesure pour chaque besoin.",
+    "items": {
+      "i1": {
+        "label": "Accès complet à un espace de travail moderne et privé, location de salle d'événements à Bruxelles"
+      },
+      "i2": {
+        "label": "Installations de restauration internes et externes"
+      },
+      "i3": {
+        "label": "Support informatique sur place pour assurer le bon déroulement de votre événement"
+      },
+      "i4": {
+        "label": "Un responsable d'événement dédié pour vous assister de la préparation à la conclusion"
+      },
+      "i5": {
+        "label": "Équipements audiovisuels de haute qualité pour des présentations et des réunions hybrides"
+      },
+      "i6": {
+        "label": "Thé offert, ainsi que de l'eau plate et gazeuse"
+      }
+    },
+    "gallery": {
+      "alt": "L’intérieur de blankspace — photo {n} sur {total}"
+    }
+  },
+  "eventsSection": {
+    "title": "Découvrez nos événements",
+    "versatileTitle": "Espaces d'événements polyvalents",
+    "versatileText": "Blankspace accueille une grande variété d'événements, notamment :"
+  },
+  "faq": {
+    "title": "Questions Fréquemment Posées",
+    "items": {
+      "q1": {
+        "question": "Blankspace est-il facilement accessible par les transports en commun, et propose-t-il des installations de stationnement ?",
+        "answer": [
+          "Oui, Blankspace est facilement accessible via plusieurs options de transport en commun. Des lignes de bus telles que les lignes 56, 60, 63, 64, 59 et 79 desservent les arrêts à proximité, tandis que les lignes de métro 1 et 5 assurent une connexion facile via les stations Schuman et Maelbeek. De plus, la station Schuman offre des connexions ferroviaires, ce qui facilite l'accès pour les invités venant de différents endroits.",
+          "Pour ceux qui viennent en voiture, un stationnement est disponible dans la rue et dans les environs, avec un Interparking Arts-Loi à distance de marche pour plus de commodité."
+        ]
+      },
+      "q2": {
+        "question": "Comment Blankspace gère-t-il le contrôle de la foule pour éviter la surpopulation lors des événements ?",
+        "answer": [
+          "Nous surveillons attentivement la capacité de notre lieu et proposons différentes options de disposition pour garantir une expérience confortable pour tous les invités. Notre équipe événementielle (events@blankspace.brussels) aide à planifier les meilleures dispositions des sièges et de l'espace pour éviter la surpopulation."
+        ]
+      },
+      "q3": {
+        "question": "Quelles commodités et services sont inclus dans le prix de la location du lieu ?",
+        "answer": [
+          "La location de notre lieu comprend un équipement audiovisuel de haute qualité, une décoration moderne et des arrangements de sièges polyvalents pour assurer une expérience événementielle fluide. Les invités ont accès à divers meubles intérieurs et extérieurs, y compris des chaises, des tables et des chaises pour enfants sur demande. Le lieu est également équipé de téléviseurs Samsung Smart, d'un projecteur, de haut-parleurs Sonos, d'un tableau à feuilles mobiles et d'équipements de karaoké pour les divertissements et les présentations.",
+          "Pour les besoins en restauration, nous proposons une sélection complète de verrerie, de vaisselle et de couverts, y compris des verres à vin, des tasses à café, des couverts en acier inoxydable et des assiettes en porcelaine. Des meubles et équipements supplémentaires peuvent être arrangés sur demande pour répondre aux besoins spécifiques de l'événement."
+        ]
+      },
+      "q4": {
+        "question": "Blankspace propose-t-il un service de restauration interne ou pouvons-nous faire appel à nos propres traiteurs ?",
+        "answer": [
+          "Nous proposons des services de restauration haut de gamme en interne avec un large éventail d'options de menus. Cependant, nous autorisons également les traiteurs externes si vous avez des préférences spécifiques, sous réserve de nos directives de restauration."
+        ]
+      },
+      "q5": {
+        "question": "Comment Blankspace garantit-il la propreté et l'entretien avant et pendant les événements ?",
+        "answer": [
+          "Notre lieu est professionnellement nettoyé avant chaque événement, et nous avons du personnel sur place pour garantir que la propreté est maintenue pendant l'événement. Nous effectuons également un entretien régulier pour garder nos installations modernes et à jour."
+        ]
+      },
+      "q6": {
+        "question": "Quel est l'état du mobilier et de l'équipement chez Blankspace ?",
+        "answer": [
+          "Chez Blankspace, nous sommes fiers d'offrir des meubles et un équipement modernes et bien entretenus pour tous les événements. Nous avons effectué une rénovation complète en 2024, et tous nos meubles, couverts, équipements audiovisuels et autres essentiels d'événements ont été achetés neufs en 2024. Cela garantit que tout est dans un état impeccable, élégant et conforme aux dernières normes en matière de confort et de fonctionnalité.",
+          "Nos invités peuvent s'attendre à des meubles frais, propres et contemporains, donnant à chaque événement une atmosphère élégante et professionnelle."
+        ]
+      }
+    }
+  },
+  "testimonials": {
+    "title": "Ce Que Disent Nos Clients",
+    "intro": [
+      "Le nom en dit long : blankspace. Comme une feuille blanche, un espace neutre où vous pouvez déterminer vous-même la couleur et le style.",
+      "À première vue, l’espace semble vide. À part le comptoir du bar placé devant la fenêtre, qui sert aussi de bureau d'accueil, et quelques cadres blancs sur les murs avec une décoration végétale originale au plafond."
+    ],
+    "items": {
+      "eurocommerce": {
+        "quote": "L'équipe EUROCOMMERCE a loué Blankspace pour une réunion de brainstorming stratégique.",
+        "imageAlt": "EuroCommerce"
+      },
+      "ellis": {
+        "quote": "Les activités de team building Ellis ont été organisées chez Blankspace. Nous avons été choisis comme leur lieu de conférence et d'événements ! Amusant et plein de joie !",
+        "imageAlt": "ELLIS"
+      },
+      "kevin-murphy": {
+        "quote": "Nous avons loué Blankspace pour un événement d'environ 40 personnes, et je dois dire que tout a été méticuleusement organisé. De l'installation technique à la restauration et à la propreté, Blankspace a dépassé nos attentes sous tous les aspects. Toute l'équipe était incroyablement amicale et accommodante, et aucune demande n'était trop exigeante. Je recommande vivement Blankspace et nous utiliserons certainement leur magnifique lieu pour nos événements futurs.",
+        "imageAlt": "KEVIN.MURPHY"
+      },
+      "oliver-wyman": {
+        "quote": "Réception après le travail avec cocktails pour 40 invités ! Une grande soirée à se souvenir !",
+        "imageAlt": "Oliver Wyman"
+      },
+      "solarpower-europe": {
+        "quote": "Très bonne expérience pour notre événement chez Blankspace. Le lieu était parfaitement adapté à nos besoins, moderne, accueillant et bien agencé. L'équipe était professionnelle et chaleureuse ! L'équipe de Blankspace a été disponible à 100 %, flexible et accueillante, tant pendant la préparation de notre événement que le jour même. Que ce soit pour une réunion d'une journée ou un dîner debout pour 60 personnes, nous recommandons vivement Blankspace pour sa modernité, sa flexibilité et ses équipes attentives à vos besoins. Nous avons hâte de vivre à nouveau l'expérience Blankspace lors de notre prochain dîner debout.",
+        "imageAlt": "SolarPower Europe"
+      },
+      "european-greens": {
+        "quote": "Merci à toi et ton équipe pour le travail ! L'atelier sur les cocktails était génial et divertissant, une excellente introduction à la soirée. Je n'ai entendu que des compliments sur l'expérience et aussi sur les boissons. La nourriture était vraiment bonne, et toutes mes préoccupations concernant la cuisine asiatique végétalienne/végétarienne ont été prises en compte. S'il te plaît, transmets beaucoup de compliments au traiteur – beaucoup de mes collègues sont venus me féliciter pour la nourriture. Encore merci pour l'organisation de cette magnifique soirée.",
+        "imageAlt": "European Greens"
+      },
+      "casa": {
+        "quote": "La semaine dernière, nous avons organisé la réunion annuelle des ambassadeurs CASA à Blankspace Bruxelles. Le lieu avait tout ce dont nous avions besoin : de belles chambres avec beaucoup de lumière naturelle, une cuisine bien équipée et un emplacement central à Bruxelles. Le personnel était très flexible et serviable, nous reviendrons certainement ici !",
+        "imageAlt": "CASA"
+      },
+      "greenmood": {
+        "quote": "Nous avons eu 2 événements chez Blankspace à l'automne 2023. Le premier événement était pour nos équipes américaines et françaises, et nous avons eu 35 participants. Le deuxième événement a eu lieu juste avant les vacances de Noël avec 55 membres de notre équipe et des partenaires. Je peux dire que l'équipe de Blankspace a excellé du début à la fin, le lieu est exceptionnellement bien conçu et tous les petits détails sont réfléchis. Nous avons eu un traiteur de Fonteyne the Kitchen, que nous avons adoré, et le service était également fantastique ! Nous remercions l'équipe de Blankspace et reviendrons certainement pour d'autres événements en 2024 et 2025 !",
+        "imageAlt": "Greenmood"
+      },
+      "engagement": {
+        "quote": "Blankspace Bruxelles m'a permis d'organiser ma demande en mariage dans d'excellentes conditions. Ils ont été très attentifs à nos besoins et ont réagi rapidement. Le personnel était très accueillant et super gentil. Ils ont projeté nos photos sur des écrans de télévision pour que les invités puissent les voir, et cela a beaucoup plu. L'espace était lumineux et bien équipé (cuisine, système audio, toilettes ...). Tout était parfait !",
+        "role": "Fiançailles",
+        "imageAlt": "Malumba & Liliane"
+      },
+      "birthday": {
+        "quote": "Notre expérience globale chez Blankspace a été fantastique. La fête a été un énorme succès, aussi bien pour les enfants que pour les adultes. Le lieu a créé l'ambiance parfaite pour notre événement et tout a dépassé nos attentes. Le service et le soutien fournis par l'équipe de Blankspace ont été exceptionnels. Jamil, le propriétaire, a été incroyablement serviable et accommodant. Sa disponibilité avant l'événement a été précieuse, car il nous a aidés avec tous les détails. L'attitude chaleureuse et accueillante de Jamil, ainsi que sa flexibilité, ont rendu l'ensemble du processus fluide et agréable. Nous avons énormément apprécié son aide, et cela a grandement contribué au succès de notre fête. En nous basant sur notre expérience, nous recommandons vivement Blankspace pour des événements similaires. Le lieu offre tout ce dont vous avez besoin pour une célébration mémorable et l'engagement de Jamil à faire en sorte que tout se déroule parfaitement est remarquable. Nous envisagerions certainement d'utiliser Blankspace pour nos futurs événements, car il a offert le cadre parfait pour la fête de notre fils et nous sommes convaincus que ce serait la même chose pour d'autres occasions.",
+        "role": "Fête d’anniversaire",
+        "imageAlt": "Francesco Cimorelli"
+      },
+      "us-embassy": {
+        "quote": "L'ambassade des États-Unis à Bruxelles a lancé le chef battle américain contre belge chez Blankspace ! Un événement palpitant organisé à l'été 2024 !",
+        "imageAlt": "U.S. Embassy Brussels"
+      },
+      "mci": {
+        "quote": "L'équipe MCI a eu 2 ateliers - création de cocktails + préparation de sushis suivis d'un dîner servi par notre traiteur – OBAO",
+        "imageAlt": "MCI Group"
+      },
+      "hilton": {
+        "quote": "Hilton Brussels Grand Place a célébré son fête de Noël chez Blankspace fin 2023 !",
+        "imageAlt": "Hilton Brussels Grand Place"
+      },
+      "belgian-railways": {
+        "quote": "Réunion stratégique de management des employés tenue en été 2024 chez Blankspace",
+        "imageAlt": "Belgian Railways"
+      },
+      "eca": {
+        "quote": "L'équipe ECA a eu une séance de brainstorming stratégique chez Blankspace pour un groupe de 20 personnes suivie de réunions internes de gestion. Nous avons été le choix parfait comme lieu de conférence pour eux !",
+        "imageAlt": "ECA"
+      },
+      "earma": {
+        "quote": "Notre expérience chez Blankspace a été fantastique. L'atmosphère accueillante, associée à un espace adapté à nos besoins, a créé le cadre parfait pour notre événement. La diffusion en direct de la préparation des sushis sur des écrans a été une solution réfléchie, rendant l'expérience à la fois agréable et pratique pour les 40 participants. L'événement a permis de connecter les gens et a offert une expérience d'apprentissage amusante, accompagnée de délicieux repas. Le service chez Blankspace était chaleureux et flexible, créant une atmosphère chaleureuse et conviviale. La pensée proactive et les solutions créatives de l'équipe, en particulier la diffusion en direct de la préparation des sushis, ont été remarquables. Leur attention aux détails et leur flexibilité ont assuré une expérience sans accroc. L'engagement de Blankspace à rendre notre événement agréable et mémorable était évident dans tous les aspects. Nous recommandons vivement Blankspace pour des événements similaires. La simplicité et la propreté de l'espace, combinées à la chaleur et à l'ambiance conviviale du service et de l'équipe Blankspace, en font le choix idéal. Nous avons organisé des réunions et des rassemblements d'équipe ici, et chaque fois, Blankspace a offert l'équilibre parfait entre l'espace de travail et un environnement accueillant pour permettre à notre équipe de se connecter. Nous avons hâte de considérer Blankspace pour de futurs événements.",
+        "imageAlt": "EARMA"
+      },
+      "una-europa": {
+        "quote": "Blankspace est l'endroit idéal pour organiser une réunion avec votre équipe dans un environnement dynamique et moderne. L'espace est confortable et propre, avec une atmosphère chaleureuse grâce aux détails en bois. Le coin café est parfait pour une courte pause. Il n'y a qu'une seule machine à café, donc si toute l'équipe doit se ravitailler, vous voudrez peut-être prévoir un peu plus de temps. Le déjeuner était délicieux avec plusieurs options savoureuses, saines et végétaliennes. Les portions étaient un peu trop grandes, mais le personnel a proposé au groupe de repartir avec les restes dans des boîtes à emporter, ce qui a été grandement apprécié. L'endroit peut être un peu froid pendant l'hiver, alors assurez-vous d'allumer les chauffages à temps. L'équipe est super serviable lors de la planification de votre événement et reste disponible et proche pendant l'événement, tout en étant discrète – l'équilibre parfait. Notre équipe a été tellement satisfaite de l'expérience globale que nous avons décidé de réserver aussi notre événement d'été chez Blankspace!",
+        "imageAlt": "UNA Europa"
+      },
+      "esae": {
+        "quote": "L'équipe ESAE a passé un moment inoubliable chez Blankspace avec un service de traiteur assuré par notre partenaire MAZMIZ ! Nous recommandons nos services comme l'un des meilleurs lieux de réunion à Bruxelles !",
+        "imageAlt": "ESAE"
+      }
+    }
+  },
+  "clients": {
+    "title": "Ils nous ont choisis",
+    "subtitle": "Institutions européennes, organisations internationales et marques mondiales organisent leurs événements chez blankspace.",
+    "items": {
+      "dkv": {
+        "imageAlt": "Logo DKV"
+      },
+      "e3g": {
+        "imageAlt": "Logo E3G"
+      },
+      "kbc": {
+        "imageAlt": "Logo KBC"
+      },
+      "nato": {
+        "imageAlt": "Logo NATO"
+      },
+      "pwc": {
+        "imageAlt": "Logo PwC"
+      },
+      "earma": {
+        "imageAlt": "Logo EARMA"
+      },
+      "eca": {
+        "imageAlt": "Logo ECA"
+      },
+      "egp": {
+        "imageAlt": "Logo EGP"
+      },
+      "ellis": {
+        "imageAlt": "Logo ELLIS"
+      },
+      "esae": {
+        "imageAlt": "Logo ESAE"
+      },
+      "casa": {
+        "imageAlt": "Logo CASA"
+      },
+      "eurocommerce": {
+        "imageAlt": "Logo EuroCommerce"
+      },
+      "mci": {
+        "imageAlt": "Logo MCI Group"
+      },
+      "hilton": {
+        "imageAlt": "Logo Hilton"
+      },
+      "finance-invest-brussels": {
+        "imageAlt": "Logo finance&invest.brussels"
+      },
+      "ieep": {
+        "imageAlt": "Logo IEEP"
+      },
+      "iswa": {
+        "imageAlt": "Logo ISWA"
+      },
+      "una-europa": {
+        "imageAlt": "Logo UNA Europa"
+      },
+      "kevin-murphy": {
+        "imageAlt": "Logo KEVIN.MURPHY"
+      },
+      "us-embassy": {
+        "imageAlt": "Logo U.S. Embassy Brussels"
+      },
+      "solarpower-europe": {
+        "imageAlt": "Logo SolarPower Europe"
+      },
+      "sluc": {
+        "imageAlt": "Logo SLUC"
+      }
+    }
+  },
+  "catering": {
+    "seo": {
+      "title": "Traiteurs et ateliers pour vos événements à Bruxelles",
+      "description": "Petits-déjeuners, lunchs sandwich et pauses café par blankcatering, traiteurs partenaires — fusion asiatique, italien, libanais et cocktails — et ateliers créatifs."
+    },
+    "hero": {
+      "kicker": "PERFECTION CULINAIRE",
+      "title": "Restauration & Ateliers",
+      "text": "Découvrez blankcatering - votre destination pour des petits-déjeuners exceptionnels, des déjeuners sandwiches et des pauses café et thé rafraîchissantes.",
+      "imageAlt": "Petit-déjeuner par blankcatering"
+    },
+    "intro": {
+      "kicker": "PERFECTION CULINAIRE",
+      "title": "Blank Catering",
+      "paragraphs": [
+        "Découvrez blankcatering - votre destination pour des petits-déjeuners exceptionnels, des déjeuners sandwiches et des pauses café et thé rafraîchissantes.",
+        "Commencez votre matinée avec des croissants fraîchement cuits, des fruits savoureux, des bols de yaourt et granola, et des pains au chocolat divins, parfaitement accompagnés de café Nespresso durable et de thé premium Sri Lankais Dilmah. Pour le déjeuner, savourez nos sandwiches faits main, préparés avec les meilleurs ingrédients et débordants de saveurs.",
+        "Que ce soit pour une collation rapide, une réunion d’affaires ou un rassemblement informel, blankcatering élève chaque occasion avec des mets délicieux et des boissons durables préparées à la perfection. Goûtez la différence, bouchée après bouchée et gorgée après gorgée."
+      ]
+    },
+    "gallery": {
+      "alt": "Restauration par blankcatering — photo {n} sur {total}"
+    },
+    "caterers": {
+      "title": "Nos Traiteurs de Confiance",
+      "items": {
+        "obao": {
+          "text": "Découvrez OBAO, où l'Est rencontre l'Ouest au cœur de Bruxelles. Notre société de traiteur fusion asiatique et restaurant propose un mélange délicieux de cuisines japonaise, chinoise et thaïlandaise. Que ce soit pour un événement d'entreprise ou une célébration spéciale, nous vous offrons une variété d'options de menu et un service de qualité. Vous souhaitez tester nos offres avant de prendre une décision ? Notre restaurant est situé juste à côté de blankspace et est ouvert du lundi au samedi chaque semaine. En partenariat avec blankspace, nous apportons saveur et style à chaque événement.",
+          "imageAlt": "O’BAO Fusion Flavors"
+        },
+        "i-tratturi": {
+          "text": "Offrez-vous l'art de la cuisine italienne avec Italian Catering - où chaque événement se transforme en un festin de saveurs et de sophistication. Que ce soit pour une réunion d'affaires, un mariage ou un rassemblement décontracté, nous élaborons des menus sur mesure adaptés à votre occasion chez blankspace. Des antipasti classiques et pizzas cuites au feu de bois aux risottos crémeux et tiramisus décadents, nos plats sont préparés avec des ingrédients italiens authentiques et l'amour de l'excellence culinaire. Élevez votre événement avec la parfaite fusion de tradition et d'innovation, livrée par notre talentueuse équipe interne. Chez blankspace, chaque bouchée raconte une histoire d'Italie. Célébrez avec nous et faites de votre événement un moment véritablement inoubliable. Buon appetito!",
+          "imageAlt": "I Tratturi"
+        },
+        "mazmiz": {
+          "text": "Découvrez Mazmiz - une cuisine libanaise originale qui redéfinit les saveurs pour les réunions d'affaires, les walking dinners et les déjeuners. Faites plaisir à vos invités avec un menu vibrant alliant tradition et innovation, avec des mezze débordant d'épices audacieuses, d'ingrédients frais et d'authenticité inégalée. Parfaitement conçu pour des rassemblements sophistiqués, Mazmiz élève chaque occasion avec des plats aussi inoubliables que les conversations qu'ils inspirent. Impressionnez, régalez-vous et savourez l'exceptionnel - uniquement chez blankspace.",
+          "imageAlt": "MAZMIZ"
+        },
+        "barpartners": {
+          "text": "Apprenez les ficelles du métier avec un barman professionnel. Secouez, remuez et écrasez des produits de qualité, puis servez-vous des créations de cocktails ou mocktails accompagnées d’une fine sélection d’amuse-bouches ou de tapas.",
+          "imageAlt": "Barpartners"
+        }
+      }
+    },
+    "workshops": {
+      "kicker": "EXPÉRIENCES DYNAMIQUES",
+      "title": "Nos Ateliers",
+      "paragraphs": [
+        "En partenariat avec les meilleurs professionnels répertoriés sur notre site, blankspace offre un cadre polyvalent pour des ateliers.",
+        "Entièrement équipé et adaptable, nos espaces inspirent la créativité et la concentration pour l’apprentissage, la création et l’innovation.",
+        "Des sessions artistiques pratiques aux séminaires stimulants, blankspace soutient chaque aspect de votre atelier.",
+        "Avec un équipement audiovisuel professionnel et tout le mobilier nécessaire sur place, votre événement sera fluide et engageant."
+      ],
+      "imageAlt": "Un atelier chez blankspace"
+    },
+    "stories": {
+      "title": "Découvrez les histoires de nos ateliers",
+      "items": {
+        "cocktail": {
+          "name": "Atelier cocktails",
+          "text": "Notre partenaire stratégique, BarPartners, fait appel à des mixologues experts pour nos ateliers de création de cocktails et mocktails, où vous apprendrez à préparer des boissons comme un professionnel tout en découvrant l’art et l’histoire derrière chaque création. Parfait pour les réunions de groupe, ces sessions interactives sont une façon amusante de se connecter et de créer une ambiance mémorable pour un déjeuner ou un dîner inoubliable !",
+          "imageAlt": "Atelier cocktails"
+        },
+        "matcha": {
+          "name": "Matcha et cérémonie du thé japonaise",
+          "text": "Plongez au cœur du Japon avec l'atelier de cérémonie du thé Matcha de Yoko, où elle partage les riches traditions et la signification culturelle du thé japonais. Du fouettage du matcha parfait à la compréhension de ses rituels méditatifs, cette expérience immersive est un voyage vers la pleine conscience, l’harmonie et la connexion.",
+          "imageAlt": "Matcha et cérémonie du thé japonaise"
+        },
+        "moss": {
+          "name": "Atelier de mousse durable",
+          "text": "En collaboration avec Greenmood, notre atelier de création de mousse végétale offre une expérience unique et pratique pour créer des espaces verts durables et sans entretien. Découvrez comment la mousse préservée favorise un design écoresponsable tout en apportant une touche naturelle et apaisante aux intérieurs—idéal pour ceux qui apprécient à la fois l’esthétique et la durabilité.",
+          "imageAlt": "Atelier de mousse durable"
+        },
+        "sushi": {
+          "name": "Atelier sushis",
+          "text": "Rejoignez la chef japonaise Yoko pour un atelier authentique de fabrication de sushi, où vous apprendrez les techniques traditionnelles pour rouler des sushis parfaits. Cette expérience pratique ne se limite pas à la cuisine—c'est une façon ludique et engageante de créer des liens avec les autres, idéale pour le team building ou les événements spéciaux.",
+          "imageAlt": "Atelier sushis"
+        }
+      }
+    }
+  },
+  "locations": {
+    "seo": {
+      "title": "Nos lieux — deux lieux événementiels dans le quartier européen de Bruxelles",
+      "description": "Blankspace Schuman, une maison de maître pour 5 à 50 invités derrière le Berlaymont, et Blankspace Place du Luxembourg, 250 m² pour 50 à 150 invités près du Parlement européen."
+    },
+    "title": "Nos lieux exclusifs",
+    "text": "Deux lieux dans le quartier européen de Bruxelles, à quelques minutes l’un de l’autre : une maison de maître intime près de Schuman et un espace de 250 m² à côté du Parlement européen.",
+    "hero": {
+      "imageAlt": "Blankspace Place du Luxembourg"
+    },
+    "capacityLabel": "Capacité",
+    "quote": "« Comme une feuille de papier blanche, un espace neutre où vous pouvez déterminer vous-même la couleur et le style. »",
+    "cta": {
+      "title": "Prêt à planifier votre événement ?",
+      "text": "Notre équipe d'experts est là pour vous aider avec le support audiovisuel, la restauration et la planification.",
+      "button": "Contactez-nous"
+    }
+  },
+  "weddings": {
+    "seo": {
+      "title": "Lieu de Mariage à Bruxelles | Espace de Mariage Privé",
+      "description": "Mariages, anniversaires et fêtes privées chez blankspace à Bruxelles : un lieu privatisé et entièrement équipé pour 10 à 150 invités, avec un accompagnement complet."
+    },
+    "hero": {
+      "title": "Mariages, Anniversaires et Célébrations Privées",
+      "text": "Blankspace devient votre espace",
+      "imageAlt": "Gâteau de mariage et fleurs chez blankspace"
+    },
+    "canvas": {
+      "title": "La toile parfaite",
+      "paragraphs": [
+        "Chez Blankspace, nous avons fièrement accueilli d'innombrables mariages, anniversaires et célébrations privées. Nous sommes devenus le lieu de prédilection de ceux qui recherchent un espace à la fois élégant et flexible. Notre design minimaliste crée la toile parfaite, entièrement personnalisable selon votre vision. Fidèle à notre philosophie “Blankspace devient votre espace”, le lieu se transforme en un cadre unique pour vos moments les plus importants.",
+        "Le mobilier et le matériel audiovisuel professionnel étant déjà fournis par notre équipe, la planification devient un jeu d'enfant - vous permettant de vous concentrer sur ce qui compte vraiment : célébrer votre journée spéciale avec les personnes que vous aimez."
+      ]
+    },
+    "exclusivity": {
+      "title": "Exclusivité & Équipement",
+      "paragraphs": [
+        "Afin de garantir une expérience véritablement privée et personnalisée, nous n'organisons qu'un seul événement à la fois. Peu importe l'étendue de l'espace que vous louez, l'ensemble du lieu sera entièrement privatisé pour vous et vos invités.",
+        "Situé au cœur du quartier européen, Blankspace offre tout ce dont vous avez besoin pour des événements fluides et sans stress. Le lieu dispose d'espaces modernes et lumineux, d'une connexion Wi-Fi haut débit par fibre optique, d'équipements audiovisuels professionnels, d'une scène et d'un coin restauration entièrement équipé."
+      ]
+    },
+    "gallery": {
+      "alt": "Mariage et fête privée chez blankspace — photo {n} sur {total}"
+    },
+    "quote": "Blankspace - where Love finds space 🤍",
+    "support": {
+      "title": "Support Complet pour événements",
+      "text": "Chez Blankspace, nous vous accompagnons de l'idée initiale jusqu'au tout dernier moment, allant bien au-delà de l'offre habituelle. Nous vous aidons à planifier, coordonner et gérer chaque détail pour que votre événement se déroule sans accroc et sans stress. Besoin d'un photographe, d'un DJ ou d'un animateur à la dernière minute ? Notre équipe vous met en contact avec un réseau de professionnels de confiance.",
+      "imageAlt": "Une fête chez blankspace"
+    },
+    "cta": {
+      "title": "Créons ensemble votre mariage parfait",
+      "text": "Fonctionnel, flexible et entièrement pris en charge.",
+      "button": "Contact"
+    }
+  },
+  "services": {
+    "seo": {
+      "title": "Plus qu'un lieu d'événement à Bruxelles",
+      "description": "Chez blankspace, nous n'offrons pas seulement une salle ; nous offrons une expérience soutenue par une équipe dévouée."
+    },
+    "hero": {
+      "title": "Plus qu'un lieu d'événement à Bruxelles : Pourquoi votre événement mérite une équipe dédiée, pas juste une clé",
+      "text": "Lorsque vous réservez un espace pour votre prochain événement, que recherchez-vous réellement ? La plupart des prestataires vous donneront un jeu de clés, le mot de passe du Wi-Fi, et un \"bonne chance\" en franchissant la porte.",
+      "imageAlt": "Un lieu préparé pour un événement chez blankspace"
+    },
+    "intro": "Chez blankspace, nous faisons les choses différemment. Nous n'offrons pas seulement une salle ; nous offrons une expérience. Nous pensons qu'un événement véritablement réussi ne repose pas sur quatre murs — il repose sur l'expertise, la flexibilité et la passion des personnes qui s'y trouvent.",
+    "points": [
+      "Support audiovisuel complet par nos responsables informatiques",
+      "Assistance clé en main pour l'organisation d'événements",
+      "Restauration & Ateliers",
+      "Événements hybrides & Couverture en direct",
+      "Recherche de lieux appropriés"
+    ],
+    "yesTeam": {
+      "title": "Nous sommes votre équipe \"Oui\"",
+      "paragraphs": [
+        "Chaque événement a un ADN unique. Certains nécessitent la précision d'une conférence high-tech, tandis que d'autres ont besoin de la touche chaleureuse d'un lancement de produit exclusif. Notre philosophie est simple : nous nous adaptons à vous, pas l'inverse.",
+        "Notre flexibilité couvre l'ensemble de la planification d'événements. Que votre demande soit petite et esthétique ou massive et technique, nous avons les capacités pour la réaliser :"
+      ]
+    },
+    "teamImages": {
+      "alts": [
+        "Notre responsable IT au travail",
+        "L’équipe blankspace au travail"
+      ]
+    },
+    "items": [
+      {
+        "label": "Du décor aux beaux-arts ",
+        "text": "Besoin d'un fleuriste spécifique ou d'un photographe ? Nous sélectionnons les meilleurs talents créatifs à Bruxelles pour que votre événement soit fantastique."
+      },
+      {
+        "label": "Des cabines aux diffuseurs ",
+        "text": "Vous organisez une grande conférence ? Nous gérons tout, de l'installation de cabines d'interprétation aux plans de salle complexes."
+      }
+    ],
+    "moreImages": {
+      "alts": [
+        "Coordination de l’événement le jour J",
+        "Service traiteur lors d’un événement"
+      ]
+    },
+    "involvement": {
+      "title": "Implication totale, zéro stress",
+      "text": "Dès votre arrivée jusqu'au départ du dernier invité, notre équipe est pleinement impliquée. Nous sommes là pour coordonner et veiller à ce que votre expérience soit exceptionnelle."
+    },
+    "quote": "« Nous ne vous donnons pas seulement les clés d'une salle vide. Nous vous offrons un lieu avec une âme, soutenu par une équipe dévouée à votre succès. »",
+    "outro": "Prêt à donner vie à votre prochain projet ? Laissez-nous personnaliser Blankspace pour votre prochaine grande idée.",
+    "button": {
+      "label": "Découvrir nos tarifs"
+    }
+  },
+  "blog": {
+    "title": "Blog",
+    "intro": "Actualités, histoires et idées de blankspace, de nos espaces et de nos partenaires.",
+    "seo": {
+      "title": "Blog — les histoires de blankspace Bruxelles",
+      "description": "Actualités, histoires et idées de blankspace : nos espaces dans le quartier européen de Bruxelles, nos traiteurs partenaires, nos ateliers et nos événements."
+    },
+    "categories": {
+      "spaces": "Nos espaces",
+      "partners": "Nos partenaires",
+      "events": "Événements"
+    }
+  },
+  "contactPage": {
+    "seo": {
+      "title": "Contact — réservez un lieu événementiel à Bruxelles",
+      "description": "Appelez-nous, écrivez-nous ou envoyez une demande pour réserver Blankspace Schuman ou Blankspace Place du Luxembourg, deux lieux du quartier européen de Bruxelles."
+    },
+    "title": "Contactez-nous",
+    "text": "Deux lieux dans le quartier européen de Bruxelles, une seule équipe. Appelez-nous, écrivez-nous ou envoyez votre demande.",
+    "hero": {
+      "imageAlt": "Le barspace de Blankspace Schuman"
+    }
+  },
+  "location": {
+    "title": "Emplacement",
+    "text": "La maison de ville est située dans une rue résidentielle calme, juste derrière le Berlaymont, le siège de la Commission européenne dans le quartier européen de Bruxelles où l'Europe se rencontre chaque jour.",
+    "parking": "Dans la rue, dans le quartier, Interparking Arts-Loi à distance de marche",
+    "transport": "Métro (Lignes 1 & 5) et trains interurbains à la gare de Bruxelles-Schuman"
+  },
+  "notFound": {
+    "title": "Page Non Trouvée",
+    "text": "La page que vous cherchez n’existe pas ou a été déplacée.",
+    "button": "Retour à l’accueil"
+  }
+}

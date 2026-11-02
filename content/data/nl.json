@@ -1,0 +1,1497 @@
+{
+  "schema": 1,
+  "locale": "nl",
+  "meta": {
+    "siteName": "blankspace",
+    "titleTemplate": "%s | blankspace",
+    "description": "Twee privé-evenementlocaties in de Europese wijk van Brussel, vlak bij de Europese Commissie en het Parlement. Vergaderingen, conferenties, recepties en feesten voor 10 tot 150 gasten."
+  },
+  "ui": {
+    "skip": "Naar de inhoud",
+    "menuOpen": "Menu openen",
+    "menuClose": "Menu sluiten",
+    "mainNav": "Hoofdnavigatie",
+    "language": "Taal",
+    "breadcrumb": "Kruimelpad",
+    "home": "Home",
+    "quote": "Ik wil een offerte aanvragen",
+    "contactUs": "Contacteer ons",
+    "readMore": "Lees meer",
+    "more": "Meer",
+    "less": "Minder",
+    "showMore": "Meer weergeven",
+    "showLess": "Minder weergeven",
+    "prev": "Vorige",
+    "next": "Volgende",
+    "close": "Sluiten",
+    "scrollDown": "Scroll naar beneden",
+    "callUs": "Bel ons",
+    "emailUs": "E-mail ons",
+    "discoverTour": "Ontdek via videotour",
+    "viewVenue": "Ontdek de locatie",
+    "discover": "Ontdek",
+    "playVideo": "Videotour afspelen",
+    "videoNote": "De video speelt af via YouTube zodra u op afspelen drukt.",
+    "showMap": "Kaart tonen",
+    "mapNote": "De kaart komt van Google Maps en laadt pas wanneer u erom vraagt.",
+    "mapTitle": "Kaart van {name}",
+    "directions": "Routebeschrijving",
+    "phone": "Telefoon",
+    "email": "E-mail",
+    "address": "Adres",
+    "parking": "Parkeren",
+    "transport": "Openbaar vervoer",
+    "capacity": "Capaciteit",
+    "guests": "{n} gasten",
+    "upTo": "Tot {n} gasten",
+    "perPerson": "per persoon",
+    "halfDay": "Halve Dag",
+    "fullDay": "Volledige Dag",
+    "galleryLabel": "Fotogalerij",
+    "slideLabel": "Foto {n} van {total}",
+    "clientLogoAlt": "Logo van {name}",
+    "published": "Gepubliceerd op",
+    "englishOnly": "Deze pagina is beschikbaar in het Engels.",
+    "related": "Meer uit de blog",
+    "backToBlog": "Terug naar de blog",
+    "followUs": "Volg ons",
+    "tagline": "Creëer onvergetelijke momenten",
+    "rights": "© {year} {name}. Alle rechten voorbehouden.",
+    "equipmentTitle": "Uitrusting",
+    "faqTitle": "Veelgestelde Vragen",
+    "form": {
+      "title": "Stuur ons uw aanvraag",
+      "intro": "Vertel ons over uw evenement — de datum, het aantal gasten en het soort evenement — en ons team komt bij u terug met een voorstel.",
+      "firstName": "Voornaam",
+      "lastName": "Achternaam",
+      "country": "Land",
+      "countryPlaceholder": "Selecteren",
+      "phone": "Telefoon",
+      "phonePlaceholder": "+32",
+      "email": "E-mail",
+      "emailPlaceholder": "Voer uw e-mail in",
+      "message": "Uw bericht",
+      "messagePlaceholder": "Typ hier uw bericht...",
+      "required": {
+        "firstName": "Voornaam is verplicht",
+        "lastName": "Achternaam is verplicht",
+        "email": "E-mail is verplicht",
+        "message": "Bericht is verplicht"
+      },
+      "invalidEmail": "Vul een geldig e-mailadres in",
+      "requiredNote": "Velden met een * zijn verplicht.",
+      "submit": "Mijn aanvraag versturen",
+      "sending": "Bezig met verzenden…",
+      "success": "Bedankt — uw aanvraag is verzonden. Ons team neemt snel contact met u op.",
+      "error": "Uw aanvraag kon niet worden verzonden. Probeer het opnieuw of mail ons op {email}.",
+      "mailtoNote": "Bij verzenden opent uw e-mailapp met uw aanvraag ingevuld, gericht aan {email}.",
+      "mailSubject": "Evenementaanvraag — {name}"
+    }
+  },
+  "menus": {
+    "main": {
+      "events": {
+        "label": "Evenementen",
+        "caption": "Verken onze evenementen"
+      },
+      "spaces": {
+        "label": "Ruimtes",
+        "caption": "Blader door onze locaties",
+        "extra": {
+          "locations": {
+            "label": "Onze locaties"
+          }
+        }
+      },
+      "catering": {
+        "label": "Catering & Workshops",
+        "caption": "Culinaire ervaringen"
+      },
+      "prices": {
+        "label": "Ontdek onze prijzen",
+        "caption": "Curated pakketten"
+      },
+      "blog": {
+        "label": "Blog",
+        "caption": "Verhalen & nieuws"
+      }
+    },
+    "footer": {
+      "events": {
+        "title": "Evenementen"
+      },
+      "spaces": {
+        "title": "Onze locaties"
+      },
+      "venues": {
+        "title": "Bij u in de buurt"
+      },
+      "explore": {
+        "title": "Verkennen",
+        "links": {
+          "catering": {
+            "label": "Catering & Workshops"
+          },
+          "prices": {
+            "label": "Ontdek onze prijzen"
+          },
+          "locations": {
+            "label": "Onze locaties"
+          },
+          "weddings": {
+            "label": "Huwelijken & feesten"
+          },
+          "services": {
+            "label": "Onze diensten"
+          },
+          "blog": {
+            "label": "Blog"
+          }
+        }
+      }
+    },
+    "cta": {
+      "title": "Klaar om uw evenement te plannen?",
+      "text": "Ons team van experts is er om u te helpen bij audiovisuele apparatuur, catering en planning.",
+      "label": "Contacteer ons"
+    }
+  },
+  "home": {
+    "seo": {
+      "title": "Evenementlocaties in de Europese wijk van Brussel — zakelijke en privé-evenementen",
+      "description": "Twee privé-evenementlocaties in de Europese wijk van Brussel, vlak bij de Europese Commissie en het Parlement. Vergaderingen, conferenties, recepties en feesten voor 10 tot 150 gasten."
+    },
+    "hero": {
+      "title": "Bedrijfs- en privé-evenementen",
+      "text": "Twee evenementlocaties in het hart van de Europese wijk van Brussel",
+      "imageAlt": "Een conferentie bij blankspace in Brussel",
+      "primary": {
+        "label": "Blader door onze locaties"
+      },
+      "secondary": {
+        "label": "Ik wil een offerte aanvragen"
+      }
+    },
+    "concept": {
+      "title": "Ons Concept",
+      "text": "De naam zegt het zelf: blankspace Zoals een leeg vel papier, een neutrale ruimte waar je de kleur en stijl kunt bepalen zelf. Bij een eerste blik lijkt de ruimte leeg. Behalve de bar die voor het raam is geplaatst en ook dient als een welkomstbalie, en enkele witte frames aan de muren en originele plantdecoraties aan het plafond. De lege blankspace is daarom ideaal om te bepalen hoe je de ruimte gaat gebruiken, of het nu een vergaderruimte in Brussel is / een conferentieruimte of een ander specifiek evenement. De witte muren maken de ruimte multifunctioneel; het kan geprojecteerd, digitaal geschreven of geplakt worden en een schuifwand kan worden gebruikt om de ruimte te verdelen.",
+      "subtext": "Blankspace wordt yourspace",
+      "imageAlt": "Het blankspace-logo",
+      "button": {
+        "label": "Ontdek onze uitzonderlijke locatie"
+      }
+    },
+    "hostAny": {
+      "title": "Organiseer Elk Evenement Dat Je Je Maar Kunt Voorstellen",
+      "text": "Bij blankspace verwelkomen we alle soorten evenementen, van zakelijke vergaderingen tot verjaardagsvieringen, workshops tot cocktailrecepties, conferenties tot bruiloften. Onze veelzijdige en aanpasbare locatie transformeert om bij elke gelegenheid te passen, en biedt de perfecte achtergrond voor jouw visie. Met een team van toegewijde professionals die klaar staan om te helpen, zorgen we ervoor dat elk detail op maat wordt gemaakt om van jouw evenement een onvergetelijke ervaring te maken.",
+      "imageAlt": "Gasten tijdens een evenement bij blankspace"
+    },
+    "stats": {
+      "venues": {
+        "label": "Locaties in de Europese wijk"
+      },
+      "guests": {
+        "label": "Gasten in onze grootste locatie"
+      },
+      "area": {
+        "label": "Open evenementenruimte"
+      },
+      "clients": {
+        "label": "Organisaties die ons vertrouwden"
+      }
+    },
+    "features": {
+      "title": "Waarom kiezen voor Blankspace?",
+      "subtitle": "Bij Blankspace streven we ernaar om een hoogwaardige, zorgeloze omgeving te bieden die uw evenementen naar een hoger niveau tilt. Of u nu een trainingssessie, productlancering of directievergadering plant, wij bieden op maat gemaakte oplossingen voor elke behoefte.",
+      "items": {
+        "exclusivity": {
+          "title": "Exclusiviteit voor een Persoonlijke Ervaring",
+          "text": "Om een exclusieve ervaring te garanderen, organiseren we slechts één evenement tegelijk. Ongeacht hoeveel ruimte je huurt, wordt de hele locatie volledig geprivatiseerd voor jouw gebruik. Dit staat centraal in onze visie: Blankspace wordt jouw space, en biedt een gepersonaliseerde en intieme setting voor jouw evenement."
+        },
+        "support": {
+          "title": "Volledige evenementondersteuning",
+          "text": "Bij Blankspace ondersteunen we uw evenement vanaf het eerste idee tot het laatste moment, en we gaan veel verder dan wat de meeste locaties bieden. We helpen bij het plannen, coördineren en beheren van elk detail, zodat uw evenement soepel en zonder stress verloopt. Heeft u op het laatste moment een fotograaf, dj, presentator of gastheer nodig? Ons team verbindt u met een betrouwbaar netwerk van professionals."
+        }
+      }
+    },
+    "venues": {
+      "title": "Organiseer elk evenement, waar dan ook"
+    },
+    "blog": {
+      "title": "Uit onze blog",
+      "subtitle": "Verhalen over onze ruimtes, onze partners en onze evenementen."
+    }
+  },
+  "equipment": {
+    "tv": {
+      "label": "Tv-scherm"
+    },
+    "speaker": {
+      "label": "Luidsprekers"
+    },
+    "microphone": {
+      "label": "Microfoon"
+    },
+    "projector": {
+      "label": "Projector"
+    },
+    "table": {
+      "label": "Tafels"
+    },
+    "chair": {
+      "label": "Stoelen"
+    }
+  },
+  "venues": {
+    "schuman": {
+      "name": "Blankspace Schuman",
+      "nameLines": [
+        "Blankspace",
+        "Schuman"
+      ],
+      "shortName": "Schuman",
+      "address": {
+        "street": "Sint-Kwintensstraat 29",
+        "city": "Brussel",
+        "country": "België"
+      },
+      "capacity": {
+        "label": "5 – 50 gasten"
+      },
+      "seo": {
+        "title": "Blankspace Schuman — evenementlocatie in een herenhuis bij Schuman",
+        "description": "Een privé herenhuis achter het Berlaymont met barspace, gardenspace, tablespace en studiospace voor 5 tot 50 gasten. Eén evenement tegelijk, volledig privé."
+      },
+      "hero": {
+        "alt": "De gewelfde gang van Blankspace Schuman"
+      },
+      "card": {
+        "text": "Blankspace Brussel is een unieke, aanpasbare evenementenlocatie, gelegen in een charmant herenhuis in de rustige EU-wijk van het centrum van Brussel. Perfect voor middelgrote zakelijke of privé-evenementen, Blankspace biedt ongeëvenaarde veelzijdigheid, flexibiliteit en een gastvrije sfeer.",
+        "imageAlt": "Een boog in Blankspace Schuman"
+      },
+      "intro": {
+        "title": "Aanpasbare Ruimtes voor Jouw Behoeften",
+        "text": "Onze ruimte bestaat uit verschillende aangrenzende kamers, waardoor flexibiliteit wordt geboden om evenementen van alle groottes te accommoderen. Of je nu een enkele kamer of de hele locatie huurt, de huur wordt aangepast aan het aantal gasten en jouw specifieke vereisten."
+      },
+      "exclusivity": {
+        "title": "Exclusiviteit voor een Persoonlijke Ervaring",
+        "text": "Om een exclusieve ervaring te garanderen, organiseren we slechts één evenement tegelijk. Ongeacht hoeveel ruimte je huurt, wordt de hele locatie volledig geprivatiseerd voor jouw gebruik. Dit staat centraal in onze visie: Blankspace wordt jouw space, en biedt een gepersonaliseerde en intieme setting voor jouw evenement."
+      },
+      "roomsTitle": "Vier ruimtes, één herenhuis",
+      "rooms": {
+        "barspace": {
+          "name": "BarSpace",
+          "paragraphs": [
+            "Wanneer je Blankspace binnenloopt, word je verwelkomd door de levendige en veelzijdige BarSpace, het ideale startpunt voor elk evenement. Dit aanpasbare gebied is perfect voor een soepele check-in ervaring of als een creatieve breakout-ruimte voor koffiepauzes, ontbijtarrangementen of buffetlunches. BarSpace biedt comfortabel plaats aan maximaal 40 gasten.",
+            "Volledig uitgerust met geavanceerde AV-technologie, kan BarSpace gebruikt worden voor bestuursvergaderingen, stijlvolle cocktailrecepties, staande lunches, diners, productlanceringen en zelfs conferenties in theateropstelling. Dankzij de flexibiliteit en het moderne ontwerp is het de ultieme ruimte voor zowel zakelijke als sociale bijeenkomsten.",
+            "Laat BarSpace het decor zijn voor jouw meest memorabele evenement tot nu toe!"
+          ],
+          "gallery": {
+            "alt": "BarSpace, Blankspace Schuman — foto {n} van {total}"
+          }
+        },
+        "gardenspace": {
+          "name": "GardenSpace",
+          "paragraphs": [
+            "Verborgen achter ons charmante herenhuis ligt GardenSpace, een rustige groene stadstuin die een verfrissende ontsnapping biedt in het hart van de stad. Omringd door natuur is het de perfecte buitenlocatie voor diverse evenementen, waarbij rust en functionaliteit samenkomen.",
+            "Of je nu een breakout-sessie organiseert tijdens een productieve vergadering, een open bar of barbecue in de zomer, of een gezellige winterbarbecue, GardenSpace biedt comfortabel plaats aan maximaal 50 gasten. De uitnodigende sfeer maakt het ideaal voor een borrel, het delen van heerlijke gerechten of zelfs het organiseren van buitenvergaderingen in een kalme, inspirerende omgeving.",
+            "Regen of zonneschijn, GardenSpace is ontworpen om zich aan te passen aan het Belgische weer, zodat jouw evenement soepel verloopt en je gasten kunnen genieten van de charme van de buitenlucht. Vier, verbind of werk samen in een omgeving die aanvoelt als een frisse adem."
+          ],
+          "gallery": {
+            "alt": "GardenSpace, Blankspace Schuman — foto {n} van {total}"
+          }
+        },
+        "tablespace": {
+          "name": "TableSpace",
+          "paragraphs": [
+            "Stap door de charmante houten schuifdeuren en ontdek onze lichte en veelzijdige TableSpace – een unieke setting voor jouw volgende evenement. Met onze kenmerkende hangtafels, die op de perfecte hoogte kunnen worden aangepast, biedt deze ruimte zowel stijl als functionaliteit voor elke gelegenheid.",
+            "Of je nu een productieve vergadering, een interactieve workshop of een intiem zittend lunch of diner voor maximaal 30 gasten organiseert, TableSpace is ontworpen om indruk te maken. Compleet met geavanceerde Samsung Frame-tv's en een hoogwaardige Sonos-muzieksysteem, wordt jouw evenement ondersteund door toptechnologie en een gastvrije ambiance.",
+            "Maak jouw volgende evenement net zo gedenkwaardig als de ruimte zelf!"
+          ],
+          "gallery": {
+            "alt": "TableSpace, Blankspace Schuman — foto {n} van {total}"
+          }
+        },
+        "studiospace": {
+          "name": "StudioSpace",
+          "paragraphs": [
+            "Verborgen net achter GardenSpace, achter strakke glazen schuifdeuren, ligt onze creatieve StudioSpace – een levendige, moderne plek voor bijeenkomsten die iets speciaals vereisen. Deze intieme en veelzijdige ruimte is ontworpen om te inspireren, waardoor het perfect is voor creatieve brainstormsessies, diners in de open lucht en nog veel meer.",
+            "Uitgerust met een SAMSUNG Frame-tv en een meeslepende Sonos-muzieksysteem, biedt StudioSpace de ideale setting voor interviews, podcastopnames, of zelfs kleine groepsworkshops. Met een capaciteit tot 20 gasten, is het de perfecte achtergrond voor het tot leven brengen van gedurfde ideeën of het delen van verhalen in stijl.",
+            "Of je nu bezig bent met het perfectioneren van je volgende grote pitch, een intiem diner organiseert of je doorbraak-podcastaflevering opneemt, StudioSpace geeft jouw bijeenkomst die extra vonk van creativiteit en verfijning. Laten we het onvergetelijk maken!"
+          ],
+          "gallery": {
+            "alt": "StudioSpace, Blankspace Schuman — foto {n} van {total}"
+          }
+        }
+      },
+      "tour": {
+        "title": "Maak een Snelle Rondleiding door Blankspace Schuman",
+        "text": "Ontdek onze moderne evenementenlocatie en zie wat het perfect maakt voor uw volgende bijeenkomst"
+      },
+      "locations": {
+        "text": "Onze voornaamste locatie in de wijk Schuman is een charmant herenhuis ontworpen voor diverse evenementen. Met de modulaire kamers, waaronder de barspace, tablespace en gardenspace, bieden wij een neutrale, heldere omgeving, afgestemd op uw creatieve visie.",
+        "alt": "Blankspace Schuman — foto {n} van {total}"
+      }
+    },
+    "luxembourg": {
+      "name": "Blankspace Place du Luxembourg",
+      "nameLines": [
+        "Blankspace Place",
+        "du Luxembourg"
+      ],
+      "shortName": "Luxemburgplein",
+      "address": {
+        "street": "Aarlenstraat 80",
+        "city": "Brussel",
+        "country": "België"
+      },
+      "capacity": {
+        "label": "50 – 150 gasten"
+      },
+      "seo": {
+        "title": "Blankspace Place du Luxembourg — zaal van 250 m² bij het Europees Parlement",
+        "description": "Een lichte evenementenruimte van 250 m² naast het Europees Parlement voor 10 tot 150 gasten, met podium, geïntegreerde AV, glasvezel-wifi en een F&B-hoek."
+      },
+      "hero": {
+        "alt": "Blankspace Place du Luxembourg — foto {n} van {total}"
+      },
+      "card": {
+        "text": "Blankspace Place du Luxembourg is een volledig uitgeruste evenementenlocatie, ideaal gelegen naast het Europees Parlement en het levendige Place du Luxembourg. Ontworpen voor conferenties, seminars en zakelijke bijeenkomsten, biedt het een veelzijdige en professionele omgeving voor middelgrote tot grote groepen. Met zijn toplocatie en moderne voorzieningen zorgt Blankspace Place du Luxembourg voor een naadloze en gedenkwaardige evenementervaring.",
+        "imageAlt": "De zaal van 250 m² in Blankspace Place du Luxembourg"
+      },
+      "intro": {
+        "title": "Een Flexibele Ruimte voor Elk Evenement",
+        "text": "Onze locatie is ontworpen om tot 150 gasten te ontvangen in verschillende zitopstellingen, waaronder theaterstijl, ronde tafels, klaslokaal- en conferentieopstellingen. De locatie beschikt over één grote ruimte van 250 vierkante meter, wat voldoende ruimte biedt voor creativiteit en maatwerk om aan de behoeften van uw evenement te voldoen."
+      },
+      "highlights": {
+        "area": {
+          "label": "250 m² veelzijdige evenementenruimte"
+        },
+        "guests": {
+          "label": "Capaciteit van 10-150 gasten"
+        }
+      },
+      "equipped": {
+        "title": "Uitgerust voor Zorgeloze Ervaringen",
+        "text": "Onze gloednieuwe locatie in de Europese Wijk, direct naast Place du Luxembourg, biedt alles wat u nodig heeft voor vlotte en succesvolle evenementen. Met lichte ruimtes, snel glasvezel Wi-Fi, professionele AV-opstelling, podium en een volledig uitgeruste F&B-hoek, is Blankspace een plug-and-play locatie die klaar is voor gebruik — geen opstelling nodig. Ideaal voor zakelijke vergaderingen, conferenties, workshops, netwerkrecepties en privé-bijeenkomsten, het is ontworpen om elk evenement moeiteloos en gedenkwaardig te maken.",
+        "items": {
+          "eu": {
+            "label": "Europese Wijk van Brussel"
+          },
+          "bright": {
+            "label": "Licht en Ruim"
+          },
+          "fb": {
+            "label": "F&B Hoek"
+          },
+          "wifi": {
+            "label": "Snelle Glasvezelverbindingen"
+          },
+          "av": {
+            "label": "Geïntegreerde AV-Apparatuur"
+          },
+          "stage": {
+            "label": "Podium voor Conferenties"
+          }
+        }
+      },
+      "why": {
+        "title": "Waarom Kiezen Voor Ons?",
+        "paragraphs": [
+          "Het plannen van een evenement kan een complex en tijdrovend proces zijn. Van het vinden van de perfecte locatie en het coördineren van schema’s tot het beheren van technologie, catering en deelnemersbetrokkenheid, er zijn talloze details om rekening mee te houden.",
+          "Ons team van ervaren professionals brengt een schat aan kennis over diverse evenemententypes, zodat geen enkel detail over het hoofd wordt gezien."
+        ],
+        "expertiseTitle": "Onze Expertise Omvat",
+        "expertise": [
+          {
+            "label": "Algemene Vergaderingen",
+            "text": "Of het nu gaat om een kleine teamvergadering of een grote zakelijke bijeenkomst, wij helpen bij het creëren van een georganiseerde, professionele omgeving die effectieve communicatie en besluitvorming bevordert."
+          },
+          {
+            "label": "Workshops",
+            "text": "Wij zijn gespecialiseerd in het ontwerpen van interactieve en productieve workshops die participatie, kennisdeling en vaardigheidsontwikkeling stimuleren, afgestemd op uw leerdoelen."
+          },
+          {
+            "label": "Conferenties",
+            "text": "Van toonaangevende keynote-sessies tot multi-track seminars, wij verzorgen alle aspecten van conferentieplanning, waaronder sprekerscoördinatie, agendavoorbereiding en deelnemersbeheer."
+          },
+          {
+            "label": "Aangepaste Evenementen",
+            "text": "Organiseert u een productlancering, netwerkevenement, galadiner of een andere speciale gelegenheid? Wij creëren unieke en gedenkwaardige ervaringen die aansluiten bij uw merk en doelstellingen."
+          }
+        ],
+        "gallery": {
+          "alts": [
+            "Conferentieopstelling in Blankspace Place du Luxembourg",
+            "Gasten tijdens een conferentie in de zaal van 250 m²",
+            "Het podium tijdens een conferentie",
+            "Het podium in detail",
+            "Theateropstelling",
+            "De registratiebalie",
+            "AV-ondersteuning tijdens een evenement",
+            "De F&B-hoek",
+            "De F&B-hoek tijdens een pauze",
+            "De chillzone"
+          ]
+        }
+      },
+      "services": {
+        "title": "Onze Uitgebreide Diensten Omvatten",
+        "items": {
+          "s1": {
+            "label": "Evenementplanning & Strategie",
+            "text": "Samenwerken met u om uw visie en doelen te begrijpen."
+          },
+          "s2": {
+            "label": "Locatiekeuze & Beheer",
+            "text": "Het vinden van de ideale locatie die past bij de grootte, stijl en het budget van uw evenement."
+          },
+          "s3": {
+            "label": "Logistieke Coördinatie",
+            "text": "Het naadloos beheren van tijdlijnen, planningen en alle bewegende onderdelen."
+          },
+          "s4": {
+            "label": "Technische Ondersteuning",
+            "text": "Het bieden van geavanceerde AV-oplossingen, virtuele evenementplatforms en technische assistentie."
+          },
+          "s5": {
+            "label": "On-site Evenementbeheer",
+            "text": "Zorgen voor een vlekkeloze uitvoering op de dag van het evenement."
+          },
+          "s6": {
+            "label": "Evaluatie Na Het Evenement",
+            "text": "Feedback verzamelen en inzichten bieden voor continue verbetering."
+          }
+        }
+      },
+      "gallery": {
+        "title": "Gemaakt in Blankspace",
+        "alt": "Blankspace Place du Luxembourg — foto {n} van {total}"
+      },
+      "tour": {
+        "title": "Maak een Snelle Rondleiding door Blankspace Place du Luxembourg",
+        "text": "Ontdek onze moderne evenementenlocatie en zie wat het perfect maakt voor uw volgende bijeenkomst"
+      },
+      "locations": {
+        "text": "Onze tweede locatie, gelegen vlak naast het Europees Parlement, is gebouwd voor schaal en professionele impact. De corporatespace is de ideale omgeving voor grootschalige vergaderingen, seminars en paneldiscussies op hoog niveau.",
+        "alt": "Blankspace Place du Luxembourg — foto {n} van {total}"
+      }
+    }
+  },
+  "events": {
+    "corporate-meetings": {
+      "title": "Zakelijke vergaderingen",
+      "navLabel": "Zakelijke vergaderingen",
+      "intro": [
+        "Perfect gelegen nabij de Europese Commissie en met een tweede locatie naast het Europees Parlement, is Blankspace ontworpen voor impactvolle conferenties en zakelijke vergaderingen.",
+        "Volledig uitgerust met professionele AV-apparatuur en diverse meubelopstellingen, passen onze ruimtes zich aan uw behoeften aan. Of het nu gaat om een interactieve paneldiscussie of een strategische vergadering, Blankspace bevordert focus, samenwerking en succes.",
+        "Ons team zorgt voor elk detail, zodat u met vertrouwen uw evenement kunt organiseren."
+      ],
+      "card": {
+        "title": "Zakelijke Vergaderingen",
+        "text": "Op enkele stappen van de Europese Commissie en het Parlement zijn de twee locaties van Blankspace perfect voor professionele en hoogstaande zakelijke vergaderingen in Brussel.",
+        "imageAlt": "Zakelijke vergaderingen"
+      },
+      "gallery": {
+        "alt": "Zakelijke vergaderingen — foto {n} van {total}"
+      },
+      "seo": {
+        "title": "Locatie voor bedrijfsvergaderingen in de Europese wijk van Brussel",
+        "description": "Perfect gelegen nabij de Europese Commissie en met een tweede locatie naast het Europees Parlement, is Blankspace ontworpen voor impactvolle conferenties en…"
+      }
+    },
+    "coctail-receptions": {
+      "title": "Cocktailrecepties",
+      "navLabel": "Cocktailrecepties",
+      "intro": [
+        "Blankspace is de ideale locatie voor cocktailrecepties, met hoge tafels, een stijlvolle bar en een serene tuin waar gasten dol op zijn.",
+        "Van EU-instellingen tot zakelijke professionals, onze locatie staat bekend om zijn verfijning en comfort bij levendige bijeenkomsten.",
+        "Of u nu een elegante borrel na het werk of een feestelijke toast plant, Blankspace biedt de perfecte sfeer. Met meubels, AV-apparatuur en cateringdiensten verzorgd door ons team, was het organiseren van een vlekkeloos evenement nog nooit zo eenvoudig."
+      ],
+      "card": {
+        "title": "Cocktailrecepties",
+        "text": "Met lichte ruimtes, een stijlvolle sfeer en flexibele opstellingen is Blankspace ideaal voor cocktailrecepties die verbinding en gesprek stimuleren.",
+        "imageAlt": "Cocktailrecepties"
+      },
+      "gallery": {
+        "alt": "Cocktailrecepties — foto {n} van {total}"
+      },
+      "seo": {
+        "title": "Locatie voor cocktailrecepties in Brussel",
+        "description": "Blankspace is de ideale locatie voor cocktailrecepties, met hoge tafels, een stijlvolle bar en een serene tuin waar gasten dol op zijn."
+      }
+    },
+    "teambuilding": {
+      "title": "Teambuilding",
+      "navLabel": "Teambuilding",
+      "intro": [
+        "Blankspace biedt eindeloze teambuildingmogelijkheden, van boeiende culinaire wedstrijden zoals de ‘Battle of Belgian and American Chefs’ van de Amerikaanse ambassade tot creatieve en collaboratieve activiteiten.",
+        "Laat ons een unieke ervaring voor uw team creëren. Onze lichte, flexibele ruimtes inspireren tot verbinding en productiviteit, ongeacht het thema of de uitdaging.",
+        "Met elk detail verzorgd door ons deskundige team, kunt u zich volledig richten op het versterken van banden en het creëren van blijvende herinneringen."
+      ],
+      "card": {
+        "title": "Teambuildings",
+        "text": "In samenwerking met top experts en met activiteiten ter plaatse is Blankspace perfect voor teambuildings in een leuke en flexibele omgeving.",
+        "imageAlt": "Teambuilding"
+      },
+      "gallery": {
+        "alt": "Teambuilding — foto {n} van {total}"
+      },
+      "seo": {
+        "title": "Teambuildinglocatie in Brussel",
+        "description": "Blankspace biedt eindeloze teambuildingmogelijkheden, van boeiende culinaire wedstrijden zoals de ‘Battle of Belgian and American Chefs’ van de Amerikaanse…"
+      }
+    },
+    "workshops": {
+      "title": "Workshops",
+      "navLabel": "Workshops",
+      "intro": [
+        "In samenwerking met top professionals, vermeld op onze website, biedt Blankspace een veelzijdige setting voor workshops.",
+        "Volledig uitgerust en flexibel, stimuleren onze ruimtes creativiteit en focus voor leren, creëren en innoveren.",
+        "Van hands-on kunstsessies tot inspirerende seminars, Blankspace ondersteunt elk aspect van uw workshop.",
+        "Met professionele AV-apparatuur en alle benodigde meubels op locatie wordt uw evenement moeiteloos en boeiend."
+      ],
+      "card": {
+        "title": "Workshops",
+        "text": "Van sushi- en matchasessies tot cocktailworkshops, Blankspace is een creatieve hub voor unieke, hands-on ervaringen.",
+        "imageAlt": "Workshops"
+      },
+      "gallery": {
+        "alt": "Workshops — foto {n} van {total}"
+      },
+      "seo": {
+        "title": "Workshoplocatie in Brussel",
+        "description": "In samenwerking met top professionals, vermeld op onze website, biedt Blankspace een veelzijdige setting voor workshops."
+      }
+    },
+    "conference": {
+      "title": "Conferenties",
+      "navLabel": "Conferentie",
+      "intro": [
+        "Blankspace heeft met succes diverse conferenties georganiseerd en biedt volledig uitgeruste zalen met hoogwaardige schermen, monitors, projectoren, luidsprekers, glasvezel-Wi-Fi en draadloze microfoons.",
+        "Zowel Blankspace Schuman als Blankspace Place du Luxembourg zijn ideale locaties voor dergelijke evenementen, met flexibele opstellingen, alle benodigde technologie en een professionele inrichting voor een vlekkeloze uitvoering.",
+        "Met onze concurrerende prijzen en bewezen staat van dienst in het organiseren van zakelijke seminars en paneldiscussies, zijn wij de perfecte keuze voor uw volgende conferentie."
+      ],
+      "card": {
+        "title": "Conferenties",
+        "text": "Gelegen in het centrum van Brussel bieden de twee locaties van Blankspace de perfecte ruimte voor impactvolle conferenties dichtbij de Europese instellingen.",
+        "imageAlt": "Conferenties"
+      },
+      "gallery": {
+        "alt": "Conferenties — foto {n} van {total}"
+      },
+      "seo": {
+        "title": "Conferentielocatie in de Europese wijk van Brussel",
+        "description": "Blankspace heeft met succes diverse conferenties georganiseerd en biedt volledig uitgeruste zalen met hoogwaardige schermen, monitors, projectoren…"
+      }
+    },
+    "product-launches": {
+      "title": "Productlanceringen",
+      "navLabel": "Productlanceringen",
+      "intro": [
+        "Van de Casa Belgium 2024 lentecollectie tot Kevin Murphy-productpresentaties, Blankspace is uitgegroeid tot een belangrijke locatie voor succesvolle productlanceringen.",
+        "Of u nu innovaties onthult of belangrijke mijlpalen viert, onze ruimtes versterken het verhaal van uw merk.",
+        "Imponeer uw publiek met de perfecte combinatie van professionele AV-apparatuur, flexibele opstellingen en een moderne uitstraling.",
+        "Blankspace zorgt ervoor dat uw producten schitteren in de aandacht die ze verdienen."
+      ],
+      "card": {
+        "title": "Productlanceringen",
+        "text": "Van productlanceringen tot modeshows, Blankspace is de vertrouwde locatie die elk evenement laat schitteren en onvergetelijk maakt.",
+        "imageAlt": "Productlanceringen"
+      },
+      "gallery": {
+        "alt": "Productlanceringen — foto {n} van {total}"
+      },
+      "seo": {
+        "title": "Locatie voor productlanceringen in Brussel",
+        "description": "Van de Casa Belgium 2024 lentecollectie tot Kevin Murphy-productpresentaties, Blankspace is uitgegroeid tot een belangrijke locatie voor succesvolle…"
+      }
+    },
+    "plenary-discussions": {
+      "title": "Plenaire Besprekingen",
+      "navLabel": "Plenaire Discussies",
+      "intro": [
+        "Of je nu een keynote, een bedrijfspresentatie of een high-level overleg plant, Blankspace biedt de perfecte setting voor impactvolle plenaire sessies. Beide locaties – Blankspace Schuman en Blankspace Place du Luxembourg – zijn ontworpen om professionele, vlekkeloos verlopende evenementen van begin tot eind te ondersteunen.",
+        "Elke ruimte is volledig uitgerust met hoogwaardige schermen, projectoren, luidsprekers, draadloze microfoons en snelle glasvezel-wifi. De indelingen zijn flexibel, dus of je nu 20 of 150 gasten verwacht, wij zorgen dat het perfect past.",
+        "Catering nodig? We bieden een scala aan opties, van lichte versnaperingen tot volledige maaltijden – alles eenvoudig te regelen op jouw schema en smaak afgestemd. Benieuwd naar de prijzen? Ontdek onze transparante tarieven rechtstreeks op de website en zie waarom Blankspace de favoriete keuze is voor plenaire sessies, conferenties en meer."
+      ],
+      "card": {
+        "title": "Plenaire Discussies",
+        "text": "De aanpasbare locaties van Blankspace zijn ideaal voor plenaire sessies, panels en fora - regelmatig gekozen door EU-instellingen en wereldwijde organisaties.",
+        "imageAlt": "Plenaire Besprekingen"
+      },
+      "gallery": {
+        "alt": "Plenaire Besprekingen — foto {n} van {total}"
+      },
+      "seo": {
+        "title": "Locatie voor plenaire sessies en panels in Brussel",
+        "description": "Of je nu een keynote, een bedrijfspresentatie of een high-level overleg plant, Blankspace biedt de perfecte setting voor impactvolle plenaire sessies. Beide…"
+      }
+    },
+    "birthday-and-weddings": {
+      "title": "Verjaardagen & bruiloften",
+      "navLabel": "Verjaardagen & Bruiloften",
+      "intro": [
+        "Bij Blankspace hebben we met trots talloze verjaardagen en bruiloften gehost, en zijn we een favoriete locatie geworden voor wie op zoek is naar een eenvoudige maar gezellige ruimte die volledig naar wens kan worden aangepast.",
+        "In lijn met onze filosofie ‘Blankspace wordt jouw ruimte’ transformeert onze locatie in de perfecte setting voor uw speciale vieringen.",
+        "Met alle meubels en professionele AV-apparatuur door ons team verzorgd, wordt de planning eenvoudig en kunt u zich volledig richten op het genieten van het moment.",
+        "Laat ons een ruimte creëren die net zo uniek en gedenkwaardig is als uw bijzondere dag."
+      ],
+      "card": {
+        "title": "Verjaardagen & Huwelijken",
+        "text": "Van verjaardagen tot verlovingen, de weelderige tuin en stijlvolle inrichting van Blankspace creëren de perfecte setting voor onvergetelijke privé-evenementen.",
+        "imageAlt": "Verjaardagen & bruiloften"
+      },
+      "gallery": {
+        "alt": "Verjaardagen & bruiloften — foto {n} van {total}"
+      },
+      "seo": {
+        "title": "Locatie voor verjaardagen en huwelijken in Brussel",
+        "description": "Bij Blankspace hebben we met trots talloze verjaardagen en bruiloften gehost, en zijn we een favoriete locatie geworden voor wie op zoek is naar een…"
+      }
+    }
+  },
+  "communes": {
+    "brussels": {
+      "name": "Brussel",
+      "title": "Evenementenlocatie nabij de Stad Brussel",
+      "text": "Gelegen in de Europese wijk van Brussel, biedt blankspace een veelzijdige evenementenlocatie die ideaal is voor diverse gelegenheden. Net achter het Berlaymont-gebouw, het hoofdkwartier van de Europese Commissie, biedt blankspace een serene omgeving te midden van de bruisende stad.",
+      "access": {
+        "title": "Toegankelijkheid vanuit Brussel",
+        "items": [
+          {
+            "text": "Blankspace is gemakkelijk bereikbaar vanuit verschillende delen van de Stad Brussel, waardoor het een uitstekende keuze is voor bewoners en bedrijven in de omgeving. De locatie is goed verbonden met het openbaar vervoer:"
+          },
+          {
+            "label": "Metro",
+            "text": "Station Schuman ligt op 2 minuten loopafstand en wordt bediend door lijnen 1 en 5."
+          },
+          {
+            "label": "Bus",
+            "text": "Meerdere buslijnen, waaronder 12, 36, 56, 60 en 79, stoppen bij Schuman, eveneens op slechts 2 minuten lopen."
+          },
+          {
+            "label": "Tram",
+            "text": "De tramhalte Schuman ligt ook dichtbij en biedt extra vervoersmogelijkheden."
+          },
+          {
+            "text": "Voor automobilisten zijn er voldoende parkeermogelijkheden op straat, en Interparking Arts-Loi is op loopafstand."
+          }
+        ]
+      },
+      "imageAlt": "Binnen bij blankspace — foto 1 van 3",
+      "seo": {
+        "title": "Evenementenlocatie nabij de Stad Brussel",
+        "description": "Gelegen in de Europese wijk van Brussel, biedt blankspace een veelzijdige evenementenlocatie die ideaal is voor diverse gelegenheden. Net achter het…"
+      }
+    },
+    "schaerbeek": {
+      "name": "Schaarbeek",
+      "title": "Evenementenlocatie nabij Schaarbeek",
+      "text": "Gelegen in de Europese wijk van Brussel, is blankspace een veelzijdige evenementenlocatie net achter het Berlaymont-gebouw, het hoofdkwartier van de Europese Commissie. De nabijheid van Schaarbeek maakt het een handige keuze voor bewoners en bedrijven in de omgeving.",
+      "access": {
+        "title": "Toegankelijkheid vanuit Schaarbeek",
+        "items": [
+          {
+            "label": "Openbaar vervoer",
+            "text": "Station Schuman, bediend door metrolijnen 1 en 5, ligt op slechts 2 minuten lopen van Blankspace. Bovendien stoppen verschillende buslijnen, waaronder 12, 36, 56, 60 en 79, bij Schuman, wat een gemakkelijke toegang vanuit Schaarbeek biedt."
+          },
+          {
+            "label": "Met de auto",
+            "text": "Voor degenen die met de auto reizen, is er voldoende parkeergelegenheid op straat beschikbaar in de buurt, en Interparking Arts-Loi ligt op loopafstand."
+          }
+        ]
+      },
+      "imageAlt": "Binnen bij blankspace — foto 1 van 3",
+      "seo": {
+        "title": "Evenementenlocatie nabij Schaarbeek",
+        "description": "Gelegen in de Europese wijk van Brussel, is blankspace een veelzijdige evenementenlocatie net achter het Berlaymont-gebouw, het hoofdkwartier van de Europese…"
+      }
+    },
+    "ixelles": {
+      "name": "Elsene",
+      "title": "Evenementenlocatie nabij Elsene",
+      "text": "Gelegen in de Europese wijk van Brussel, biedt blankspace een veelzijdige evenementenlocatie die ideaal is voor diverse gelegenheden. Net achter het Berlaymont-gebouw, het hoofdkwartier van de Europese Commissie, biedt blankspace een serene omgeving te midden van de bruisende stad.",
+      "access": {
+        "title": "Toegankelijkheid vanuit Elsene",
+        "items": [
+          {
+            "text": "Blankspace is gemakkelijk bereikbaar vanuit Elsene, waardoor het een uitstekende keuze is voor bewoners en bedrijven in de omgeving. De locatie is goed verbonden met het openbaar vervoer:"
+          },
+          {
+            "label": "Trein",
+            "text": "De Belgische Spoorwegen (NMBS/SNCB) exploiteren elke 10 minuten een trein van Brussel-Luxemburg naar Brussel-Schuman. Tickets kosten €2–5 en de reis duurt ongeveer 2 minuten."
+          },
+          {
+            "label": "Bus",
+            "text": "Buslijn 60 biedt een verbinding tussen Elsene en Schuman, wat een handige optie is voor reizigers."
+          },
+          {
+            "label": "Metro",
+            "text": "Nabijgelegen metrostations, zoals Maalbeek, bieden extra vervoersmogelijkheden naar verschillende delen van de stad."
+          },
+          {
+            "text": "Voor automobilisten zijn er voldoende parkeermogelijkheden op straat, en Interparking Arts-Loi is op loopafstand."
+          }
+        ]
+      },
+      "imageAlt": "Binnen bij blankspace — foto 1 van 3",
+      "seo": {
+        "title": "Evenementenlocatie nabij Elsene",
+        "description": "Gelegen in de Europese wijk van Brussel, biedt blankspace een veelzijdige evenementenlocatie die ideaal is voor diverse gelegenheden. Net achter het…"
+      }
+    },
+    "woluwe-saint-pierre": {
+      "name": "Sint-Pieters-Woluwe",
+      "title": "Evenementenlocatie nabij Sint-Pieters-Woluwe",
+      "text": "Gelegen in de Europese wijk van Brussel, biedt blankspace een veelzijdige evenementenlocatie die ideaal is voor diverse gelegenheden. Net achter het Berlaymont-gebouw, het hoofdkwartier van de Europese Commissie, biedt blankspace een serene omgeving te midden van de bruisende stad.",
+      "access": {
+        "title": "Toegankelijkheid vanuit Sint-Pieters-Woluwe",
+        "items": [
+          {
+            "text": "Blankspace is gemakkelijk bereikbaar vanuit Sint-Pieters-Woluwe, waardoor het een uitstekende keuze is voor bewoners en bedrijven in de omgeving. De locatie is goed verbonden met het openbaar vervoer:"
+          },
+          {
+            "label": "Metro",
+            "text": "De MIVB exploiteert elke 10 minuten een metro van Tomberg naar Schuman. Tickets kosten €3 en de reis duurt ongeveer 7 minuten."
+          },
+          {
+            "label": "Bus",
+            "text": "De MIVB exploiteert een bus van Chien Vert naar Schuman, wat extra vervoersmogelijkheden biedt."
+          },
+          {
+            "text": "Voor automobilisten zijn er voldoende parkeermogelijkheden op straat, en Interparking Arts-Loi is op loopafstand."
+          }
+        ]
+      },
+      "imageAlt": "Binnen bij blankspace — foto 1 van 3",
+      "seo": {
+        "title": "Evenementenlocatie nabij Sint-Pieters-Woluwe",
+        "description": "Gelegen in de Europese wijk van Brussel, biedt blankspace een veelzijdige evenementenlocatie die ideaal is voor diverse gelegenheden. Net achter het…"
+      }
+    },
+    "saint-josse-ten-noode": {
+      "name": "Sint-Joost-ten-Node",
+      "title": "Evenementenlocatie nabij Sint-Joost-ten-Node",
+      "text": "Gelegen in de Europese wijk van Brussel, biedt blankspace een veelzijdige evenementenlocatie die ideaal is voor diverse gelegenheden. Net achter het Berlaymont-gebouw, het hoofdkwartier van de Europese Commissie, biedt blankspace een serene omgeving te midden van de bruisende stad.",
+      "access": {
+        "title": "Toegankelijkheid vanuit Sint-Joost-ten-Node",
+        "items": [
+          {
+            "text": "Blankspace is gemakkelijk bereikbaar vanuit Sint-Joost-ten-Node, waardoor het een uitstekende keuze is voor bewoners en bedrijven in de omgeving. De locatie is goed verbonden met het openbaar vervoer:"
+          },
+          {
+            "label": "Metro",
+            "text": "Station Botanique, bediend door lijnen 2 en 6, ligt op ongeveer 5 minuten lopen van Sint-Joost-ten-Node. Vanaf Botanique kunt u overstappen op lijnen die direct naar station Schuman gaan, dat op 2 minuten loopafstand van Blankspace ligt."
+          },
+          {
+            "label": "Bus",
+            "text": "Meerdere buslijnen, waaronder 29, 63, 65 en 66, bedienen het gebied van Sint-Joost-ten-Node, met haltes zoals Quetelet en Madou. Deze bussen bieden verbindingen naar het centrum van Brussel, waar u kunt overstappen op diensten naar Schuman."
+          },
+          {
+            "text": "Voor automobilisten zijn er voldoende parkeermogelijkheden op straat in de buurt van Blankspace, en Interparking Arts-Loi is op loopafstand."
+          }
+        ]
+      },
+      "imageAlt": "Binnen bij blankspace — foto 1 van 3",
+      "seo": {
+        "title": "Evenementenlocatie nabij Sint-Joost-ten-Node",
+        "description": "Gelegen in de Europese wijk van Brussel, biedt blankspace een veelzijdige evenementenlocatie die ideaal is voor diverse gelegenheden. Net achter het…"
+      }
+    },
+    "woluwe-saint-lambert": {
+      "name": "Sint-Lambrechts-Woluwe",
+      "title": "Evenementenlocatie nabij Sint-Lambrechts-Woluwe",
+      "text": "Gelegen in de Europese wijk van Brussel, biedt blankspace een veelzijdige evenementenlocatie die ideaal is voor diverse gelegenheden. Net achter het Berlaymont-gebouw, het hoofdkwartier van de Europese Commissie, biedt blankspace een serene omgeving te midden van de bruisende stad.",
+      "access": {
+        "title": "Toegankelijkheid vanuit Sint-Lambrechts-Woluwe",
+        "items": [
+          {
+            "text": "Blankspace is gemakkelijk bereikbaar vanuit Sint-Lambrechts-Woluwe, waardoor het een uitstekende keuze is voor bewoners en bedrijven in de omgeving. De locatie is goed verbonden met het openbaar vervoer:"
+          },
+          {
+            "label": "Metro",
+            "text": "De MIVB exploiteert elke 10 minuten een metro van Tomberg naar Schuman. Tickets kosten €3 en de reis duurt ongeveer 7 minuten."
+          },
+          {
+            "label": "Bus",
+            "text": "De MIVB exploiteert een bus van Chien Vert naar Schuman, wat extra vervoersmogelijkheden biedt."
+          },
+          {
+            "text": "Voor automobilisten zijn er voldoende parkeermogelijkheden op straat, en Interparking Arts-Loi is op loopafstand."
+          }
+        ]
+      },
+      "imageAlt": "Binnen bij blankspace — foto 1 van 3",
+      "seo": {
+        "title": "Evenementenlocatie nabij Sint-Lambrechts-Woluwe",
+        "description": "Gelegen in de Europese wijk van Brussel, biedt blankspace een veelzijdige evenementenlocatie die ideaal is voor diverse gelegenheden. Net achter het…"
+      }
+    }
+  },
+  "landings": {
+    "venues": {
+      "title": "Evenementlocaties in Brussel (Europese Wijk)",
+      "intro": "Blankspace biedt twee centrale locaties in Brussel, gelegen in de Europese Wijk. Ontworpen voor bedrijfsevenementen, privéfeesten, workshops en recepties, geschikt voor 10 tot 150 gasten. Voor wie op zoek is naar evenementlocaties in Brussel of een huur locatie in de Europese Wijk, combineren onze ruimtes toegankelijkheid, modern design en professionele ondersteuning.",
+      "seo": {
+        "title": "Evenementlocaties in Brussel, Europese wijk | Zalen voor bedrijfsevenementen",
+        "description": "Centrale locaties in de Europese wijk van Brussel voor bedrijfsevenementen, privéfeesten en workshops. Voor 10 tot 150 gasten, met modern design en professionele ondersteuning.",
+        "keywords": "evenementlocatie Brussel, zaal Europese wijk, zaalverhuur Brussel, locatie bedrijfsevenement, zaal privéfeest, workshoplocatie Brussel",
+        "brand": false
+      }
+    },
+    "event-space": {
+      "title": "Evenementruimte in Brussel (Europese Wijk)",
+      "intro": "Onze twee locaties zijn ideaal voor wie op zoek is naar een evenementruimte in Brussel. Met een capaciteit van 10 tot 150 gasten zijn ze geschikt voor netwerkevenementen, recepties, productlanceringen en zakelijke presentaties. Bedrijven en organisaties die op zoek zijn naar evenementlocaties in de Europese Wijk van Brussel vinden onze ruimtes flexibel en eenvoudig aan te passen. We werken ook samen met vertrouwde cateringpartners om ervoor te zorgen dat uw huur van een evenementruimte in Brussel elk detail omvat.",
+      "seo": {
+        "title": "Evenementenruimte in Brussel, Europese wijk | Flexibele locaties",
+        "description": "Evenementenruimte in de Europese wijk van Brussel voor 10 tot 150 gasten: netwerkevents, recepties, productlanceringen en presentaties. Flexibele ruimtes met vertrouwde cateraars.",
+        "keywords": "evenementenruimte Brussel, evenementlocatie Europese wijk, netwerkevent Brussel, receptiezaal Brussel, productlancering, bedrijfsevenement",
+        "brand": false
+      }
+    },
+    "meeting-room": {
+      "title": "Vergaderruimte in Brussel (Europese Wijk)",
+      "intro": "Blankspace biedt twee locaties die kunnen worden ingericht als vergaderruimte in Brussel, recht in de Europese Wijk. Ontworpen voor bestuursvergaderingen, plenaire sessies, toespraken, trainingen en workshops, geschikt voor 10 tot 150 deelnemers. Onze vergaderlocaties in Brussel zijn uitgerust met audiovisuele ondersteuning en catering op aanvraag. Bedrijven die op zoek zijn naar een professionele vergaderlocatie in Brussel zullen onze ruimtes praktisch, centraal en eenvoudig te boeken vinden.",
+      "seo": {
+        "title": "Vergaderzaal in Brussel, Europese wijk | Professionele locaties",
+        "description": "Professionele vergaderzaal in de Europese wijk van Brussel voor 10 tot 150 deelnemers: raden van bestuur, plenaire sessies, trainingen en workshops. Met AV en catering.",
+        "keywords": "vergaderzaal Brussel, vergaderlocatie Europese wijk, zakelijke vergadering Brussel, professionele vergaderruimte, bestuurskamer Brussel",
+        "brand": false
+      }
+    },
+    "conference-room": {
+      "title": "Conferentieruimte in Brussel (Europese Wijk)",
+      "intro": "Als u op zoek bent naar een conferentieruimte in Brussel, bieden wij twee locaties in de Europese Wijk voor 10 tot 150 personen. Onze ruimtes zijn geschikt voor seminars, zakelijke conferenties, productlanceringen en presentaties met flexibele zitplaatsen. Organisatoren die op zoek zijn naar conferentielocaties in Brussel profiteren van onze centrale ligging nabij de Europese instellingen, betrouwbare AV-faciliteiten, ondersteuning tijdens de voorbereidingsfase en een toegewijd professioneel team.",
+      "seo": {
+        "title": "Conferentiezaal in Brussel, Europese wijk | Locaties voor conferenties",
+        "description": "Op zoek naar een conferentiezaal in Brussel? Onze locaties in de Europese wijk ontvangen 10 tot 150 personen voor seminaries, conferenties en presentaties, vlak bij de Europese instellingen.",
+        "keywords": "conferentiezaal Brussel, conferentie Europese wijk, seminariezaal Brussel, conferentielocatie Brussel, presentatieruimte",
+        "brand": false
+      }
+    },
+    "conference-room-near-me": {
+      "title": "Conferentieruimte in de buurt (Brussel Europese Wijk)",
+      "intro": "Als u zoekt naar een conferentieruimte in de buurt in Brussel, heeft Blankspace twee locaties in de Europese Wijk. Elke locatie biedt plaats aan 10 tot 150 deelnemers in theater-, klaslokaal- of cabaret-opstelling. Onze locaties bedienen bedrijven die op zoek zijn naar conferentieruimtes nabij het stadscentrum van Brussel en professionals die een betrouwbare conferentieruimte dicht bij de Europese Wijk nodig hebben.",
+      "seo": {
+        "title": "Conferentiezaal in de buurt in Brussel | Europese wijk",
+        "description": "Op zoek naar een conferentiezaal in de buurt in Brussel? Onze locaties in de Europese wijk ontvangen 10 tot 150 deelnemers in theater-, klas- of cabaretopstelling.",
+        "keywords": "conferentiezaal in de buurt Brussel, conferentie Europese wijk, vergaderzaal centrum Brussel, conferentielocatie Brussel",
+        "brand": false
+      }
+    },
+    "wedding-venues": {
+      "title": "Trouwlocaties in Brussel (Europese Wijk)",
+      "intro": "Op zoek naar een elegante, centrale locatie voor uw viering? Wij beheren twee boetieklocaties in de Europese Wijk van Brussel, ontworpen voor intieme tot middelgrote bruiloften van 10 tot 150 gasten, met verschillende opstellingen (ceremonie, cocktail, banket, dansvloer). Onze flexibele ruimtes stellen u in staat de dag vorm te geven naar uw stijl, of dat nu minimalistisch chic of rijkelijk versierd en romantisch is. Ons team helpt bij het coördineren van de planning, decoratie en leveranciers, zodat de dag vlekkeloos verloopt.",
+      "seo": {
+        "title": "Trouwlocaties in Brussel, Europese wijk",
+        "description": "Op zoek naar een elegante trouwlocatie in Brussel? Onze boetieklocaties in de Europese wijk ontvangen 10 tot 150 gasten voor ceremonie, cocktail, diner en dansfeest.",
+        "keywords": "trouwlocatie Brussel, trouwzaal Europese wijk, feestzaal huwelijk Brussel, intiem huwelijk Brussel, boetiek trouwlocatie",
+        "brand": false
+      }
+    },
+    "party-venues": {
+      "title": "Feestlocatie in Brussel (Europese Wijk)",
+      "intro": "Blankspace biedt twee feestlocaties in Brussel, gelegen in de Europese Wijk, met een capaciteit van 10 tot 150 gasten. Geschikt voor verjaardagsfeesten, jubilea en sociale evenementen, kunnen de ruimtes worden ingericht voor cocktailavonden, zittende diners of dansfeesten. Als u op zoek bent naar een feestzaal in Brussel of een centrale evenementlocatie voor feesten, bieden onze ruimtes een privé en gemakkelijk toegankelijke oplossing.",
+      "seo": {
+        "title": "Feestzalen in Brussel, Europese wijk | Verjaardagen en jubilea",
+        "description": "Feestzalen in de Europese wijk van Brussel voor 10 tot 150 gasten: verjaardagen, jubilea en feestavonden. Cocktail, zittend diner of dansfeest.",
+        "keywords": "feestzaal Brussel, verjaardagsfeest Brussel, feestlocatie Brussel, jubileum Brussel, feestzaal Europese wijk",
+        "brand": false
+      }
+    },
+    "private-party-venues": {
+      "title": "Privéfeestlocaties in Brussel (Europese Wijk)",
+      "intro": "Voor wie op zoek is naar privéfeestlocaties in Brussel, biedt Blankspace twee ruimtes in de Europese Wijk. Ontworpen voor 10 tot 150 gasten, zijn ze ideaal voor exclusieve verjaardagsvieringen, verlovingen of privé diners. Het huren van een van onze privé locaties in Brussel zorgt ervoor dat uw evenement vertrouwelijk blijft en aansluit bij uw planning.",
+      "seo": {
+        "title": "Locaties voor privéfeesten in Brussel, Europese wijk",
+        "description": "Locaties voor privéfeesten in de Europese wijk van Brussel voor 10 tot 150 gasten: verjaardagen, verlovingsfeesten en privédiners. Discreet en volgens uw planning.",
+        "keywords": "privéfeest Brussel, privélocatie Brussel, verlovingsfeest Brussel, privédiner Brussel, exclusieve locatie Brussel",
+        "brand": false
+      }
+    },
+    "teambuilding-location": {
+      "title": "Teambuilding locatie in Brussel (Europese Wijk)",
+      "intro": "De locaties van Blankspace in Brussel zijn zeer geschikt als teambuilding locatie voor bedrijven. Onze ruimtes in de Europese Wijk bieden plaats aan 10 tot 150 deelnemers voor workshops, groepsactiviteiten en bedrijfstrainingen. Bedrijven die op zoek zijn naar een locatie voor teamevenementen in Brussel profiteren van flexibele zaalopstellingen, breakout-opties en professionele ondersteuning. Het kiezen van een centrale teambuilding locatie in Brussel maakt het eenvoudig voor alle collega’s om deel te nemen.",
+      "seo": {
+        "title": "Teambuildinglocatie in Brussel, Europese wijk",
+        "description": "Teambuildinglocatie in de Europese wijk van Brussel voor 10 tot 150 deelnemers: workshops, groepsactiviteiten en bedrijfstrainingen. Flexibele opstellingen en professionele ondersteuning.",
+        "keywords": "teambuilding Brussel, teambuildinglocatie, bedrijfstraining Brussel, workshoplocatie Brussel, groepsactiviteit Brussel",
+        "brand": false
+      }
+    },
+    "private-event-space": {
+      "title": "Privé evenementruimte in Brussel (Europese Wijk)",
+      "intro": "Als u een privé evenementruimte in Brussel nodig heeft, biedt Blankspace twee locaties in de Europese Wijk. Met ruimte voor 10 tot 150 gasten zijn onze locaties geschikt voor bedrijfsdiners, productlanceringen, netwerkavonden en privé recepties. Het huren van een privé evenementlocatie in Brussel garandeert een exclusieve ervaring, met professionele faciliteiten en een centrale ligging.",
+      "seo": {
+        "title": "Ruimte voor privé-evenementen in Brussel, Europese wijk",
+        "description": "Ruimte voor privé-evenementen in de Europese wijk van Brussel voor 10 tot 150 gasten: bedrijfsdiners, productlanceringen, netwerkavonden en privérecepties.",
+        "keywords": "privé-evenement Brussel, exclusieve locatie Brussel, bedrijfsdiner Brussel, privéreceptie Brussel, netwerkavond",
+        "brand": false
+      }
+    }
+  },
+  "landing": {
+    "support": "Bij blankspace, bieden we niet alleen de ruimte, maar ook volledige ondersteuning voor evenementen met een toegewijde AV-manager, interne coördinatie en hulp bij het kiezen van de juiste cateringpartners.",
+    "more": "Ontdek onze locaties, prijzen en diensten die blankspace aanbiedt"
+  },
+  "legal": {
+    "terms-and-conditions": {
+      "label": "Algemene voorwaarden"
+    },
+    "gdpr-policy": {
+      "label": "GDPR-beleid"
+    },
+    "csr-policy": {
+      "label": "CSR-beleid"
+    }
+  },
+  "pricing": {
+    "title": "Kies je evenementpakket",
+    "intro": [
+      "Het plannen van je evenement was nog nooit zo eenvoudig! Onze all-inclusive pakketten bieden alles wat je nodig hebt voor een vlotte ervaring.",
+      "Nog iets extra nodig? Pas je pakket aan met onze add-ons of neem contact met ons op voor een oplossing op maat!"
+    ],
+    "features": {
+      "coffee": {
+        "label": "Onbeperkte thee- en koffiefaciliteiten"
+      },
+      "privatisation4h": {
+        "label": "Volledige privatisering van Blankspace voor 4 uur"
+      },
+      "privatisation8h": {
+        "label": "Volledige privatisering van Blankspace voor 8 uur"
+      },
+      "av": {
+        "label": "Ondersteuning voor AV-apparatuur"
+      },
+      "water": {
+        "label": "Plat en bruisend water"
+      },
+      "meal": {
+        "label": "Continentaal ontbijt of sandwichpauze"
+      },
+      "exclusive": {
+        "label": "Exclusieve toegang tot alle ruimtes en volledige privatisering"
+      },
+      "furniture": {
+        "label": "Meubilair"
+      },
+      "frameTv": {
+        "label": "Samsung The Frame TV's"
+      },
+      "flipchart": {
+        "label": "Flipover(s)"
+      },
+      "projector": {
+        "label": "Projector"
+      },
+      "sonos": {
+        "label": "Sonos-geluidssysteem"
+      },
+      "microphones": {
+        "label": "Microfoon(s)"
+      }
+    },
+    "packages": {
+      "silver-half": {
+        "name": "Zilver – Halve Dag Vergaderpakket"
+      },
+      "premium-half": {
+        "name": "Premium – Halve Dag Vergaderpakket"
+      },
+      "silver-full": {
+        "name": "Zilver – Volledige Dag Vergaderpakket"
+      },
+      "premium-full": {
+        "name": "Premium – Volledige Dag Vergaderpakket"
+      }
+    },
+    "flatRates": {
+      "title": "Onze Flat Rates voor Privé- en Bedrijfsgebeurtenissen",
+      "text": "Ben je geïnteresseerd in het huren van blankspace zonder extra services? Ontdek onze flat rates voor locatiehuur.",
+      "items": {
+        "schuman": {
+          "title": "Blankspace Schuman"
+        },
+        "luxembourg": {
+          "title": "Luxemburgplein"
+        }
+      }
+    },
+    "page": {
+      "kicker": "Perfecte Pakketten",
+      "title": "Op Maat Gemaakte Evenementpakketten voor Elke Gelegenheid",
+      "text": "Maak uw evenementplanning moeiteloos met onze aanpasbare pakketten. Of het nu gaat om een halve dag vergadering of een volledige conferentie, wij bieden alles wat u nodig heeft — versnaperingen, AV-apparatuur en toegewijde ondersteuning — per persoon geprijsd voor een vlotte ervaring.",
+      "button": "Toon mij pakketten",
+      "imageAlt": "Theateropstelling in Blankspace Place du Luxembourg"
+    },
+    "seo": {
+      "title": "Prijzen — vergaderpakketten en zaalhuur in Brussel",
+      "description": "Transparante prijzen voor vergaderingen en evenementen in de Europese wijk van Brussel: pakketten per persoon voor een halve of hele dag, of een vast tarief voor de hele locatie."
+    }
+  },
+  "why": {
+    "title": "Waarom kiezen voor Blankspace?",
+    "heading": "Organiseer uitzonderlijke evenementen, vergaderingen, workshops, verjaardagen en bruiloften bij Blankspace",
+    "intro": "Dankzij de centrale ligging en uitstekende vervoersverbindingen is Blankspace de ideale keuze voor het organiseren van evenementen die zowel gemak als een verfijnde sfeer vereisen. We nodigen u uit om meer over onze aanbiedingen te ontdekken en uw volgende evenement te boeken via onze website.",
+    "outro": "Bij Blankspace streven we ernaar om een hoogwaardige, zorgeloze omgeving te bieden die uw evenementen naar een hoger niveau tilt. Of u nu een trainingssessie, productlancering of directievergadering plant, wij bieden op maat gemaakte oplossingen voor elke behoefte.",
+    "items": {
+      "i1": {
+        "label": "Volledige toegang tot een moderne, privé werkruimte, verhuur van evenementenlocatie in Brussel"
+      },
+      "i2": {
+        "label": "Interne en externe cateringfaciliteiten"
+      },
+      "i3": {
+        "label": "IT-ondersteuning ter plaatse om uw evenement soepel te laten verlopen"
+      },
+      "i4": {
+        "label": "Een toegewijde eventmanager om u van begin tot eind te assisteren"
+      },
+      "i5": {
+        "label": "Hoogwaardige audiovisuele apparatuur voor presentaties en hybride vergaderingen"
+      },
+      "i6": {
+        "label": "Gratis theefaciliteiten, plus plat en bruisend water"
+      }
+    },
+    "gallery": {
+      "alt": "Binnen bij blankspace — foto {n} van {total}"
+    }
+  },
+  "eventsSection": {
+    "title": "Ontdek onze evenementen",
+    "versatileTitle": "Veelzijdige evenementenruimtes",
+    "versatileText": "Blankspace is geschikt voor een breed scala aan evenementen, waaronder:"
+  },
+  "faq": {
+    "title": "Veelgestelde Vragen",
+    "items": {
+      "q1": {
+        "question": "Is Blankspace gemakkelijk bereikbaar met het openbaar vervoer, en biedt het parkeermogelijkheden?",
+        "answer": [
+          "Ja, Blankspace is gemakkelijk bereikbaar via verschillende openbare vervoersopties. Busdiensten zoals lijnen 56, 60, 63, 64, 59 en 79 stoppen bij nabije haltes, terwijl metro lijnen 1 en 5 zorgen voor gemakkelijke verbindingen via de stations Schuman en Maelbeek. Schuman station biedt ook treinverbindingen, wat het handig maakt voor gasten die van verschillende locaties komen.",
+          "Voor degenen die met de auto komen, is er parkeergelegenheid op straat en in de omliggende buurt, met Interparking Arts-Loi op loopafstand voor extra gemak."
+        ]
+      },
+      "q2": {
+        "question": "Hoe beheert Blankspace de menigte om overbevolking bij evenementen te voorkomen?",
+        "answer": [
+          "We volgen zorgvuldig de capaciteit van onze locatie en bieden verschillende indelingsopties om een comfortabele ervaring voor alle gasten te garanderen. Ons evenementen team (events@blankspace.brussels) helpt bij het plannen van de beste zit- en ruimte-indelingen om overbevolking te voorkomen."
+        ]
+      },
+      "q3": {
+        "question": "Welke voorzieningen en diensten zijn inbegrepen bij de huurprijs van de locatie?",
+        "answer": [
+          "Onze locatiehuur omvat hoogwaardige audiovisuele apparatuur, moderne inrichting en veelzijdige zitarrangementen voor een naadloze evenementervaring. Gasten hebben toegang tot verschillende binnen- en buitenmeubels, waaronder stoelen, tafels en kinderstoelen op aanvraag. De locatie is ook uitgerust met Samsung Smart TV's, een projector, Sonos-luidsprekers, een flip-over en karaoke-apparatuur voor entertainment en presentaties.",
+          "Voor cateringbehoeften bieden we een complete selectie van glaswerk, bestek en servies, waaronder wijnglazen, koffiekopjes, roestvrijstalen bestek en porseleinen borden. Extra meubels en apparatuur kunnen op verzoek worden geregeld om te voldoen aan specifieke evenementbehoeften."
+        ]
+      },
+      "q4": {
+        "question": "Biedt Blankspace eigen catering, of kunnen we onze eigen cateraars meenemen?",
+        "answer": [
+          "We bieden premium cateringdiensten in huis met verschillende menu-opties. We staan echter ook externe cateraars toe als je specifieke voorkeuren hebt, onder voorbehoud van onze cateringrichtlijnen."
+        ]
+      },
+      "q5": {
+        "question": "Hoe zorgt Blankspace voor netheid en onderhoud voor en tijdens evenementen?",
+        "answer": [
+          "Onze locatie wordt professioneel schoongemaakt voor elk evenement, en we hebben on-site personeel om ervoor te zorgen dat de netheid tijdens het evenement gehandhaafd blijft. We voeren ook regelmatig onderhoud uit om onze faciliteiten modern en up-to-date te houden."
+        ]
+      },
+      "q6": {
+        "question": "Hoe nieuw is het meubilair en de apparatuur bij Blankspace?",
+        "answer": [
+          "Bij Blankspace zijn we trots op het aanbieden van hoogwaardige, moderne en goed onderhouden meubels en apparatuur voor alle evenementen. We hebben in 2024 een volledige renovatie voltooid, en al ons meubilair, bestek, audiovisuele apparatuur en andere evenementbenodigdheden zijn in 2024 nieuw aangeschaft. Dit zorgt ervoor dat alles in onberispelijke staat is, stijlvol en voldoet aan de nieuwste normen op het gebied van comfort en functionaliteit.",
+          "Onze gasten kunnen verse, schone en hedendaagse meubels verwachten, waardoor elk evenement elegant en professioneel aanvoelt."
+        ]
+      }
+    }
+  },
+  "testimonials": {
+    "title": "Wat Onze Klanten Zeggen",
+    "intro": [
+      "De naam zegt het al: blankspace. Zoals een blanco vel papier, een neutrale ruimte waar je zelf de kleur en stijl kunt bepalen.",
+      "Op het eerste gezicht lijkt de ruimte leeg. Behalve de bar aan het raam, die ook dient als welkomstbalie, en enkele witte lijsten aan de muren met originele plantendecoratie aan het plafond."
+    ],
+    "items": {
+      "eurocommerce": {
+        "quote": "Het EUROCOMMERCE-team huurde Blankspace voor een strategische brainstormsessie.",
+        "imageAlt": "EuroCommerce"
+      },
+      "ellis": {
+        "quote": "Ellis team building activiteiten werden georganiseerd bij Blankspace. We werden gekozen als hun conferentie- en evenementenlocatie! Leuk en vol vreugde!",
+        "imageAlt": "ELLIS"
+      },
+      "kevin-murphy": {
+        "quote": "We huurden Blankspace voor een evenement van ongeveer 40 mensen, en ik moet zeggen dat alles zorgvuldig geregeld was. Van de technische opstelling tot de catering en de netheid, Blankspace overtrof onze verwachtingen in elk opzicht. Het hele team was ongelooflijk vriendelijk en meegaand, en geen verzoek was te veel. Ik beveel Blankspace van harte aan, en we zullen zeker hun prachtige locatie gebruiken voor toekomstige evenementen.",
+        "imageAlt": "KEVIN.MURPHY"
+      },
+      "oliver-wyman": {
+        "quote": "Afterwork cocktailreceptie voor 40 gasten! Geweldige avond om te herinneren!",
+        "imageAlt": "Oliver Wyman"
+      },
+      "solarpower-europe": {
+        "quote": "Zeer goede ervaring voor ons evenement bij Blankspace. De locatie was perfect voor onze behoeften, modern, vriendelijk en goed ingericht. Het team was professioneel en gastvrij! Het Blankspace-team was 100% beschikbaar, flexibel en gastvrij, zowel tijdens de productie van ons evenement als op de grote dag. Of het nu een eendaagse vergadering of een walking dinner voor 60 mensen is, we bevelen Blankspace van harte aan vanwege zijn moderniteit, flexibiliteit en teams die zich bekommeren om je behoeften. We kunnen niet wachten om Blankspace opnieuw te ervaren wanneer we ons volgende walking dinner organiseren.",
+        "imageAlt": "SolarPower Europe"
+      },
+      "european-greens": {
+        "quote": "Bedankt aan jou en je team voor het werk! De workshop over cocktails was geweldig en vermakelijk, een geweldige introductie voor de avond. Ik heb alleen maar complimenten gehoord over de ervaring en ook de drankjes. Het eten was echt goed, en al mijn zorgen over veganistische/vegetarische Aziatische gerechten werden goed opgepakt. Geef alsjeblieft veel complimenten aan de cateraar – veel van mijn collega's kwamen naar me toe om het eten te prijzen. Nogmaals bedankt voor het organiseren van een geweldige avond.",
+        "imageAlt": "European Greens"
+      },
+      "casa": {
+        "quote": "Vorige week organiseerden we de jaarlijkse CASA Ambassador bijeenkomst in Blankspace Brussel. De locatie had alles wat we nodig hadden: mooie kamers met veel daglicht, een goed uitgeruste keuken en een centrale locatie in Brussel. De medewerkers waren zeer flexibel en behulpzaam, dus we zouden zeker hier terugkomen!",
+        "imageAlt": "CASA"
+      },
+      "greenmood": {
+        "quote": "We hadden 2 evenementen bij Blankspace tijdens de herfst van 2023. Ons eerste evenement was voor onze Amerikaanse en Franse teams en we hadden 35 deelnemers. Het tweede evenement was net voor de kerstvakantie met 55 leden van ons team en partners. Ik kan zeggen dat het Blankspace-team van begin tot eind heel goed presteerde, de locatie is uitzonderlijk goed ontworpen en alle kleine details zijn doordacht. We hadden catering van Fonteyne the Kitchen, wat we geweldig vonden, en de service was ook fantastisch! We bedanken het Blankspace-team en we zullen zeker terugkomen voor meer evenementen in 2024 en 2025!",
+        "imageAlt": "Greenmood"
+      },
+      "engagement": {
+        "quote": "Blankspace Brussel heeft mij in staat gesteld om mijn verloving te organiseren onder uitstekende omstandigheden. Ze waren zeer attent op onze behoeften en reageerden snel. Het personeel was zeer gastvrij en super vriendelijk. Ze toonden onze foto's op televisieschermen zodat de gasten ze konden zien en de gasten vonden dit geweldig. De ruimte was licht en goed uitgerust (keuken, geluidsinstallatie, toilet, ..). Alles was prachtig!",
+        "role": "Verlovingsfeest",
+        "imageAlt": "Malumba & Liliane"
+      },
+      "birthday": {
+        "quote": "Onze algehele ervaring bij Blankspace was fantastisch. Het feest was een enorm succes, zowel de kinderen als de volwassenen hadden een geweldige tijd. De locatie bood de perfecte sfeer voor ons evenement en alles overtrof onze verwachtingen. De service en ondersteuning die door het Blankspace-team werden geboden, was uitzonderlijk. Jamil, de eigenaar, was ongelooflijk behulpzaam en meegaand. Zijn beschikbaarheid voorafgaand aan het evenement was van onschatbare waarde, aangezien hij ons hielp met alle details. Jamil's warme en gastvrije houding, samen met zijn flexibiliteit, maakte het hele proces soepel en aangenaam. We waardeerden zijn hulp enorm, en dit droeg enorm bij aan het succes van ons feest. Op basis van onze ervaring bevelen we Blankspace van harte aan voor vergelijkbare evenementen. De locatie biedt alles wat je nodig hebt voor een gedenkwaardige viering en Jamil's toewijding om alles soepel te laten verlopen is prijzenswaardig. We zouden zeker overwegen om Blankspace voor toekomstige evenementen te gebruiken, aangezien het de perfecte setting bood voor het feest van onze zoon en we er zeker van zijn dat het hetzelfde zou doen voor andere gelegenheden.",
+        "role": "Verjaardagsfeest",
+        "imageAlt": "Francesco Cimorelli"
+      },
+      "us-embassy": {
+        "quote": "De Amerikaanse ambassade in Brussel lanceerde de Amerikaanse vs Belgische chef battle bij Blankspace! Spannend evenement georganiseerd in de zomer van 2024!",
+        "imageAlt": "U.S. Embassy Brussels"
+      },
+      "mci": {
+        "quote": "Het MCI-team heeft 2 workshops gehad - cocktail maken + sushi maken gevolgd door een diner geserveerd door onze cateraar – OBAO",
+        "imageAlt": "MCI Group"
+      },
+      "hilton": {
+        "quote": "Hilton Brussels Grand Place vierde hun kerstfeest bij Blankspace aan het einde van 2023!",
+        "imageAlt": "Hilton Brussels Grand Place"
+      },
+      "belgian-railways": {
+        "quote": "Strategische vergadering van managementniveau werknemers werd gehouden in de zomer van 2024 bij Blankspace",
+        "imageAlt": "Belgian Railways"
+      },
+      "eca": {
+        "quote": "ECA organiseerde een strategische brainstormsessie bij Blankspace voor een groep van 20 mensen gevolgd door interne managementvergaderingen. Wij waren de perfecte keuze als conferentie locatie voor hen!",
+        "imageAlt": "ECA"
+      },
+      "earma": {
+        "quote": "Onze ervaring bij Blankspace was fantastisch. De gastvrije sfeer, samen met de ruimte die was afgestemd op onze behoeften, zette het perfecte decor voor ons evenement. De live-uitzending van de sushi-preparatie op schermen was een doordachte oplossing, waardoor de ervaring zowel plezierig als handig was voor alle 40 deelnemers. Het hele evenement verbond mensen en bood een leuke leerervaring, aangevuld met heerlijk eten. De service bij Blankspace was gastvrij en flexibel, wat een warme en gezellige sfeer creëerde. Het proactief denken en de creatieve oplossingen van het team, vooral de live-uitzending van de sushi-preparatie, staken eruit. Hun aandacht voor detail en flexibiliteit zorgden voor een naadloze ervaring. Het engagement van Blankspace om ons evenement plezierig en memorabel te maken was in elk aspect zichtbaar. We bevelen Blankspace van harte aan voor anderen voor vergelijkbare evenementen. De eenvoud en netheid van de ruimte, samen met de warmte en gezelligheid die uit de service en het Blankspace-team straalde, maken het de ideale keuze. We hebben teamvergaderingen en bijeenkomsten hier gehad, en elke keer bood Blankspace de perfecte balans tussen werkruimte en een gastvrije omgeving voor ons team om te verbinden. We kijken ernaar uit om Blankspace voor toekomstige evenementen in overweging te nemen.",
+        "imageAlt": "EARMA"
+      },
+      "una-europa": {
+        "quote": "Blankspace is de perfecte plek om een vergadering met je team te houden in een nieuwe, levendige omgeving. De ruimte is gezellig en schoon en heeft een warme sfeer dankzij de houten details. De koffiehoek is perfect voor een korte pauze. Er is slechts één koffiemachine, dus als het hele team moet bijtanken, wil je misschien wat extra tijd inplannen. De lunch was geweldig met verschillende smakelijke, gezonde en veganistische opties. De porties waren een beetje te groot, maar het personeel bood het team aan om de rest mee naar huis te nemen in doggy bags, wat zeer werd gewaardeerd. De locatie kan een beetje koud zijn tijdens de winter, dus zorg ervoor dat je de verwarming op tijd aanzet. Het team is super behulpzaam tijdens het planningsproces van je evenement en ze zijn bereikbaar en dichtbij tijdens je evenement, maar tegelijkertijd 'onzichtbaar' – de perfecte balans. Ons team was zo blij met de algehele ervaring dat we besloten om ook ons zomerevenement bij Blankspace te boeken!",
+        "imageAlt": "UNA Europa"
+      },
+      "esae": {
+        "quote": "Het ESAE-team heeft een onvergetelijke tijd gehad bij Blankspace met catering verzorgd door onze partner MAZMIZ! We raden onze diensten aan als een van de beste vergaderruimtes in Brussel!",
+        "imageAlt": "ESAE"
+      }
+    }
+  },
+  "clients": {
+    "title": "Zij kozen voor ons",
+    "subtitle": "EU-instellingen, internationale organisaties en wereldmerken organiseren hun evenementen bij blankspace.",
+    "items": {
+      "dkv": {
+        "imageAlt": "Logo van DKV"
+      },
+      "e3g": {
+        "imageAlt": "Logo van E3G"
+      },
+      "kbc": {
+        "imageAlt": "Logo van KBC"
+      },
+      "nato": {
+        "imageAlt": "Logo van NATO"
+      },
+      "pwc": {
+        "imageAlt": "Logo van PwC"
+      },
+      "earma": {
+        "imageAlt": "Logo van EARMA"
+      },
+      "eca": {
+        "imageAlt": "Logo van ECA"
+      },
+      "egp": {
+        "imageAlt": "Logo van EGP"
+      },
+      "ellis": {
+        "imageAlt": "Logo van ELLIS"
+      },
+      "esae": {
+        "imageAlt": "Logo van ESAE"
+      },
+      "casa": {
+        "imageAlt": "Logo van CASA"
+      },
+      "eurocommerce": {
+        "imageAlt": "Logo van EuroCommerce"
+      },
+      "mci": {
+        "imageAlt": "Logo van MCI Group"
+      },
+      "hilton": {
+        "imageAlt": "Logo van Hilton"
+      },
+      "finance-invest-brussels": {
+        "imageAlt": "Logo van finance&invest.brussels"
+      },
+      "ieep": {
+        "imageAlt": "Logo van IEEP"
+      },
+      "iswa": {
+        "imageAlt": "Logo van ISWA"
+      },
+      "una-europa": {
+        "imageAlt": "Logo van UNA Europa"
+      },
+      "kevin-murphy": {
+        "imageAlt": "Logo van KEVIN.MURPHY"
+      },
+      "us-embassy": {
+        "imageAlt": "Logo van U.S. Embassy Brussels"
+      },
+      "solarpower-europe": {
+        "imageAlt": "Logo van SolarPower Europe"
+      },
+      "sluc": {
+        "imageAlt": "Logo van SLUC"
+      }
+    }
+  },
+  "catering": {
+    "seo": {
+      "title": "Catering en workshops voor evenementen in Brussel",
+      "description": "Ontbijt, broodjeslunches en koffiepauzes door blankcatering, vertrouwde partnercateraars — Aziatische fusion, Italiaans, Libanees en cocktails — en praktische workshops."
+    },
+    "hero": {
+      "kicker": "CULINAIRE PERFECTIE",
+      "title": "Catering & Workshops",
+      "text": "Ontdek blankcatering — uw adres voor uitzonderlijke ontbijten, broodjeslunches en verfrissende koffie- en theepauzes.",
+      "imageAlt": "Ontbijt door blankcatering"
+    },
+    "intro": {
+      "kicker": "CULINAIRE PERFECTIE",
+      "title": "Blank Catering",
+      "paragraphs": [
+        "Ontdek blankcatering — uw adres voor uitzonderlijke ontbijten, broodjeslunches en verfrissende koffie- en theepauzes.",
+        "Begin de dag met vers gebakken croissants, smaakvol fruit, yoghurt- en granolabowls en heerlijke pains au chocolat, met duurzame Nespresso-koffie en premium Dilmah-thee uit Sri Lanka. Als lunch geniet u van onze ambachtelijke broodjes, gemaakt met de beste ingrediënten en vol smaak.",
+        "Of het nu gaat om een snelle hap, een zakelijke vergadering of een informele bijeenkomst: blankcatering tilt elke gelegenheid naar een hoger niveau met heerlijke gerechten en duurzame dranken, met zorg bereid. Proef het verschil, hap na hap en slok na slok."
+      ]
+    },
+    "gallery": {
+      "alt": "Catering door blankcatering — foto {n} van {total}"
+    },
+    "caterers": {
+      "title": "Onze vertrouwde cateraars",
+      "items": {
+        "obao": {
+          "text": "Ontdek OBAO, waar Oost en West elkaar ontmoeten in het hart van Brussel. Ons Aziatisch fusion-cateringbedrijf en restaurant biedt een heerlijke mix van de Japanse, Chinese en Thaise keuken. Of het nu om een bedrijfsevenement of een bijzondere viering gaat, met ons gevarieerde menu en onze uitstekende service zit u altijd goed. Wilt u ons aanbod eerst proeven? Ons restaurant ligt naast blankspace en is elke week open van maandag tot zaterdag. Samen met blankspace brengen we smaak en flair naar elk evenement.",
+          "imageAlt": "O’BAO Fusion Flavors"
+        },
+        "i-tratturi": {
+          "text": "Geniet van de kunst van de Italiaanse keuken met de catering van I Tratturi — waar elk evenement een feest van smaak en verfijning wordt. Of het nu gaat om een zakelijke vergadering, een huwelijk of een informele bijeenkomst: wij stellen menu’s op maat samen voor uw gelegenheid bij blankspace. Van klassieke antipasti en pizza’s uit de houtoven tot romige risotto’s en verleidelijke tiramisu: onze gerechten worden bereid met authentieke Italiaanse ingrediënten en liefde voor culinaire perfectie. Til uw evenement naar een hoger niveau met de perfecte mix van traditie en innovatie, verzorgd door ons getalenteerde team. Bij blankspace vertelt elke hap een Italiaans verhaal. Vier het met ons en maak uw evenement echt onvergetelijk. Buon appetito!",
+          "imageAlt": "I Tratturi"
+        },
+        "mazmiz": {
+          "text": "Ontdek Mazmiz — een ongewone Libanese keuken die smaken opnieuw uitvindt voor zakelijke vergaderingen, walking dinners en lunches. Verras uw gasten met een levendig menu dat traditie en innovatie combineert, met mezze vol krachtige kruiden, verse ingrediënten en ongeëvenaarde authenticiteit. Perfect afgestemd op verfijnde bijeenkomsten tilt Mazmiz elke gelegenheid op met gerechten die even onvergetelijk zijn als de gesprekken die ze inspireren. Imponeer, geniet en proef het uitzonderlijke — alleen bij blankspace.",
+          "imageAlt": "MAZMIZ"
+        },
+        "barpartners": {
+          "text": "Leer de kneepjes van het vak van een professionele bartender. Schud, roer en muddle met kwaliteitsproducten en serveer jezelf de cocktail- of mocktailcreaties, samen met een fijne selectie van hapjes of tapas.",
+          "imageAlt": "Barpartners"
+        }
+      }
+    },
+    "workshops": {
+      "kicker": "DYNAMISCHE BELEVENISSEN",
+      "title": "Onze workshops",
+      "paragraphs": [
+        "In samenwerking met topprofessionals die op onze website vermeld staan, biedt blankspace een veelzijdige omgeving voor workshops.",
+        "Volledig uitgerust en aanpasbaar inspireren onze ruimtes creativiteit en focus om te leren, te creëren en te innoveren.",
+        "Van praktische kunstsessies tot prikkelende seminaries: blankspace ondersteunt elk aspect van uw workshop.",
+        "Met professionele AV en al het nodige meubilair ter plaatse verloopt uw evenement vlot en boeiend."
+      ],
+      "imageAlt": "Een workshop bij blankspace"
+    },
+    "stories": {
+      "title": "Ontdek de verhalen van onze workshops",
+      "items": {
+        "cocktail": {
+          "name": "Cocktailworkshop",
+          "text": "Onze strategische partner, BarPartners, brengt deskundige mixologen naar onze Cocktail & Mocktail Workshops, waar je drankjes als een professional leert maken en de kunst en geschiedenis achter elke creatie ontdekt. Perfect voor groepsbijeenkomsten, deze interactieve sessies zijn een leuke manier om te verbinden en de toon te zetten voor een onvergetelijke lunch- of dinerervaring!",
+          "imageAlt": "Cocktailworkshop"
+        },
+        "matcha": {
+          "name": "Matcha & Japanse theeceremonie",
+          "text": "Stap in het hart van Japan met Yoko’s Matcha & Theeceremonie Workshop, waar ze de rijke tradities en culturele betekenis van Japanse thee deelt. Van het perfect kloppen van matcha tot het begrijpen van de meditatieve rituelen, deze meeslepende ervaring is een reis naar mindfulness, harmonie en verbinding.",
+          "imageAlt": "Matcha & Japanse theeceremonie"
+        },
+        "moss": {
+          "name": "Workshop duurzaam mos",
+          "text": "In samenwerking met Greenmood biedt onze Mos Workshop een unieke, praktische ervaring in het creëren van duurzaam, onderhoudsvrij groen voor elke ruimte. Leer hoe geconserveerd mos bijdraagt aan milieuvriendelijk design en tegelijkertijd een natuurlijke, rustgevende touch aan interieurs toevoegt—perfect voor wie zowel esthetiek als duurzaamheid waardeert.",
+          "imageAlt": "Workshop duurzaam mos"
+        },
+        "sushi": {
+          "name": "Sushiworkshop",
+          "text": "Doe mee met de Japanse chef-kok Yoko voor een authentieke Sushi Rolling Workshop, waar je traditionele technieken leert om perfecte sushirollen te maken. Deze praktische ervaring gaat niet alleen over eten—het is een leuke en boeiende manier om met anderen in contact te komen, waardoor het ideaal is voor teambuilding of speciale bijeenkomsten.",
+          "imageAlt": "Sushiworkshop"
+        }
+      }
+    }
+  },
+  "locations": {
+    "seo": {
+      "title": "Onze locaties — twee evenementlocaties in de Europese wijk van Brussel",
+      "description": "Blankspace Schuman, een herenhuis voor 5 tot 50 gasten achter het Berlaymont, en Blankspace Place du Luxembourg, 250 m² voor 50 tot 150 gasten bij het Europees Parlement."
+    },
+    "title": "Onze exclusieve locaties",
+    "text": "Twee locaties in de Europese wijk van Brussel, op enkele minuten van elkaar: een intiem herenhuis bij Schuman en een ruimte van 250 m² naast het Europees Parlement.",
+    "hero": {
+      "imageAlt": "Blankspace Place du Luxembourg"
+    },
+    "capacityLabel": "Capaciteit",
+    "quote": "Als een blanco vel papier, een neutrale ruimte waar u zelf de kleur en stijl kunt bepalen.",
+    "cta": {
+      "title": "Klaar om uw evenement te plannen?",
+      "text": "Ons team van experts is er om u te helpen bij audiovisuele apparatuur, catering en planning.",
+      "button": "Neem contact op"
+    }
+  },
+  "weddings": {
+    "seo": {
+      "title": "Trouwlocatie in Brussel | Privé Trouwruimte",
+      "description": "Huwelijken, verjaardagen en privéfeesten bij blankspace in Brussel: een privé, volledig uitgeruste locatie voor 10 tot 150 gasten, met volledige ondersteuning."
+    },
+    "hero": {
+      "title": "Bruiloften, Verjaardagen & Privéfeesten",
+      "text": "Blankspace wordt yourspace",
+      "imageAlt": "Bruidstaart en bloemen bij blankspace"
+    },
+    "canvas": {
+      "title": "Het perfecte canvas",
+      "paragraphs": [
+        "Bij Blankspace hebben we met trots talloze bruiloften, verjaardagen en privéfeesten georganiseerd. We zijn een favoriete locatie geworden voor wie op zoek is naar een elegante en flexibele ruimte. Ons minimalistische ontwerp creëert het perfecte canvas dat volledig aan uw visie kan worden aangepast. Geheel volgens onze filosofie “Blankspace wordt yourspace”, transformeert de locatie in een unieke setting voor uw belangrijkste momenten.",
+        "Omdat meubilair en professionele AV-apparatuur al door ons team worden verzorgd, wordt de planning moeiteloos. Zo kunt u zich concentreren op wat er echt toe doet: uw speciale dag vieren met de mensen van wie u houdt."
+      ]
+    },
+    "exclusivity": {
+      "title": "Exclusiviteit & Uitrusting",
+      "paragraphs": [
+        "Om een echt persoonlijke en privé-ervaring te garanderen, organiseren wij slechts één evenement tegelijk. Hoeveel u ook van de ruimte huurt, de gehele locatie wordt exclusief voor u en uw gasten gereserveerd.",
+        "Gelegen in het hart van de Europese wijk, biedt Blankspace alles wat nodig is voor vlotte en stressvrije evenementen. De locatie beschikt over lichte moderne ruimtes, snelle glasvezel wifi, professionele AV-apparatuur, een podium en een volledig uitgeruste food & beverage-hoek."
+      ]
+    },
+    "gallery": {
+      "alt": "Huwelijk en privéfeest bij blankspace — foto {n} van {total}"
+    },
+    "quote": "Blankspace - where Love finds space 🤍",
+    "support": {
+      "title": "Volledige evenementondersteuning",
+      "text": "Bij Blankspace ondersteunen we uw evenement vanaf het eerste idee tot het laatste moment, en we gaan veel verder dan wat de meeste locaties bieden. We helpen bij het plannen, coördineren en beheren van elk detail, zodat uw evenement soepel en zonder stress verloopt. Heeft u op het laatste moment een fotograaf, dj, presentator of gastheer nodig? Ons team verbindt u met een betrouwbaar netwerk van professionals.",
+      "imageAlt": "Een feest bij blankspace"
+    },
+    "cta": {
+      "title": "Laten we samen uw perfecte bruiloft creëren",
+      "text": "Functioneel, flexibel en volledig ondersteund.",
+      "button": "Contact"
+    }
+  },
+  "services": {
+    "seo": {
+      "title": "Meer dan een evenementenlocatie in Brussel",
+      "description": "Bij blankspace bieden we niet alleen een ruimte aan; we bieden een ervaring aan, ondersteund door een toegewijd team."
+    },
+    "hero": {
+      "title": "Meer dan een evenementenlocatie in Brussel: Waarom uw evenement een toegewijd team verdient, niet alleen een sleutel",
+      "text": "Wanneer u een ruimte boekt voor uw volgende evenement, waar bent u dan eigenlijk naar op zoek? De meeste aanbieders geven u een set sleutels, een wachtwoord voor de Wi-Fi en wensen u \"succes\" als ze de deur uitlopen.",
+      "imageAlt": "Een locatie klaargezet voor een evenement bij blankspace"
+    },
+    "intro": "Bij blankspace doen we de dingen anders. We bieden niet zomaar een ruimte aan; we bieden een ervaring. We geloven dat een succesvol evenement gebaseerd is op de expertise en passie van de mensen die erin werken.",
+    "points": [
+      "Volledige AV-ondersteuning door onze in-house IT-managers",
+      "Assistentie bij evenementenplanning",
+      "Catering & Workshops",
+      "Hybride evenementen & Livestreaming",
+      "Zoeken naar geschikte locaties"
+    ],
+    "yesTeam": {
+      "title": "Wij zijn uw \"Ja\" team",
+      "paragraphs": [
+        "Elk evenement heeft een uniek DNA. Sommige vereisen de precisie van een hightech conferentie, terwijl andere de warme, verzorgde touch van een productlancering nodig hebben. Wij passen ons aan u aan.",
+        "Onze flexibiliteit omvat het hele spectrum. Of uw verzoek nu klein en esthetisch is of massaal en technisch, wij hebben de capaciteiten om het te realiseren:"
+      ]
+    },
+    "teamImages": {
+      "alts": [
+        "Onze IT-manager aan het werk",
+        "Het blankspace-team aan het werk"
+      ]
+    },
+    "items": [
+      {
+        "label": "Van decor tot schone kunsten",
+        "text": "Heeft u een specifieke bloemist of een fotograaf nodig? Wij vinden het beste creatieve talent in Brussel om ervoor te zorgen dat uw evenement er geweldig uitziet."
+      },
+      {
+        "label": "Van cabines tot omroepers",
+        "text": "Organiseert u een grootschalige conferentie? Wij nemen het zware werk uit handen, van tolkencabines tot complexe plattegronden."
+      }
+    ],
+    "moreImages": {
+      "alts": [
+        "Coördinatie op de dag van het evenement",
+        "Catering tijdens een evenement"
+      ]
+    },
+    "involvement": {
+      "title": "Totale betrokkenheid, nul stress",
+      "text": "Vanaf het moment dat u binnenkomt tot het laatste gast vertrekt, is ons team volledig betrokken. Wij coördineren en zorgen ervoor dat uw ervaring uitzonderlijk is."
+    },
+    "quote": "We geven u niet zomaar de sleutels van een lege kamer. We geven u een locatie met een ziel, ondersteund door een team dat toegewijd is aan uw succes.",
+    "outro": "Klaar om uw volgende project tot leven te brengen? Laten we bespreken hoe we Blankspace kunnen aanpassen voor uw volgende grote idee.",
+    "button": {
+      "label": "Ontdek onze prijzen"
+    }
+  },
+  "blog": {
+    "title": "Blog",
+    "intro": "Nieuws, verhalen en ideeën van blankspace, onze ruimtes en onze partners.",
+    "seo": {
+      "title": "Blog — verhalen van blankspace Brussel",
+      "description": "Nieuws, verhalen en ideeën van blankspace: onze ruimtes in de Europese wijk van Brussel, onze cateringpartners, workshops en evenementen."
+    },
+    "categories": {
+      "spaces": "Onze ruimtes",
+      "partners": "Onze partners",
+      "events": "Evenementen"
+    }
+  },
+  "contactPage": {
+    "seo": {
+      "title": "Contact — boek een evenementlocatie in Brussel",
+      "description": "Bel, mail of stuur een aanvraag om Blankspace Schuman of Blankspace Place du Luxembourg te boeken, twee evenementlocaties in de Europese wijk van Brussel."
+    },
+    "title": "Contacteer ons",
+    "text": "Twee locaties in de Europese wijk van Brussel, één team. Bel, mail of stuur ons uw aanvraag.",
+    "hero": {
+      "imageAlt": "De barspace van Blankspace Schuman"
+    }
+  },
+  "location": {
+    "title": "Locatie",
+    "text": "Het herenhuis ligt in een rustige woonstraat, net achter het Berlaymont, het hoofdkantoor van de Europese Commissie in de EU-wijk van Brussel, waar Europa dagelijks samenkomt.",
+    "parking": "Op straat, in de buurt, Interparking Arts-Loi op loopafstand",
+    "transport": "Metro (Lijnen 1 & 5) en intercitytreinen op station Brussel-Schuman"
+  },
+  "notFound": {
+    "title": "Pagina Niet Gevonden",
+    "text": "De pagina die u zoekt bestaat niet of is verplaatst.",
+    "button": "Terug naar de homepage"
+  }
+}

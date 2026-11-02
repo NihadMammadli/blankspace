@@ -1,0 +1,1546 @@
+{
+  "schema": 1,
+  "defaultLocale": "en",
+  "locales": [
+    {
+      "code": "en",
+      "label": "EN",
+      "name": "English",
+      "hreflang": "en",
+      "ogLocale": "en_GB"
+    },
+    {
+      "code": "fr",
+      "label": "FR",
+      "name": "Français",
+      "hreflang": "fr",
+      "ogLocale": "fr_BE"
+    },
+    {
+      "code": "nl",
+      "label": "NL",
+      "name": "Nederlands",
+      "hreflang": "nl",
+      "ogLocale": "nl_BE"
+    }
+  ],
+  "brand": {
+    "name": "blankspace",
+    "legalName": "Blankspace",
+    "foundingYear": 2023,
+    "logo": {
+      "light": "/brand/logo-light.svg",
+      "dark": "/brand/logo-dark.svg",
+      "width": 161,
+      "height": 30
+    },
+    "icon": "/brand/icon.svg",
+    "ogImage": "home/hero-poster"
+  },
+  "contact": {
+    "phone": "+32 470 93 75 68",
+    "email": "events@blankspace.brussels",
+    "privacyEmail": "jamil@blankspace.brussels",
+    "formEndpoint": "",
+    "defaultCountry": "BE",
+    "countries": [
+      "BE",
+      "NL",
+      "LU",
+      "FR",
+      "DE",
+      "GB",
+      "IE",
+      "IT",
+      "ES",
+      "PT",
+      "AT",
+      "CH",
+      "DK",
+      "SE",
+      "NO",
+      "FI",
+      "PL",
+      "CZ",
+      "GR",
+      "RO",
+      "HU",
+      "US",
+      "CA",
+      "AZ",
+      "TR",
+      "JP",
+      "CN",
+      "IN",
+      "AE"
+    ]
+  },
+  "social": [
+    {
+      "id": "instagram",
+      "url": "https://www.instagram.com/blankspace_brussels/"
+    },
+    {
+      "id": "linkedin",
+      "url": "https://www.linkedin.com/company/blankspace.brussels/"
+    }
+  ],
+  "media": {
+    "heroVideo": {
+      "src": "https://pub-5d9c1e355c7f46c6bf4e3d461382cb2f.r2.dev/videos/hero-video.mp4",
+      "poster": "home/hero-poster"
+    },
+    "conceptVideo": {
+      "src": "https://pub-5d9c1e355c7f46c6bf4e3d461382cb2f.r2.dev/videos/second-video.mp4",
+      "poster": "home/concept-poster"
+    }
+  },
+  "menus": {
+    "main": [
+      {
+        "id": "events",
+        "children": "events"
+      },
+      {
+        "id": "spaces",
+        "children": "venues",
+        "extra": [
+          {
+            "id": "locations",
+            "href": "/locations"
+          }
+        ]
+      },
+      {
+        "id": "catering",
+        "href": "/catering-and-workshops"
+      },
+      {
+        "id": "prices",
+        "href": "/discover-prices"
+      },
+      {
+        "id": "blog",
+        "href": "/blog"
+      }
+    ],
+    "footer": [
+      {
+        "id": "events",
+        "links": "events"
+      },
+      {
+        "id": "spaces",
+        "links": "venues"
+      },
+      {
+        "id": "venues",
+        "links": "communes"
+      },
+      {
+        "id": "explore",
+        "links": [
+          {
+            "id": "catering",
+            "href": "/catering-and-workshops"
+          },
+          {
+            "id": "prices",
+            "href": "/discover-prices"
+          },
+          {
+            "id": "locations",
+            "href": "/locations"
+          },
+          {
+            "id": "weddings",
+            "href": "/weddings"
+          },
+          {
+            "id": "services",
+            "href": "/services"
+          },
+          {
+            "id": "blog",
+            "href": "/blog"
+          }
+        ]
+      }
+    ],
+    "legal": "legal",
+    "cta": {
+      "href": "/contact"
+    }
+  },
+  "home": {
+    "seo": {
+      "image": "home/hero-poster"
+    },
+    "hero": {
+      "image": "home/hero-poster",
+      "primary": {
+        "href": "#venues"
+      },
+      "secondary": {
+        "href": "/contact"
+      }
+    },
+    "concept": {
+      "image": "home/concept-poster",
+      "button": {
+        "href": "/locations"
+      }
+    },
+    "hostAny": {
+      "image": "home/host-event"
+    },
+    "stats": [
+      {
+        "id": "venues",
+        "value": 2,
+        "icon": "Building2"
+      },
+      {
+        "id": "guests",
+        "value": 150,
+        "icon": "Users"
+      },
+      {
+        "id": "area",
+        "value": 250,
+        "suffix": " m²",
+        "icon": "Maximize"
+      },
+      {
+        "id": "clients",
+        "value": 22,
+        "icon": "Award"
+      }
+    ],
+    "features": {
+      "items": [
+        {
+          "id": "exclusivity",
+          "icon": "KeyRound"
+        },
+        {
+          "id": "support",
+          "icon": "Handshake"
+        }
+      ]
+    }
+  },
+  "equipment": [
+    {
+      "id": "tv",
+      "icon": "Tv"
+    },
+    {
+      "id": "speaker",
+      "icon": "Speaker"
+    },
+    {
+      "id": "microphone",
+      "icon": "Mic"
+    },
+    {
+      "id": "projector",
+      "icon": "Projector"
+    },
+    {
+      "id": "table",
+      "icon": "Table2"
+    },
+    {
+      "id": "chair",
+      "icon": "Armchair"
+    }
+  ],
+  "venues": [
+    {
+      "id": "schuman",
+      "slug": "blankspace-schuman",
+      "youtubeId": "R_0knS1bHdU",
+      "address": {
+        "postalCode": "1000",
+        "countryCode": "BE"
+      },
+      "capacity": {
+        "min": 5,
+        "max": 50
+      },
+      "hero": {
+        "images": [
+          "venues/schuman/hero"
+        ]
+      },
+      "card": {
+        "image": "home/host"
+      },
+      "seo": {
+        "image": "venues/schuman/hero"
+      },
+      "rooms": [
+        {
+          "id": "barspace",
+          "capacity": 40,
+          "equipment": [
+            "tv",
+            "speaker",
+            "microphone",
+            "projector",
+            "table",
+            "chair"
+          ],
+          "gallery": {
+            "images": [
+              "venues/schuman/barspace-01",
+              "venues/schuman/barspace-02",
+              "venues/schuman/barspace-03",
+              "venues/schuman/barspace-04",
+              "venues/schuman/barspace-05",
+              "venues/schuman/barspace-06",
+              "venues/schuman/barspace-07"
+            ]
+          }
+        },
+        {
+          "id": "gardenspace",
+          "capacity": 50,
+          "equipment": [
+            "speaker",
+            "table",
+            "chair"
+          ],
+          "gallery": {
+            "images": [
+              "venues/schuman/gardenspace-01",
+              "venues/schuman/gardenspace-02",
+              "venues/schuman/gardenspace-03",
+              "venues/schuman/gardenspace-04"
+            ]
+          }
+        },
+        {
+          "id": "tablespace",
+          "capacity": 30,
+          "equipment": [
+            "tv",
+            "speaker",
+            "microphone",
+            "projector",
+            "table",
+            "chair"
+          ],
+          "gallery": {
+            "images": [
+              "venues/schuman/tablespace-01",
+              "venues/schuman/tablespace-02",
+              "venues/schuman/tablespace-03",
+              "venues/schuman/tablespace-04",
+              "venues/schuman/tablespace-05",
+              "venues/schuman/tablespace-06",
+              "venues/schuman/tablespace-07"
+            ]
+          }
+        },
+        {
+          "id": "studiospace",
+          "capacity": 20,
+          "equipment": [
+            "tv",
+            "speaker",
+            "microphone",
+            "projector",
+            "table",
+            "chair"
+          ],
+          "gallery": {
+            "images": [
+              "venues/schuman/studiospace-01",
+              "venues/schuman/studiospace-02",
+              "venues/schuman/studiospace-03"
+            ]
+          }
+        }
+      ],
+      "locations": {
+        "images": [
+          "locations/01",
+          "locations/02",
+          "locations/03",
+          "locations/04",
+          "locations/05"
+        ]
+      }
+    },
+    {
+      "id": "luxembourg",
+      "slug": "blankspace-luxembourg",
+      "youtubeId": "0ZPjJ04O2Y0",
+      "address": {
+        "postalCode": "1040",
+        "countryCode": "BE"
+      },
+      "capacity": {
+        "min": 10,
+        "max": 150
+      },
+      "area": 250,
+      "hero": {
+        "images": [
+          "venues/luxembourg/hero-01",
+          "venues/luxembourg/hero-02"
+        ]
+      },
+      "card": {
+        "image": "venues/luxembourg/hero-01"
+      },
+      "seo": {
+        "image": "venues/luxembourg/hero-01"
+      },
+      "highlights": [
+        {
+          "id": "area",
+          "icon": "Maximize"
+        },
+        {
+          "id": "guests",
+          "icon": "Users"
+        }
+      ],
+      "equipped": {
+        "items": [
+          {
+            "id": "eu",
+            "icon": "MapPin"
+          },
+          {
+            "id": "bright",
+            "icon": "Sun"
+          },
+          {
+            "id": "fb",
+            "icon": "Coffee"
+          },
+          {
+            "id": "wifi",
+            "icon": "Wifi"
+          },
+          {
+            "id": "av",
+            "icon": "MonitorSpeaker"
+          },
+          {
+            "id": "stage",
+            "icon": "Mic"
+          }
+        ]
+      },
+      "why": {
+        "gallery": {
+          "images": [
+            "venues/luxembourg/conference-space",
+            "venues/luxembourg/conference-space-2",
+            "venues/luxembourg/stage-during-conference",
+            "venues/luxembourg/stage-in-details",
+            "venues/luxembourg/theatre-style-setup",
+            "venues/luxembourg/registration-desk",
+            "venues/luxembourg/av-support",
+            "venues/luxembourg/fb-corner",
+            "venues/luxembourg/fb-corner-during-breaks",
+            "venues/luxembourg/chill-zone"
+          ]
+        }
+      },
+      "services": {
+        "items": [
+          {
+            "id": "s1",
+            "icon": "ClipboardList"
+          },
+          {
+            "id": "s2",
+            "icon": "Building2"
+          },
+          {
+            "id": "s3",
+            "icon": "CalendarClock"
+          },
+          {
+            "id": "s4",
+            "icon": "MonitorPlay"
+          },
+          {
+            "id": "s5",
+            "icon": "UserCheck"
+          },
+          {
+            "id": "s6",
+            "icon": "MessageSquareText"
+          }
+        ]
+      },
+      "gallery": {
+        "images": [
+          "venues/luxembourg/hero-03",
+          "venues/luxembourg/hero-04",
+          "venues/luxembourg/hero-05",
+          "venues/luxembourg/hero-06",
+          "venues/luxembourg/hero-07",
+          "venues/luxembourg/hero-08",
+          "venues/luxembourg/hero-09",
+          "venues/luxembourg/hero-10",
+          "venues/luxembourg/hero-11",
+          "venues/luxembourg/hero-12"
+        ]
+      },
+      "locations": {
+        "images": [
+          "locations/06",
+          "locations/07",
+          "locations/08",
+          "locations/09",
+          "locations/10"
+        ]
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "corporate-meetings",
+      "slug": "corporate-meetings",
+      "card": {
+        "image": "events/corporate-meetings/cover"
+      },
+      "gallery": {
+        "images": [
+          "events/corporate-meetings/01",
+          "events/corporate-meetings/02",
+          "events/corporate-meetings/03",
+          "events/corporate-meetings/04",
+          "events/corporate-meetings/05",
+          "events/corporate-meetings/06",
+          "events/corporate-meetings/07",
+          "events/corporate-meetings/08",
+          "events/corporate-meetings/09",
+          "events/corporate-meetings/10",
+          "events/corporate-meetings/11",
+          "events/corporate-meetings/12",
+          "events/corporate-meetings/13",
+          "events/corporate-meetings/14",
+          "events/corporate-meetings/15",
+          "events/corporate-meetings/16",
+          "events/corporate-meetings/17",
+          "events/corporate-meetings/18"
+        ]
+      },
+      "seo": {
+        "image": "events/corporate-meetings/01"
+      }
+    },
+    {
+      "id": "coctail-receptions",
+      "slug": "coctail-receptions",
+      "card": {
+        "image": "events/coctail-receptions/cover"
+      },
+      "gallery": {
+        "images": [
+          "events/coctail-receptions/01",
+          "events/coctail-receptions/02",
+          "events/coctail-receptions/03",
+          "events/coctail-receptions/04",
+          "events/coctail-receptions/05",
+          "events/coctail-receptions/06",
+          "events/coctail-receptions/07",
+          "events/coctail-receptions/08",
+          "events/coctail-receptions/09",
+          "events/coctail-receptions/10",
+          "events/coctail-receptions/11",
+          "events/coctail-receptions/12",
+          "events/coctail-receptions/13",
+          "events/coctail-receptions/14",
+          "events/coctail-receptions/15",
+          "events/coctail-receptions/16",
+          "events/coctail-receptions/17",
+          "events/coctail-receptions/18"
+        ]
+      },
+      "seo": {
+        "image": "events/coctail-receptions/01"
+      }
+    },
+    {
+      "id": "teambuilding",
+      "slug": "teambuilding",
+      "card": {
+        "image": "events/teambuilding/cover"
+      },
+      "gallery": {
+        "images": [
+          "events/teambuilding/01",
+          "events/teambuilding/02",
+          "events/teambuilding/03",
+          "events/teambuilding/04",
+          "events/teambuilding/05",
+          "events/teambuilding/06",
+          "events/teambuilding/07",
+          "events/teambuilding/08",
+          "events/teambuilding/09",
+          "events/teambuilding/10",
+          "events/teambuilding/11",
+          "events/teambuilding/12",
+          "events/teambuilding/13",
+          "events/teambuilding/14",
+          "events/teambuilding/15",
+          "events/teambuilding/16",
+          "events/teambuilding/17",
+          "events/teambuilding/18"
+        ]
+      },
+      "seo": {
+        "image": "events/teambuilding/01"
+      }
+    },
+    {
+      "id": "workshops",
+      "slug": "workshops",
+      "card": {
+        "image": "events/workshops/cover"
+      },
+      "gallery": {
+        "images": [
+          "events/workshops/01",
+          "events/workshops/02",
+          "events/workshops/03",
+          "events/workshops/04",
+          "events/workshops/05",
+          "events/workshops/06",
+          "events/workshops/07",
+          "events/workshops/08",
+          "events/workshops/09",
+          "events/workshops/10",
+          "events/workshops/11",
+          "events/workshops/12",
+          "events/workshops/13",
+          "events/workshops/14",
+          "events/workshops/15",
+          "events/workshops/16",
+          "events/workshops/17",
+          "events/workshops/18",
+          "events/workshops/19",
+          "events/workshops/20",
+          "events/workshops/21",
+          "events/workshops/22"
+        ]
+      },
+      "seo": {
+        "image": "events/workshops/01"
+      }
+    },
+    {
+      "id": "conference",
+      "slug": "conference",
+      "card": {
+        "image": "events/conference/cover"
+      },
+      "gallery": {
+        "images": [
+          "events/conference/01",
+          "events/conference/02",
+          "events/conference/03",
+          "events/conference/04",
+          "events/conference/05",
+          "events/conference/06",
+          "events/conference/07",
+          "events/conference/08",
+          "events/conference/09",
+          "events/conference/10",
+          "events/conference/11",
+          "events/conference/12",
+          "events/conference/13",
+          "events/conference/14",
+          "events/conference/15",
+          "events/conference/16"
+        ]
+      },
+      "seo": {
+        "image": "events/conference/01"
+      }
+    },
+    {
+      "id": "product-launches",
+      "slug": "product-launches",
+      "card": {
+        "image": "events/product-launches/cover"
+      },
+      "gallery": {
+        "images": [
+          "events/product-launches/01",
+          "events/product-launches/02",
+          "events/product-launches/03",
+          "events/product-launches/04",
+          "events/product-launches/05",
+          "events/product-launches/06",
+          "events/product-launches/07",
+          "events/product-launches/08",
+          "events/product-launches/09",
+          "events/product-launches/10",
+          "events/product-launches/11",
+          "events/product-launches/12",
+          "events/product-launches/13",
+          "events/product-launches/14",
+          "events/product-launches/15",
+          "events/product-launches/16",
+          "events/product-launches/17",
+          "events/product-launches/18",
+          "events/product-launches/19"
+        ]
+      },
+      "seo": {
+        "image": "events/product-launches/01"
+      }
+    },
+    {
+      "id": "plenary-discussions",
+      "slug": "plenary-discussions",
+      "card": {
+        "image": "events/plenary-discussions/cover"
+      },
+      "gallery": {
+        "images": [
+          "events/plenary-discussions/01",
+          "events/plenary-discussions/02",
+          "events/plenary-discussions/03",
+          "events/plenary-discussions/04",
+          "events/plenary-discussions/05",
+          "events/plenary-discussions/06"
+        ]
+      },
+      "seo": {
+        "image": "events/plenary-discussions/01"
+      }
+    },
+    {
+      "id": "birthday-and-weddings",
+      "slug": "birthday-and-weddings",
+      "card": {
+        "image": "events/birthday-and-weddings/cover"
+      },
+      "gallery": {
+        "images": [
+          "events/birthday-and-weddings/01",
+          "events/birthday-and-weddings/02",
+          "events/birthday-and-weddings/03",
+          "events/birthday-and-weddings/04",
+          "events/birthday-and-weddings/05",
+          "events/birthday-and-weddings/06",
+          "events/birthday-and-weddings/07",
+          "events/birthday-and-weddings/08",
+          "events/birthday-and-weddings/09",
+          "events/birthday-and-weddings/10",
+          "events/birthday-and-weddings/11",
+          "events/birthday-and-weddings/12",
+          "events/birthday-and-weddings/13"
+        ]
+      },
+      "seo": {
+        "image": "events/birthday-and-weddings/01"
+      }
+    }
+  ],
+  "communes": [
+    {
+      "id": "brussels",
+      "slug": "brussels",
+      "image": "why/01",
+      "seo": {
+        "image": "home/hero-poster"
+      }
+    },
+    {
+      "id": "schaerbeek",
+      "slug": "schaerbeek",
+      "image": "why/01",
+      "seo": {
+        "image": "home/hero-poster"
+      }
+    },
+    {
+      "id": "ixelles",
+      "slug": "ixelles",
+      "image": "why/01",
+      "seo": {
+        "image": "home/hero-poster"
+      }
+    },
+    {
+      "id": "woluwe-saint-pierre",
+      "slug": "woluwe-saint-pierre",
+      "image": "why/01",
+      "seo": {
+        "image": "home/hero-poster"
+      }
+    },
+    {
+      "id": "saint-josse-ten-noode",
+      "slug": "saint-josse-ten-noode",
+      "image": "why/01",
+      "seo": {
+        "image": "home/hero-poster"
+      }
+    },
+    {
+      "id": "woluwe-saint-lambert",
+      "slug": "woluwe-saint-lambert",
+      "image": "why/01",
+      "seo": {
+        "image": "home/hero-poster"
+      }
+    }
+  ],
+  "landings": [
+    {
+      "id": "venues",
+      "slug": "venues",
+      "seo": {
+        "image": "home/concept-poster"
+      }
+    },
+    {
+      "id": "event-space",
+      "slug": "event-space",
+      "seo": {
+        "image": "home/concept-poster"
+      }
+    },
+    {
+      "id": "meeting-room",
+      "slug": "meeting-room",
+      "seo": {
+        "image": "home/concept-poster"
+      }
+    },
+    {
+      "id": "conference-room",
+      "slug": "conference-room",
+      "seo": {
+        "image": "home/concept-poster"
+      }
+    },
+    {
+      "id": "conference-room-near-me",
+      "slug": "conference-room-near-me",
+      "seo": {
+        "image": "home/concept-poster"
+      }
+    },
+    {
+      "id": "wedding-venues",
+      "slug": "wedding-venues",
+      "seo": {
+        "image": "home/concept-poster"
+      }
+    },
+    {
+      "id": "party-venues",
+      "slug": "party-venues",
+      "seo": {
+        "image": "home/concept-poster"
+      }
+    },
+    {
+      "id": "private-party-venues",
+      "slug": "private-party-venues",
+      "seo": {
+        "image": "home/concept-poster"
+      }
+    },
+    {
+      "id": "teambuilding-location",
+      "slug": "teambuilding-location",
+      "seo": {
+        "image": "home/concept-poster"
+      }
+    },
+    {
+      "id": "private-event-space",
+      "slug": "private-event-space",
+      "seo": {
+        "image": "home/concept-poster"
+      }
+    }
+  ],
+  "legal": [
+    {
+      "id": "terms-and-conditions",
+      "slug": "terms-and-conditions",
+      "image": "legal/cover",
+      "seo": {
+        "image": "legal/cover"
+      }
+    },
+    {
+      "id": "gdpr-policy",
+      "slug": "gdpr-policy",
+      "image": "legal/cover",
+      "seo": {
+        "image": "legal/cover"
+      }
+    },
+    {
+      "id": "csr-policy",
+      "slug": "csr-policy",
+      "image": "legal/cover",
+      "seo": {
+        "image": "legal/cover"
+      }
+    }
+  ],
+  "pricing": {
+    "currency": "EUR",
+    "seo": {
+      "image": "venues/luxembourg/theatre-style-setup"
+    },
+    "page": {
+      "image": "venues/luxembourg/theatre-style-setup"
+    },
+    "features": [
+      {
+        "id": "coffee",
+        "icon": "Coffee"
+      },
+      {
+        "id": "privatisation4h",
+        "icon": "KeyRound"
+      },
+      {
+        "id": "privatisation8h",
+        "icon": "KeyRound"
+      },
+      {
+        "id": "av",
+        "icon": "MonitorSpeaker"
+      },
+      {
+        "id": "water",
+        "icon": "GlassWater"
+      },
+      {
+        "id": "meal",
+        "icon": "Croissant"
+      },
+      {
+        "id": "exclusive",
+        "icon": "KeyRound"
+      },
+      {
+        "id": "furniture",
+        "icon": "Armchair"
+      },
+      {
+        "id": "frameTv",
+        "icon": "Tv"
+      },
+      {
+        "id": "flipchart",
+        "icon": "Presentation"
+      },
+      {
+        "id": "projector",
+        "icon": "Projector"
+      },
+      {
+        "id": "sonos",
+        "icon": "Speaker"
+      },
+      {
+        "id": "microphones",
+        "icon": "Mic"
+      }
+    ],
+    "packages": [
+      {
+        "id": "silver-half",
+        "price": 55,
+        "features": [
+          "coffee",
+          "privatisation4h",
+          "av",
+          "water"
+        ]
+      },
+      {
+        "id": "premium-half",
+        "price": 75,
+        "features": [
+          "coffee",
+          "privatisation4h",
+          "av",
+          "water",
+          "meal"
+        ],
+        "highlight": true
+      },
+      {
+        "id": "silver-full",
+        "price": 85,
+        "features": [
+          "coffee",
+          "privatisation8h",
+          "av",
+          "water"
+        ]
+      },
+      {
+        "id": "premium-full",
+        "price": 105,
+        "features": [
+          "coffee",
+          "privatisation8h",
+          "av",
+          "water",
+          "meal"
+        ],
+        "highlight": true
+      }
+    ],
+    "flatRates": {
+      "items": [
+        {
+          "id": "schuman",
+          "venue": "schuman",
+          "halfDay": 590,
+          "fullDay": 890,
+          "features": [
+            "exclusive",
+            "furniture",
+            "water",
+            "frameTv",
+            "flipchart",
+            "projector",
+            "sonos",
+            "microphones"
+          ]
+        },
+        {
+          "id": "luxembourg",
+          "venue": "luxembourg",
+          "halfDay": 1290,
+          "fullDay": 1690,
+          "features": [
+            "exclusive",
+            "furniture",
+            "water",
+            "flipchart",
+            "projector",
+            "sonos",
+            "microphones"
+          ]
+        }
+      ]
+    }
+  },
+  "why": {
+    "gallery": {
+      "images": [
+        "why/01",
+        "why/02",
+        "why/03"
+      ]
+    },
+    "items": [
+      {
+        "id": "i1",
+        "icon": "KeyRound"
+      },
+      {
+        "id": "i2",
+        "icon": "UtensilsCrossed"
+      },
+      {
+        "id": "i3",
+        "icon": "Wrench"
+      },
+      {
+        "id": "i4",
+        "icon": "UserCheck"
+      },
+      {
+        "id": "i5",
+        "icon": "MonitorSpeaker"
+      },
+      {
+        "id": "i6",
+        "icon": "CupSoda"
+      }
+    ]
+  },
+  "faq": {
+    "items": [
+      {
+        "id": "q1"
+      },
+      {
+        "id": "q2"
+      },
+      {
+        "id": "q3"
+      },
+      {
+        "id": "q4"
+      },
+      {
+        "id": "q5"
+      },
+      {
+        "id": "q6"
+      }
+    ]
+  },
+  "testimonials": {
+    "items": [
+      {
+        "id": "eurocommerce",
+        "author": "",
+        "company": "EuroCommerce",
+        "image": "testimonials/eurocommerce"
+      },
+      {
+        "id": "ellis",
+        "author": "",
+        "company": "ELLIS",
+        "image": "testimonials/ellis"
+      },
+      {
+        "id": "kevin-murphy",
+        "author": "Mercedes Porras",
+        "company": "KEVIN.MURPHY",
+        "image": "testimonials/kevin-murphy"
+      },
+      {
+        "id": "oliver-wyman",
+        "author": "",
+        "company": "Oliver Wyman",
+        "image": "testimonials/oliver-wyman"
+      },
+      {
+        "id": "solarpower-europe",
+        "author": "Léa Terrien",
+        "company": "SolarPower Europe",
+        "image": "testimonials/solarpower-europe"
+      },
+      {
+        "id": "european-greens",
+        "author": "Petra Skuljevic",
+        "company": "European Greens",
+        "image": "testimonials/european-greens"
+      },
+      {
+        "id": "casa",
+        "author": "Ann Van den Borne",
+        "company": "CASA",
+        "image": "testimonials/casa"
+      },
+      {
+        "id": "greenmood",
+        "author": "Sadig Alekperov",
+        "company": "Greenmood",
+        "image": "testimonials/greenmood"
+      },
+      {
+        "id": "engagement",
+        "author": "Malumba & Liliane",
+        "company": "",
+        "image": "testimonials/engagement"
+      },
+      {
+        "id": "birthday",
+        "author": "Francesco Cimorelli",
+        "company": "",
+        "image": "testimonials/birthday"
+      },
+      {
+        "id": "us-embassy",
+        "author": "",
+        "company": "U.S. Embassy Brussels",
+        "image": "testimonials/us-embassy"
+      },
+      {
+        "id": "mci",
+        "author": "",
+        "company": "MCI Group",
+        "image": "testimonials/mci"
+      },
+      {
+        "id": "hilton",
+        "author": "",
+        "company": "Hilton Brussels Grand Place",
+        "image": "testimonials/hilton"
+      },
+      {
+        "id": "belgian-railways",
+        "author": "",
+        "company": "Belgian Railways",
+        "image": "testimonials/belgian-railways"
+      },
+      {
+        "id": "eca",
+        "author": "",
+        "company": "ECA",
+        "image": "testimonials/eca"
+      },
+      {
+        "id": "earma",
+        "author": "Johanna Roodt",
+        "company": "EARMA",
+        "image": "testimonials/earma"
+      },
+      {
+        "id": "una-europa",
+        "author": "Zoë De Paepe",
+        "company": "UNA Europa",
+        "image": "testimonials/una-europa"
+      },
+      {
+        "id": "esae",
+        "author": "",
+        "company": "ESAE",
+        "image": "testimonials/esae"
+      }
+    ]
+  },
+  "clients": {
+    "items": [
+      {
+        "id": "dkv",
+        "name": "DKV",
+        "image": "clients/dkv"
+      },
+      {
+        "id": "e3g",
+        "name": "E3G",
+        "image": "clients/e3g"
+      },
+      {
+        "id": "kbc",
+        "name": "KBC",
+        "image": "clients/kbc"
+      },
+      {
+        "id": "nato",
+        "name": "NATO",
+        "image": "clients/nato"
+      },
+      {
+        "id": "pwc",
+        "name": "PwC",
+        "image": "clients/pwc"
+      },
+      {
+        "id": "earma",
+        "name": "EARMA",
+        "image": "clients/earma"
+      },
+      {
+        "id": "eca",
+        "name": "ECA",
+        "image": "clients/eca"
+      },
+      {
+        "id": "egp",
+        "name": "EGP",
+        "image": "clients/egp"
+      },
+      {
+        "id": "ellis",
+        "name": "ELLIS",
+        "image": "clients/ellis"
+      },
+      {
+        "id": "esae",
+        "name": "ESAE",
+        "image": "clients/esae"
+      },
+      {
+        "id": "casa",
+        "name": "CASA",
+        "image": "clients/casa"
+      },
+      {
+        "id": "eurocommerce",
+        "name": "EuroCommerce",
+        "image": "clients/eurocommerce"
+      },
+      {
+        "id": "mci",
+        "name": "MCI Group",
+        "image": "clients/mci"
+      },
+      {
+        "id": "hilton",
+        "name": "Hilton",
+        "image": "clients/hilton"
+      },
+      {
+        "id": "finance-invest-brussels",
+        "name": "finance&invest.brussels",
+        "image": "clients/finance-invest-brussels"
+      },
+      {
+        "id": "ieep",
+        "name": "IEEP",
+        "image": "clients/ieep"
+      },
+      {
+        "id": "iswa",
+        "name": "ISWA",
+        "image": "clients/iswa"
+      },
+      {
+        "id": "una-europa",
+        "name": "UNA Europa",
+        "image": "clients/una-europa"
+      },
+      {
+        "id": "kevin-murphy",
+        "name": "KEVIN.MURPHY",
+        "image": "clients/kevin-murphy"
+      },
+      {
+        "id": "us-embassy",
+        "name": "U.S. Embassy Brussels",
+        "image": "clients/us-embassy"
+      },
+      {
+        "id": "solarpower-europe",
+        "name": "SolarPower Europe",
+        "image": "clients/solarpower-europe"
+      },
+      {
+        "id": "sluc",
+        "name": "SLUC",
+        "image": "clients/sluc"
+      }
+    ]
+  },
+  "catering": {
+    "seo": {
+      "image": "catering/gallery-01"
+    },
+    "hero": {
+      "image": "catering/gallery-01"
+    },
+    "gallery": {
+      "images": [
+        "catering/gallery-01",
+        "catering/gallery-02",
+        "catering/gallery-03",
+        "catering/gallery-04",
+        "catering/gallery-05",
+        "catering/gallery-06",
+        "catering/gallery-07",
+        "catering/gallery-08",
+        "catering/gallery-09",
+        "catering/gallery-10",
+        "catering/gallery-11",
+        "catering/gallery-12",
+        "catering/gallery-13"
+      ]
+    },
+    "caterers": {
+      "items": [
+        {
+          "id": "obao",
+          "name": "O’BAO Fusion Flavors",
+          "image": "catering/obao"
+        },
+        {
+          "id": "i-tratturi",
+          "name": "I Tratturi",
+          "image": "catering/i-tratturi"
+        },
+        {
+          "id": "mazmiz",
+          "name": "MAZMIZ",
+          "image": "catering/mazmiz"
+        },
+        {
+          "id": "barpartners",
+          "name": "Barpartners",
+          "image": "catering/barpartners"
+        }
+      ]
+    },
+    "workshops": {
+      "image": "catering/workshops"
+    },
+    "stories": {
+      "items": [
+        {
+          "id": "cocktail",
+          "image": "catering/workshop-cocktail"
+        },
+        {
+          "id": "matcha",
+          "image": "catering/workshop-matcha"
+        },
+        {
+          "id": "moss",
+          "image": "catering/workshop-moss"
+        },
+        {
+          "id": "sushi",
+          "image": "catering/workshop-sushi"
+        }
+      ]
+    }
+  },
+  "locations": {
+    "seo": {
+      "image": "locations/01"
+    },
+    "hero": {
+      "image": "locations/06"
+    },
+    "items": [
+      {
+        "id": "schuman",
+        "venue": "schuman"
+      },
+      {
+        "id": "luxembourg",
+        "venue": "luxembourg"
+      }
+    ]
+  },
+  "weddings": {
+    "seo": {
+      "image": "weddings/01"
+    },
+    "hero": {
+      "image": "weddings/01"
+    },
+    "gallery": {
+      "images": [
+        "weddings/02",
+        "weddings/03",
+        "weddings/04",
+        "weddings/05",
+        "weddings/06",
+        "weddings/07",
+        "weddings/08",
+        "weddings/09"
+      ]
+    },
+    "support": {
+      "image": "weddings/10"
+    }
+  },
+  "services": {
+    "seo": {
+      "image": "services/photo-13"
+    },
+    "date": "2026-02-20",
+    "hero": {
+      "image": "services/photo-13"
+    },
+    "teamImages": {
+      "images": [
+        "services/photo-07",
+        "services/photo-09"
+      ]
+    },
+    "moreImages": {
+      "images": [
+        "services/photo-17",
+        "services/photo-11"
+      ]
+    },
+    "button": {
+      "href": "/discover-prices"
+    }
+  },
+  "blog": {
+    "seo": {
+      "image": "blog/discovering-urban-serenity-the-gardenspace-at-blankspace"
+    },
+    "posts": [
+      {
+        "id": "discovering-urban-serenity-the-gardenspace-at-blankspace",
+        "slug": "discovering-urban-serenity-the-gardenspace-at-blankspace",
+        "date": "2023-10-20",
+        "category": "spaces",
+        "image": "blog/discovering-urban-serenity-the-gardenspace-at-blankspace"
+      },
+      {
+        "id": "get-your-hands-dirty-tonbspdiscover-natural-beauty-with-greenmood",
+        "slug": "get-your-hands-dirty-tonbspdiscover-natural-beauty-with-greenmood",
+        "date": "2023-10-24",
+        "category": "partners",
+        "image": "blog/get-your-hands-dirty-tonbspdiscover-natural-beauty-with-greenmood"
+      },
+      {
+        "id": "blog-post-title-one-mlzmd-3clmr",
+        "slug": "blog-post-title-one-mlzmd-3clmr",
+        "date": "2023-10-13",
+        "category": "partners",
+        "image": "blog/blog-post-title-one-mlzmd-3clmr"
+      },
+      {
+        "id": "socialise-and-strategize-discover-blankspaces-bar-amp-meetingspace",
+        "slug": "socialise-and-strategize-discover-blankspaces-bar-amp-meetingspace",
+        "date": "2023-10-15",
+        "category": "spaces",
+        "image": "blog/socialise-and-strategize-discover-blankspaces-bar-amp-meetingspace"
+      },
+      {
+        "id": "spaces-redefined-a-glance-at-blankspaces-open-day",
+        "slug": "spaces-redefined-a-glance-at-blankspaces-open-day",
+        "date": "2023-11-16",
+        "category": "events",
+        "image": "blog/spaces-redefined-a-glance-at-blankspaces-open-day"
+      },
+      {
+        "id": "unleash-your-creativity-in-style-in-the-inspiring-studiospace",
+        "slug": "unleash-your-creativity-in-style-in-the-inspiring-studiospace",
+        "date": "2023-10-22",
+        "category": "spaces",
+        "image": "blog/unleash-your-creativity-in-style-in-the-inspiring-studiospace"
+      },
+      {
+        "id": "blog-post-title-one-mlzmd",
+        "slug": "blog-post-title-one-mlzmd",
+        "date": "2023-10-12",
+        "category": "partners",
+        "image": "blog/blog-post-title-one-mlzmd"
+      },
+      {
+        "id": "where-asian-fusion-meets-brussels-culinary-scene-with-obao",
+        "slug": "where-asian-fusion-meets-brussels-culinary-scene-with-obao",
+        "date": "2023-11-02",
+        "category": "partners",
+        "image": "blog/where-asian-fusion-meets-brussels-culinary-scene-with-obao"
+      },
+      {
+        "id": "where-nature-meets-innovation-elevate-your-creativity-in-our-tablespace",
+        "slug": "where-nature-meets-innovation-elevate-your-creativity-in-our-tablespace",
+        "date": "2023-10-16",
+        "category": "spaces",
+        "image": "blog/where-nature-meets-innovation-elevate-your-creativity-in-our-tablespace"
+      }
+    ]
+  },
+  "contactPage": {
+    "seo": {
+      "image": "venues/schuman/hero"
+    },
+    "hero": {
+      "image": "venues/schuman/barspace-01"
+    }
+  },
+  "notFound": {
+    "image": "venues/schuman/hero"
+  }
+}
