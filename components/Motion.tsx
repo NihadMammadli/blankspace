@@ -1,16 +1,50 @@
 'use client';
 
-import { useEffect } from 'react';
+import { useEffect, useRef } from 'react';
 import { usePathname } from 'next/navigation';
 
 /**
- * The one owner of scroll motion. Each [data-reveal] element gets `is-in` the
- * first time it comes into view; globals.css turns that into Damla's fade-up,
- * slide or staggered entrance. Nothing is hidden unless <html> carries
- * `motion`, which the inline head script adds only when motion is welcome.
+ * The one owner of scroll and motion.
+ *
+ * - Every new page starts at the top, at once. (Smooth scrolling is not set on
+ *   <html>: it made each navigation open the new page where the old one was
+ *   scrolled to and glide up from there.)
+ * - Links to an anchor on the page ("#packages") glide there instead.
+ * - Each [data-reveal] element gets `is-in` the first time it comes into view;
+ *   globals.css turns that into Damla's fade-up, slide or staggered entrance.
+ *   Nothing is hidden unless <html> carries `motion`, which the inline head
+ *   script adds only when motion is welcome.
  */
 export function Motion() {
   const pathname = usePathname();
+  const first = useRef(true);
+
+  /* a new page opens at its top */
+  useEffect(() => {
+    if (first.current) {
+      first.current = false;
+      return;
+    }
+    if (!window.location.hash) window.scrollTo({ top: 0, left: 0, behavior: 'instant' });
+  }, [pathname]);
+
+  /* anchors on the same page glide, unless the visitor asked for less motion */
+  useEffect(() => {
+    const onClick = (e: MouseEvent) => {
+      if (e.defaultPrevented || e.button !== 0 || e.metaKey || e.ctrlKey || e.shiftKey || e.altKey) return;
+      const link = (e.target as HTMLElement | null)?.closest?.('a[href^="#"]');
+      const hash = link?.getAttribute('href');
+      if (!hash || hash === '#') return;
+      const target = document.getElementById(decodeURIComponent(hash.slice(1)));
+      if (!target) return;
+      e.preventDefault();
+      const smooth = window.matchMedia('(prefers-reduced-motion: no-preference)').matches;
+      target.scrollIntoView({ behavior: smooth ? 'smooth' : 'instant', block: 'start' });
+      history.replaceState(null, '', hash);
+    };
+    document.addEventListener('click', onClick);
+    return () => document.removeEventListener('click', onClick);
+  }, []);
 
   useEffect(() => {
     const root = document.documentElement;
