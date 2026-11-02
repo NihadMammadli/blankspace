@@ -1,0 +1,133 @@
+.grid {
+  display: grid;
+  grid-template-columns: 1.1fr 1fr;
+  gap: clamp(32px, 5vw, 64px);
+  align-items: start;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-md);
+}
+
+.facts {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.facts li {
+  display: flex;
+  gap: 14px;
+  align-items: flex-start;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--text);
+}
+
+.facts strong {
+  display: block;
+  font-weight: 600;
+  color: var(--ink);
+}
+
+.facts a {
+  color: var(--bronze);
+  font-weight: 500;
+}
+
+.facts a:hover {
+  color: var(--bronze-hover);
+}
+
+.line {
+  display: block;
+}
+
+.factIcon {
+  flex-shrink: 0;
+  margin-top: 2px;
+  padding: 0;
+  color: var(--bronze);
+}
+
+.map {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.tab {
+  padding: 9px 14px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  background: var(--white);
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--navy);
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.tab[aria-selected='true'] {
+  border-color: var(--bronze);
+  background: var(--bronze);
+  color: var(--white);
+}
+
+.frame {
+  position: relative;
+  aspect-ratio: 4 / 3;
+  overflow: hidden;
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-lg);
+  background: var(--beige);
+}
+
+.frame iframe {
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+.placeholder {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  padding: var(--space-lg);
+  text-align: center;
+  color: var(--navy);
+  background:
+    linear-gradient(rgba(232, 224, 213, 0.92), rgba(232, 224, 213, 0.92)),
+    repeating-linear-gradient(45deg, var(--white) 0 2px, transparent 2px 22px);
+}
+
+.placeholder svg {
+  color: var(--bronze);
+}
+
+.placeholder small {
+  max-width: 320px;
+  font-size: 13px;
+  color: var(--text);
+}
+
+@media (max-width: 900px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}

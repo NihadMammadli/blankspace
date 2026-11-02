@@ -1,0 +1,24 @@
+.section {
+  position: relative;
+  padding: var(--section-y) 0;
+}
+
+.head {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-md);
+  margin: 0 auto var(--space-2xl);
+  max-width: 860px;
+  text-align: center;
+}
+
+.subtitle {
+  max-width: 800px;
+}
+
+@media (max-width: 768px) {
+  .head {
+    margin-bottom: var(--space-xl);
+  }
+}

@@ -1,0 +1,168 @@
+.section {
+  padding: var(--section-y) 0;
+  background: var(--white);
+}
+
+.inner {
+  display: flex;
+  gap: clamp(32px, 6vw, 80px);
+  align-items: center;
+}
+
+.brand {
+  flex: 0.8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 240px;
+  align-self: stretch;
+  padding: var(--space-2xl) var(--space-xl);
+  border-radius: var(--radius-lg);
+  background: var(--light);
+  position: relative;
+}
+
+.brand::after {
+  content: '';
+  position: absolute;
+  inset: 18px;
+  border: 2px solid var(--gold);
+  border-radius: var(--radius-md);
+  pointer-events: none;
+}
+
+.brand img {
+  width: 100%;
+  max-width: 360px;
+  height: auto;
+}
+
+.body {
+  flex: 1.2;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-sm);
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+  margin-top: var(--space-md);
+}
+
+.row {
+  display: flex;
+  gap: 20px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  flex: 1;
+  min-width: 0;
+}
+
+.label {
+  font-size: 15px;
+  font-weight: 500;
+  color: var(--ink);
+}
+
+.req {
+  color: #ef4444;
+}
+
+.input {
+  width: 100%;
+  padding: 14px 16px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-md);
+  background: var(--white);
+  font-size: 15px;
+  color: var(--ink);
+  transition: var(--transition);
+}
+
+.input::placeholder {
+  color: var(--muted);
+}
+
+.input:hover {
+  border-color: var(--gold);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+}
+
+.input:focus,
+.input:focus-visible {
+  outline: none;
+  border-color: var(--gold);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+}
+
+.input[aria-invalid='true'] {
+  border-color: #ef4444;
+}
+
+textarea.input {
+  resize: vertical;
+  min-height: 130px;
+}
+
+.error {
+  font-size: 13px;
+  font-weight: 500;
+  color: #b91c1c;
+}
+
+.note {
+  font-size: 13px;
+  color: var(--muted);
+}
+
+.submit {
+  align-self: flex-start;
+  min-width: 220px;
+}
+
+.success,
+.failure {
+  padding: 16px 20px;
+  border-radius: var(--radius-md);
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+.success {
+  background: #f0fdf4;
+  border: 1px solid #86efac;
+  color: #166534;
+}
+
+.failure {
+  background: #fef2f2;
+  border: 1px solid #fca5a5;
+  color: #991b1b;
+}
+
+@media (max-width: 900px) {
+  .inner {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .brand {
+    min-height: 180px;
+    padding: var(--space-xl);
+  }
+
+  .row {
+    flex-direction: column;
+  }
+
+  .submit {
+    width: 100%;
+  }
+}
