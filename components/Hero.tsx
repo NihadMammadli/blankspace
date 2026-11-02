@@ -1,8 +1,7 @@
 import type { ReactNode } from 'react';
 import type { Picture } from '@/lib/media';
-import { asset } from '@/lib/paths';
 import { Em } from './Rich';
-import { Photo } from './Photo';
+import { HeroMedia } from './HeroMedia';
 import styles from './Hero.module.css';
 
 type Props = {
@@ -22,29 +21,14 @@ type Props = {
 
 /**
  * Damla's hero: a photograph (or film) under a navy veil, the title centred in
- * white, and everything rising in after it — title, then text, then buttons.
- * The picture's 16 px preview sits blurred underneath until it arrives.
+ * white. The section fades in, the picture sharpens over its blurred preview,
+ * then the title, text and buttons rise one after another (0.2s, 0.4s, 0.6s)
+ * and the scroll cue bounces.
  */
 export function Hero({ title, kicker, text, picture, video, actions, size = 'page', scroll, children }: Props) {
   return (
     <section className={styles.hero} data-size={size}>
-      <div className={styles.media} style={picture?.blur ? { backgroundImage: `url("${picture.blur}")` } : undefined} aria-hidden={video ? true : undefined}>
-        {video ? (
-          <video
-            className={styles.video}
-            src={asset(video)}
-            poster={picture?.src}
-            autoPlay
-            muted
-            loop
-            playsInline
-            preload="metadata"
-            aria-hidden
-          />
-        ) : (
-          <Photo picture={picture} sizes="100vw" className={styles.image} priority />
-        )}
-      </div>
+      <HeroMedia picture={picture} video={video} />
       <div className={styles.veil} />
 
       <div className={styles.content}>
