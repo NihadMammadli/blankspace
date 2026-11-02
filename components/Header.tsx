@@ -3,7 +3,7 @@
 import NextLink from 'next/link';
 import { usePathname } from 'next/navigation';
 import { useEffect, useRef, useState } from 'react';
-import { ChevronDown, Menu, X } from 'lucide-react';
+import { Check, ChevronDown, Globe, Menu, X } from 'lucide-react';
 import type { MenuItem } from '@/content/types';
 import { localePath } from '@/lib/routes';
 import styles from './Header.module.css';
@@ -29,6 +29,7 @@ export function Header({ locale, locales, logo, menu, contact, ui }: Props) {
     const target = localePath(locale, href);
     return pathname === target || pathname.startsWith(target);
   };
+  const current = locales.find((l) => l.code === locale);
   const groupActive = (item: MenuItem) => here(item.href) || Boolean(item.children?.some((c) => here(c.href)));
 
   /* the same page in another language */
@@ -127,15 +128,38 @@ export function Header({ locale, locales, logo, menu, contact, ui }: Props) {
             )}
           </ul>
 
-          <ul className={styles.langs} aria-label={ui.language}>
-            {locales.map((l) => (
-              <li key={l.code}>
-                <NextLink href={switchTo(l.code)} hrefLang={l.code} lang={l.code} className={styles.lang} aria-current={l.code === locale ? 'true' : undefined} title={l.name}>
-                  {l.label}
-                </NextLink>
-              </li>
-            ))}
-          </ul>
+          <div
+            className={`${styles.item} ${styles.langItem}`}
+            data-open={dropdown === 'lang'}
+            onMouseEnter={() => setDropdown('lang')}
+            onMouseLeave={() => setDropdown((d) => (d === 'lang' ? null : d))}
+          >
+            <button
+              type="button"
+              className={styles.langButton}
+              aria-expanded={dropdown === 'lang'}
+              aria-controls="menu-lang"
+              aria-label={`${ui.language}: ${current?.name ?? locale}`}
+              onClick={() => setDropdown((d) => (d === 'lang' ? null : 'lang'))}
+            >
+              <Globe size={18} aria-hidden />
+              <span>{current?.label ?? locale.toUpperCase()}</span>
+              <ChevronDown size={14} aria-hidden />
+            </button>
+            <div className={`${styles.panel} ${styles.langPanel}`} id="menu-lang">
+              <p className={styles.caption}>{ui.language}</p>
+              <ul>
+                {locales.map((l) => (
+                  <li key={l.code}>
+                    <NextLink href={switchTo(l.code)} hrefLang={l.code} lang={l.code} className={styles.panelLink} aria-current={l.code === locale ? 'true' : undefined}>
+                      <span>{l.name}</span>
+                      {l.code === locale && <Check size={16} aria-hidden />}
+                    </NextLink>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          </div>
 
           <NextLink href={localePath(locale, contact.href)} className={`btn btn-primary ${styles.cta}`}>
             {contact.label}
@@ -186,6 +210,9 @@ export function Header({ locale, locales, logo, menu, contact, ui }: Props) {
 
             <div className={styles.drawerFoot}>
               <ul className={styles.drawerLangs} aria-label={ui.language}>
+                <li aria-hidden>
+                  <Globe size={18} />
+                </li>
                 {locales.map((l) => (
                   <li key={l.code}>
                     <NextLink href={switchTo(l.code)} hrefLang={l.code} lang={l.code} aria-current={l.code === locale ? 'true' : undefined}>

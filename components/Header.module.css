@@ -161,35 +161,64 @@
   color: var(--bronze);
 }
 
-/* languages */
-.langs {
-  display: flex;
-  gap: 2px;
-  list-style: none;
-  margin: 0;
-  padding: 0 0 0 16px;
+/* language: a globe that opens a list */
+.langItem {
+  padding-left: 18px;
   border-left: 1px solid rgba(255, 255, 255, 0.2);
 }
 
-.lang {
-  display: inline-block;
-  padding: 6px 7px;
-  font-size: 13px;
+.langButton {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 12px;
+  border: 1px solid rgba(255, 255, 255, 0.28);
+  border-radius: 999px;
+  background: transparent;
+  color: var(--white);
+  font-size: 14px;
   font-weight: 600;
   letter-spacing: 0.06em;
-  color: var(--white);
-  opacity: 0.6;
-  border-radius: 6px;
+  cursor: pointer;
   transition: var(--transition);
 }
 
-.lang:hover {
-  opacity: 1;
+.langButton svg:last-child {
+  transition: transform 0.3s ease;
 }
 
-.lang[aria-current='true'] {
-  opacity: 1;
+.langButton:hover,
+.langItem[data-open='true'] .langButton {
+  border-color: var(--gold);
   color: var(--gold);
+}
+
+.langItem[data-open='true'] .langButton svg:last-child {
+  transform: rotate(180deg);
+}
+
+.langPanel {
+  left: auto;
+  right: 0;
+  min-width: 210px;
+  transform: translateY(10px);
+}
+
+.item[data-open='true'] .langPanel {
+  transform: none;
+}
+
+.langPanel .panelLink {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.panelLink[aria-current='true'] {
+  background: rgba(156, 109, 54, 0.1);
+  border-left-color: var(--bronze);
+  color: var(--bronze);
 }
 
 .cta {
@@ -368,6 +397,7 @@
 .drawerLangs {
   display: flex;
   justify-content: center;
+  align-items: center;
   gap: 18px;
   list-style: none;
   margin: 0;
