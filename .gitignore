@@ -1,0 +1,13 @@
+node_modules/
+.next/
+out/
+.DS_Store
+*.log
+.env*.local
+*.tsbuildinfo
+
+# Originals of every picture. They are large and are not served: `npm run
+# images` cuts them into public/img/ and content/media.json, which are
+# committed. See README → Images.
+media-src/
+next-env.d.ts
