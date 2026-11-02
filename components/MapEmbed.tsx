@@ -1,20 +1,15 @@
 'use client';
 
 import { useState } from 'react';
-import { MapPin } from 'lucide-react';
 import { fill } from '@/lib/format';
 import styles from './Location.module.css';
 
 type Place = { id: string; name: string; address: string };
-type Props = { places: Place[]; ui: { showMap: string; mapNote: string; mapTitle: string; directions: string } };
+type Props = { places: Place[]; ui: { mapTitle: string; directions: string } };
 
-/**
- * Google Maps loads only when the visitor asks for it: no third-party request,
- * no cookie and no layout cost until then.
- */
+/** The map of each venue, one tab per venue. It loads as it scrolls into view. */
 export function MapEmbed({ places, ui }: Props) {
   const [current, setCurrent] = useState(places[0]?.id);
-  const [loaded, setLoaded] = useState(false);
   const place = places.find((p) => p.id === current) ?? places[0];
   if (!place) return null;
   const query = encodeURIComponent(`${place.name}, ${place.address}`);
@@ -31,28 +26,13 @@ export function MapEmbed({ places, ui }: Props) {
         </div>
       )}
       <div className={styles.frame}>
-        {loaded ? (
-          <iframe
-            key={place.id}
-            title={fill(ui.mapTitle, { name: place.name })}
-            src={`https://www.google.com/maps?q=${query}&output=embed`}
-            loading="lazy"
-            referrerPolicy="no-referrer-when-downgrade"
-          />
-        ) : (
-          <div className={styles.placeholder}>
-            <MapPin size={36} aria-hidden />
-            <p>
-              <strong>{place.name}</strong>
-              <br />
-              {place.address}
-            </p>
-            <button type="button" className="btn btn-primary" onClick={() => setLoaded(true)}>
-              {ui.showMap}
-            </button>
-            <small>{ui.mapNote}</small>
-          </div>
-        )}
+        <iframe
+          key={place.id}
+          title={fill(ui.mapTitle, { name: place.name })}
+          src={`https://www.google.com/maps?q=${query}&output=embed`}
+          loading="lazy"
+          referrerPolicy="no-referrer-when-downgrade"
+        />
       </div>
       <a className="text-link" href={`https://www.google.com/maps/search/?api=1&query=${query}`} target="_blank" rel="noopener noreferrer">
         {ui.directions} →

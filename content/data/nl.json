@@ -31,8 +31,6 @@
     "discover": "Ontdek",
     "playVideo": "Videotour afspelen",
     "videoNote": "De video speelt af via YouTube zodra u op afspelen drukt.",
-    "showMap": "Kaart tonen",
-    "mapNote": "De kaart komt van Google Maps en laadt pas wanneer u erom vraagt.",
     "mapTitle": "Kaart van {name}",
     "directions": "Routebeschrijving",
     "phone": "Telefoon",

@@ -100,32 +100,6 @@
   border: 0;
 }
 
-.placeholder {
-  position: absolute;
-  inset: 0;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 16px;
-  padding: var(--space-lg);
-  text-align: center;
-  color: var(--navy);
-  background:
-    linear-gradient(rgba(232, 224, 213, 0.92), rgba(232, 224, 213, 0.92)),
-    repeating-linear-gradient(45deg, var(--white) 0 2px, transparent 2px 22px);
-}
-
-.placeholder svg {
-  color: var(--bronze);
-}
-
-.placeholder small {
-  max-width: 320px;
-  font-size: 13px;
-  color: var(--text);
-}
-
 @media (max-width: 900px) {
   .grid {
     grid-template-columns: 1fr;

@@ -31,8 +31,6 @@
     "discover": "Discover",
     "playVideo": "Play the video tour",
     "videoNote": "The video plays from YouTube when you press play.",
-    "showMap": "Show the map",
-    "mapNote": "The map is Google Maps, loaded only when you ask for it.",
     "mapTitle": "Map of {name}",
     "directions": "Get directions",
     "phone": "Phone",

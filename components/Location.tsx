@@ -13,7 +13,7 @@ export function Location({ site, title, background = 'light' }: { site: Site; ti
     <Section id="location" title={title ?? ui.contactUs} background={background}>
       <div className={styles.grid}>
         <div data-reveal="left">
-          <MapEmbed places={places} ui={{ showMap: ui.showMap, mapNote: ui.mapNote, mapTitle: ui.mapTitle, directions: ui.directions }} />
+          <MapEmbed places={places} ui={{ mapTitle: ui.mapTitle, directions: ui.directions }} />
         </div>
         <div className={styles.details} data-reveal="right">
           <h3 className="h3">{location.title}</h3>

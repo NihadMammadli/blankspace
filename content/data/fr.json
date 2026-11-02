@@ -31,8 +31,6 @@
     "discover": "Découvrir",
     "playVideo": "Lancer la visite vidéo",
     "videoNote": "La vidéo est lue depuis YouTube lorsque vous appuyez sur lecture.",
-    "showMap": "Afficher la carte",
-    "mapNote": "La carte provient de Google Maps et ne se charge qu’à votre demande.",
     "mapTitle": "Carte de {name}",
     "directions": "Itinéraire",
     "phone": "Téléphone",
